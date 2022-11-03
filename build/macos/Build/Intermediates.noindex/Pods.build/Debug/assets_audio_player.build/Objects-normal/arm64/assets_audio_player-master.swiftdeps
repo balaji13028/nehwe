@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "c168434d2ba61dcd1780ab01a494e6b63b220726a356d22a1a7396520d026e90"
+build_start_time: [1666155605, 355043888]
+build_end_time: [1666155605, 446878910]
+inputs:
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.5/macos/Classes/AssetsAudioPlayer.swift"
+  : [1662617874, 247902393]
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.5/macos/Classes/AssetsAudioPlayerPlugin.swift"
+  : [1662617874, 248016357]
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.5/macos/Classes/Music.swift"
+  : [1662617874, 247783184]

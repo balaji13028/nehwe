@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "31e7c7e87d32fe1295d0ec2e04a5576fcd45d799bee8351110b19e980fa4434f"
+build_start_time: [1666155605, 355043888]
+build_end_time: [1666155605, 441205024]
+inputs:
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player_web-3.0.5/macos/Classes/AssetsAudioPlayerWebPlugin.swift"
+  : [1662617850, 210717678]

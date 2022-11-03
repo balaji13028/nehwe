@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "2014511049c5c5904318f2e9a30692d6a67884332fb021b90dbebc0beb4eb7b8"
+build_start_time: [1665642232, 242055892]
+build_end_time: [1665642234, 261632919]
+inputs:
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_macos-0.2.1+2/macos/Classes/ConnectivityPlugin.swift"
+  : [1662563508, 0]

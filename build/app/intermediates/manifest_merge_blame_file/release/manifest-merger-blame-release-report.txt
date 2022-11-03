@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nehwe"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:4:5-71
+12-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:4:22-68
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+14-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+15-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+16-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+19-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:22-76
+20
+21    <application
+22        android:name="android.app.Application"
+22-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:8:9-42
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="Nehwe" >
+25-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:7:9-30
+26        <activity
+26-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:10:9-30:20
+27            android:name="com.example.nehwe.MainActivity"
+27-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:11:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:15:13-163
+29            android:exported="true"
+29-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:12:13-36
+30            android:hardwareAccelerated="true"
+30-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:16:13-47
+31            android:launchMode="singleTop"
+31-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:13:13-43
+32            android:theme="@style/LaunchTheme"
+32-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:14:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:17:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:22:13-25:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:23:15-70
+43                android:resource="@style/NormalTheme" />
+43-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:24:15-52
+44
+45            <intent-filter>
+45-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:26:13-29:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:27:17-68
+46-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:27:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:28:17-76
+48-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:28:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:33:9-35:33
+56            android:name="flutterEmbedding"
+56-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:34:13-44
+57            android:value="2" />
+57-->/Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:35:13-30
+58
+59        <receiver
+59-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:39
+60            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+60-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-108
+61            android:exported="true" />
+61-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-36
+62        <receiver
+62-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:20
+63            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+63-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-107
+64            android:exported="true" >
+64-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-36
+65            <intent-filter>
+65-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:29
+66                <action android:name="android.intent.action.MEDIA_BUTTON" />
+66-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-77
+66-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-74
+67            </intent-filter>
+68        </receiver>
+69
+70        <service
+70-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-35:19
+71            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+71-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-101
+72            android:enabled="true"
+72-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-35
+73            android:exported="true" >
+73-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+74
+75            <!--
+76            <intent-filter>
+77                <action android:name="android.intent.action.MEDIA_BUTTON" />
+78            </intent-filter>
+79            -->
+80        </service>
+81
+82        <uses-library
+82-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.window.extensions"
+83-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+85        <uses-library
+85-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+86            android:name="androidx.window.sidecar"
+86-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+88    </application>
+89
+90</manifest>

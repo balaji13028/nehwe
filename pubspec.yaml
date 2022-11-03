@@ -1,0 +1,91 @@
+name: nehwe
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.3
+  flutter_easyloading: ^3.0.5
+  lottie: ^1.4.1
+  assets_audio_player: ^3.0.5
+  avatar_glow: ^2.0.2
+  introduction_screen: ^3.0.2
+  country_pickers: ^2.0.0
+  dropdown_button2: ^1.7.2
+  custom_navigation_bar: ^0.8.2
+  iconify_flutter: ^0.0.4
+  percent_indicator: ^4.2.2
+  intl: ^0.17.0
+  http: ^0.13.5
+  fluttermoji: ^1.0.0
+  hexagon: ^0.1.1
+  sqflite: ^2.0.3+1
+  path: ^1.8.2
+  path_provider: ^2.0.11
+  flutter_rating_bar: ^4.0.1
+  splash_screen_view: ^2.0.1
+  loader_overlay: ^2.0.10
+  audio_waveforms: ^0.1.5+1
+  csc_picker: ^0.2.6
+  google_mobile_ads: ^2.2.0
+  
+  
+  
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/
+     - assets/avatars/
+     - assets/badges/
+     - assets/icons/
+     - assets/audio/
+     - assets/mascots/
+     - assets/lottie/
+     
+
+  
+  fonts:
+     - family: Proxima Nova
+       fonts:
+         - asset: assets/fonts/Proxima Nova Bold.otf
+         - asset: assets/fonts/ProximaNova-Regular.otf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

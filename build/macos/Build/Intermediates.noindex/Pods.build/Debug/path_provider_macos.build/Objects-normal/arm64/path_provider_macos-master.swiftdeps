@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "5de00f58c45fb7579d4c922d06e5c17c9b089ea97b37cae3e23dbf612e269a16"
+build_start_time: [1666155605, 355047941]
+build_end_time: [1666155605, 439961910]
+inputs:
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6/macos/Classes/PathProviderPlugin.swift"
+  : [1662563509, 0]
