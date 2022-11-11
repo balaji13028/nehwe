@@ -36,8 +36,8 @@ class _UserBasicInfoState extends State<UserBasicInfo> {
                   ]),
               child: Row(children: [
                 Container(
-                  height: size.height * 0.05,
-                  width: size.width * 0.115,
+                  height: size.height * 0.048,
+                  width: size.width * 0.11,
                   margin:
                       const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                   decoration: BoxDecoration(
@@ -92,8 +92,8 @@ class _UserBasicInfoState extends State<UserBasicInfo> {
                 ]),
             child: Row(children: [
               Container(
-                height: size.height * 0.05,
-                width: size.width * 0.115,
+                height: size.height * 0.048,
+                width: size.width * 0.11,
                 margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
@@ -145,8 +145,8 @@ class _UserBasicInfoState extends State<UserBasicInfo> {
                 ]),
             child: Row(children: [
               Container(
-                height: size.height * 0.05,
-                width: size.width * 0.115,
+                height: size.height * 0.048,
+                width: size.width * 0.11,
                 margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
@@ -212,8 +212,8 @@ class _UserBasicInfoState extends State<UserBasicInfo> {
               child:
                   Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Container(
-                  height: size.height * 0.05,
-                  width: size.width * 0.115,
+                  height: size.height * 0.048,
+                  width: size.width * 0.11,
                   margin:
                       const EdgeInsets.symmetric(horizontal: 5, vertical: 10),
                   decoration: BoxDecoration(

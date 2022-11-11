@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:fluttermoji/fluttermoji.dart';
+import 'package:loader_overlay/loader_overlay.dart';
+import 'package:nehwe/api_calls/subscriptions_api.dart';
 import '../constants/color_palettes.dart';
 import '../help_support/help_support.dart';
 import '../local_database.dart';
@@ -16,12 +17,17 @@ class SlideDrawer extends StatelessWidget {
   SlideDrawer({super.key, required this.slider});
   UserProfileData user = localUserList[0];
   String decodeFluttermojifromString = '';
+  bool _isLoaderVisible = false;
+  loader(BuildContext context) async {
+    if (_isLoaderVisible) {
+      context.loaderOverlay.show();
+    } else {
+      context.loaderOverlay.hide();
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    String decodeFluttermojifromString = FluttermojiFunctions()
-            .decodeFluttermojifromString(user.avatar.toString()) ??
-        '';
     Size size = MediaQuery.of(context).size;
     return Drawer(
       width: size.width * 0.55,
@@ -47,7 +53,7 @@ class SlideDrawer extends StatelessWidget {
                           backgroundColor: ColorPalette.backgroundcolor1,
                           radius: 30,
                           child: SvgPicture.string(
-                            decodeFluttermojifromString,
+                            user.avatar ?? '',
                             width: 45,
                           ),
                         ),
@@ -114,7 +120,11 @@ class SlideDrawer extends StatelessWidget {
                   size: 35,
                   color: ColorPalette.whitetextcolor,
                 ),
-                onTap: () {
+                onTap: () async {
+                  loader(context);
+                  await activePlan(user.subId, user.id);
+
+                  // ignore: use_build_context_synchronously
                   Navigator.push(
                       context,
                       MaterialPageRoute(

@@ -1,7 +1,7 @@
 dependencies: \
   /Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.1.0/macos/Classes/SqfliteOperation.m \
-  /Users/scholarlysolutionssm/Desktop/nehwe/build/macos/Build/Intermediates.noindex/Pods.build/Debug/sqflite.build/module.modulemap \
-  /Users/scholarlysolutionssm/Desktop/nehwe/macos/Pods/Target\ Support\ Files/sqflite/sqflite-prefix.pch \
+  /Users/scholarlysolutionssm/Desktop/nehwe-1/build/macos/Build/Intermediates.noindex/Pods.build/Debug/sqflite.build/module.modulemap \
+  /Users/scholarlysolutionssm/Desktop/nehwe-1/macos/Pods/Target\ Support\ Files/sqflite/sqflite-prefix.pch \
   /Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.1.0/macos/Classes/SqfliteOperation.h \
   /Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.1.0/macos/Classes/SqflitePlugin.h \
   /Users/scholarlysolutionssm/Desktop/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \

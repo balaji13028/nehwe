@@ -4,11 +4,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/scholarlysolutionssm/Desktop/nehwe/build/macos/Build/Products/Debug/shared_preferences_macos/shared_preferences_macos.framework/Modules"
+    'name': "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/macos/Build/Products/Debug/shared_preferences_macos/shared_preferences_macos.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/scholarlysolutionssm/Desktop/nehwe/build/macos/Build/Intermediates.noindex/Pods.build/Debug/shared_preferences_macos.build/unextended-module.modulemap",
+      'external-contents': "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/macos/Build/Intermediates.noindex/Pods.build/Debug/shared_preferences_macos.build/unextended-module.modulemap",
     }]
   }]
 }

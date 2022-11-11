@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "7e3b5dee44a01daf47a200029324dc923feacf41e733fe35130634f8eb2ed4da"
+build_start_time: [1668152231, 810512065]
+build_end_time: [1668152231, 829235076]
+inputs:
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/speech_to_text_macos-1.0.2/macos/Classes/SpeechToTextMacosPlugin.swift"
+  : !private [1664453958, 368392705]

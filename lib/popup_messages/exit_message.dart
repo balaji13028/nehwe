@@ -8,6 +8,7 @@ confirmTOExit(BuildContext context, navigationPage) {
   Size size = MediaQuery.of(context).size;
   UserProfileData user = localUserList[0];
   return showDialog(
+      barrierDismissible: false,
       context: context,
       builder: (context) {
         return Dialog(
@@ -15,34 +16,41 @@ confirmTOExit(BuildContext context, navigationPage) {
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
             child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                height: size.height * 0.25,
-                width: size.width * 0.5,
+                height: size.height * 0.26,
+                width: size.width * 0.3,
+                padding: EdgeInsets.only(
+                  left: 20,
+                  right: 20,
+                  top: size.height * 0.09,
+                ),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(25),
+                  color: ColorPalette.backgroundcolor2,
+                ),
                 child: Stack(
                     clipBehavior: Clip.none,
                     alignment: Alignment.topCenter,
                     children: [
                       Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            SizedBox(height: size.height * 0.07),
                             const Text(
                               'Are you sure you want to Quit ?',
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                  fontSize: 18,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                   color: ColorPalette.textcolor),
                             ),
+                            SizedBox(height: size.height * 0.004),
                             const Text(
-                              'You will lose one life and your progress',
+                              'You will lose one life and progress of this concept',
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   fontSize: 12, color: ColorPalette.textcolor),
                             ),
                             Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 TextButton(
                                     style: ButtonStyle(
@@ -53,11 +61,23 @@ confirmTOExit(BuildContext context, navigationPage) {
                                     onPressed: () {
                                       Navigator.pop(context);
                                     },
-                                    child: const Text(
-                                      'Cancel',
-                                      style: TextStyle(
-                                          fontSize: 18,
-                                          color: ColorPalette.secondarycolor),
+                                    child: Container(
+                                      height: size.height * 0.035,
+                                      width: size.width * 0.24,
+                                      alignment: Alignment.center,
+                                      decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(50),
+                                          border: Border.all(
+                                              width: 1,
+                                              color:
+                                                  ColorPalette.secondarycolor)),
+                                      child: const Text(
+                                        'Cancle',
+                                        style: TextStyle(
+                                            fontSize: 18,
+                                            color: ColorPalette.primarycolor),
+                                      ),
                                     )),
                                 TextButton(
                                     style: ButtonStyle(
@@ -87,20 +107,30 @@ confirmTOExit(BuildContext context, navigationPage) {
                                                       secondaryAnimation) =>
                                                   navigationPage)));
                                     },
-                                    child: const Text(
-                                      'Quit',
-                                      style: TextStyle(
-                                          fontSize: 18,
-                                          color: ColorPalette.secondarycolor),
+                                    child: Container(
+                                      height: size.height * 0.035,
+                                      width: size.width * 0.24,
+                                      alignment: Alignment.center,
+                                      decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(50),
+                                          color: ColorPalette.primarycolor),
+                                      child: const Text(
+                                        'Quit',
+                                        style: TextStyle(
+                                            fontSize: 18,
+                                            color: ColorPalette.whitetextcolor),
+                                      ),
                                     ))
                               ],
                             ),
                           ]),
                       Positioned(
-                          top: -110,
+                          top: -size.height * 0.2,
                           child: Image.asset(
                             'assets/mascots/telling.png',
-                            width: 180,
+                            width: size.width * 1,
+                            height: size.height * 0.2,
                           ))
                     ])));
       });

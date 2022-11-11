@@ -1,7 +1,7 @@
-version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
-options: "5de00f58c45fb7579d4c922d06e5c17c9b089ea97b37cae3e23dbf612e269a16"
-build_start_time: [1665642227, 781630039]
-build_end_time: [1665642227, 800129890]
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "e1c7028f3987fb99c0e3c64be4d21c1c328e4f3682485cf38a622b985f9746ec"
+build_start_time: [1668152234, 764842033]
+build_end_time: [1668152234, 790987014]
 inputs:
   ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6/macos/Classes/PathProviderPlugin.swift"
   : !private [1662563509, 0]

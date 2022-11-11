@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/test_api.dart';
+import 'package:nehwe/courses/test_screeen.dart';
 import 'package:nehwe/models/courses_model.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/prepare_screen_list/test_screeens/test_screens_list.dart';
@@ -83,7 +84,15 @@ confirmToTakeTEST(BuildContext context, courseId, unitId, userId) {
                         user.lifes = newUser.lifes;
                         const idx = 0;
                         // ignore: use_build_context_synchronously
-                        testModuleToNavigatetoScreen(context, idx);
+                        Navigator.push(
+                            context,
+                            PageRouteBuilder(
+                                pageBuilder:
+                                    ((context, animation, secondaryAnimation) =>
+                                        TestQuestionPage(
+                                            index: idx,
+                                            length: screenlist.length))));
+                        // testModuleToNavigatetoScreen(context, idx);
                       } else {
                         EasyLoading.showSuccess(
                             'you are already completed this test');

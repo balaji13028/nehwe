@@ -194,7 +194,7 @@ class _TestListening5State extends State<TestListening5> {
                     setState(() {
                       onplaying = false;
                     });
-                    if (value == widget.screendata.answer!.first) {
+                    if (value == widget.screendata.answer!) {
                       showModalBottomSheet(
                           backgroundColor: Colors.transparent,
                           context: context,
@@ -203,7 +203,7 @@ class _TestListening5State extends State<TestListening5> {
                               index: widget.index,
                             );
                           });
-                    } else if (value != widget.screendata.answer!.first) {
+                    } else if (value != widget.screendata.answer!) {
                       showModalBottomSheet(
                           backgroundColor: Colors.transparent,
                           context: context,

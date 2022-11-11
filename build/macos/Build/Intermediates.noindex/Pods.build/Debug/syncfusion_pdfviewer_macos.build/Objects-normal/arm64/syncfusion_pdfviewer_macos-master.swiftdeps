@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "3e8c354e67556a911c35000fcc784484b9b95e2ab57f6c6062339cb2d88077f7"
+build_start_time: [1668152231, 389961004]
+build_end_time: [1668152238, 912106037]
+inputs:
+  ? "/Users/scholarlysolutionssm/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_pdfviewer_macos-20.3.52/macos/Classes/SyncfusionFlutterPdfViewerPlugin.swift"
+  : [1667816354, 209701776]

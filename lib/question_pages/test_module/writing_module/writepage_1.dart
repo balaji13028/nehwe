@@ -166,14 +166,14 @@ class _TestWriting1State extends State<TestWriting1> {
                           (states) => Colors.transparent),
                     ),
                     onPressed: () {
-                      if (value == widget.screendata.answer!.first) {
+                      if (value == widget.screendata.answer!) {
                         showModalBottomSheet(
                             backgroundColor: Colors.transparent,
                             context: context,
                             builder: (context) {
                               return CorrectAnswer(index: widget.index);
                             });
-                      } else if (value != widget.screendata.answer!.first) {
+                      } else if (value != widget.screendata.answer!) {
                         showModalBottomSheet(
                             backgroundColor: Colors.transparent,
                             context: context,

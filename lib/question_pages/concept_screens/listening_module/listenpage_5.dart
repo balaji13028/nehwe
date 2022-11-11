@@ -3,7 +3,6 @@ import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import '../../../bottom_sheets/correct_answer.dart';
-import '../../../bottom_sheets/glossary.dart';
 import '../../../bottom_sheets/wrong_answer.dart';
 import '../../../constants/buttons.dart';
 import '../../../constants/color_palettes.dart';
@@ -216,7 +215,7 @@ class _ListeningModule5State extends State<ListeningModule5> {
                           setState(() {
                             onplaying = false;
                           });
-                          if (value == widget.screendata.answer!.first) {
+                          if (value == widget.screendata.answer!) {
                             showModalBottomSheet(
                                 backgroundColor: Colors.transparent,
                                 context: context,
@@ -225,7 +224,7 @@ class _ListeningModule5State extends State<ListeningModule5> {
                                     index: widget.index,
                                   );
                                 });
-                          } else if (value != widget.screendata.answer!.first) {
+                          } else if (value != widget.screendata.answer!) {
                             showModalBottomSheet(
                                 backgroundColor: Colors.transparent,
                                 context: context,

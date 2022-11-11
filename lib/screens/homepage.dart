@@ -1,13 +1,12 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:fluttermoji/fluttermojiFunctions.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/profile_pages/profile_screen.dart';
 import '../api_calls/units_api.dart';
 import '../constants/color_palettes.dart';
+
 import '../courses/units_screen.dart';
 import '../models/courses_model.dart';
 import '../models/user_details_model.dart';
@@ -46,9 +45,6 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-
-    String decodeFluttermojifromString =
-        FluttermojiFunctions().decodeFluttermojifromString(user.avatar!);
     return Expanded(
       child: GlobalLoaderOverlay(
         useDefaultLoading: false,
@@ -152,7 +148,7 @@ class _HomepageState extends State<Homepage> {
                                         ColorPalette.backgroundcolor1,
                                     radius: 30,
                                     child: SvgPicture.string(
-                                      decodeFluttermojifromString,
+                                      user.avatar ?? '',
                                       width: 45,
                                     ),
                                   ),

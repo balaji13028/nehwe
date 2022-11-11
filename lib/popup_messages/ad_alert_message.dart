@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import '../constants/color_palettes.dart';
@@ -77,7 +76,7 @@ displayADAlert(BuildContext context, rewardedAd) {
                           var lifes = int.parse(user.lifes!);
                           newUser.lifes = (lifes + 1).toString();
                           user.lifes = newUser.lifes;
-                          reward = user.lifes as RewardItem;
+                          // reward = user.lifes as RewardItem;
                         },
                       );
                     },

@@ -43,7 +43,10 @@ dependencies:
   loader_overlay: ^2.0.10
   audio_waveforms: ^0.1.5+1
   csc_picker: ^0.2.6
-  google_mobile_ads: ^2.2.0
+  # google_mobile_ads: ^2.2.0
+  syncfusion_flutter_pdfviewer: ^20.3.52
+  screen_protector: ^1.1.4
+  speech_to_text: ^6.1.0
   
   
   

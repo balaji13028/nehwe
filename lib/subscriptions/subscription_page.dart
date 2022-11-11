@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:nehwe/api_calls/subscriptions_api.dart';
+import 'package:nehwe/models/subscriptions_model.dart';
+import 'package:nehwe/subscriptions/upgrade_plans_list.dart';
 import '../constants/color_palettes.dart';
 
 class Subscription extends StatefulWidget {
@@ -10,6 +13,8 @@ class Subscription extends StatefulWidget {
 }
 
 class _SubscriptionState extends State<Subscription> {
+  SubscriptionData activeplan = subscriptionPlanList[0];
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -34,22 +39,32 @@ class _SubscriptionState extends State<Subscription> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                const ListTile(
+                ListTile(
                   title: Text(
-                    'Free trial',
+                    '${activeplan.planName}',
                     textAlign: TextAlign.center,
-                    style: TextStyle(
+                    style: const TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.bold,
                         color: ColorPalette.secondarycolor),
                   ),
-                  subtitle: Text(
-                    '\u{20B9}0',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontSize: 40,
-                        fontWeight: FontWeight.bold,
-                        color: ColorPalette.textcolor),
+                  subtitle: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        '${activeplan.planAmount} ',
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                            fontSize: 40,
+                            fontWeight: FontWeight.bold,
+                            color: ColorPalette.textcolor),
+                      ),
+                      const Icon(
+                        Icons.euro,
+                        size: 25,
+                        color: ColorPalette.textcolor,
+                      ),
+                    ],
                   ),
                 ),
                 Row(
@@ -57,10 +72,10 @@ class _SubscriptionState extends State<Subscription> {
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
-                        Text('Active plan  :  Free plan '),
-                        SizedBox(height: 8),
-                        Text('End date     :  25-12-2022'),
+                      children: [
+                        Text('Active plan  :  ${activeplan.planName} '),
+                        const SizedBox(height: 8),
+                        Text('End date     :  ${activeplan.planDuration}'),
                       ],
                     ),
                     Column(
@@ -78,11 +93,20 @@ class _SubscriptionState extends State<Subscription> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GestureDetector(
-                onTap: () {},
+                onTap: () async {
+                  await subscriptionPlans();
+
+                  // ignore: use_build_context_synchronously
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: ((context) => const UpgradePlan())));
+                },
                 child: Container(
                   height: size.height * 0.05,
                   width: size.width * 0.4,
-                  margin: const EdgeInsets.only(top: 10, bottom: 40),
+                  margin: EdgeInsets.only(
+                      top: size.height * 0.04, bottom: size.height * 0.02),
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),

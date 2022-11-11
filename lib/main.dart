@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:nehwe/screens/splash_screen.dart';
 
 class MyBehavior extends ScrollBehavior {
@@ -14,7 +13,7 @@ class MyBehavior extends ScrollBehavior {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  MobileAds.instance.initialize();
+  //MobileAds.instance.initialize();
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
   runApp(const MyApp());

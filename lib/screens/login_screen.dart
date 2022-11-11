@@ -11,7 +11,6 @@ import 'package:nehwe/screens/profile_info_1.dart';
 import '../api_calls/coins_api.dart';
 import '../api_calls/lifes_api.dart';
 import '../api_calls/login_api.dart';
-import '../api_calls/user_status.dart';
 import '../constants/color_palettes.dart';
 import '../loadings/loader.dart';
 import '../local_database.dart';

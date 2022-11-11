@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		OvED0WNdPDZlIIpDapv6VCKIX3U=
+		RQUiweUs6Nh7aBIs3mMxko0uRd8=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		d346ZhEAhl4xJPkyY3bVM4Ru6Fc=
+		yzXQSpa/97s1xFLedVAvZXmiWJg=
 		</data>
 		<key>flutter_assets/assets/audio/sample-4.mp3</key>
 		<data>
@@ -288,6 +288,10 @@
 		<data>
 		+4s852zabhLJYnrSia8O+x3ReHk=
 		</data>
+		<key>flutter_assets/assets/lottie/lifes_timer.json</key>
+		<data>
+		d++DusuVF+U+8z9oGdPg9PpZTTo=
+		</data>
 		<key>flutter_assets/assets/lottie/loader.json</key>
 		<data>
 		BDyWPLchK4/exAAI/H1wxJChPE4=
@@ -338,7 +342,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		9C0CG+IsvZEF5/ZgHRs0NHS/tLA=
+		CxEnu4Y3gzayoMwHnEn1MiLPUoo=
 		</data>
 		<key>flutter_assets/packages/country_pickers/assets/ad.png</key>
 		<data>
@@ -1431,7 +1435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kaE0mZ+rzJlvlh0ClvO1Agjyh4YMI5ldvpRYAeyOM8=
+			H6NbNmeD7aCWjuP/SkiByGYJeRf3ad7ozbGrqThnKv8=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -1445,7 +1449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+Xr7PA21k01E8CvNKUVKSUgt9BmplvRyUpWXkS9ojc=
+			xqjwBx4Et6pZ0Z3ZORLGYek0FWD5eNMdv7hNmmiQ1V8=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/audio/sample-4.mp3</key>
@@ -1903,6 +1907,13 @@
 			dABEWg4v3ltZrfIYrxNKZ+5G+Q6nWokNhjiJc4/CA5A=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/lottie/lifes_timer.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K14+IWAzGtZ9f14GhWavSVO+bpRrX9BNjpNkYxCDmKs=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/lottie/loader.json</key>
 		<dict>
 			<key>hash2</key>
@@ -1991,7 +2002,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYC7aJS3d+aTZcHqremHyFSjsNYLUPKhYNgneLz/gvE=
+			FuJnU/2AG7gicSQS7h0D9PZTSUg4ZQ3qTHV0cZa5Vdo=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/country_pickers/assets/ad.png</key>

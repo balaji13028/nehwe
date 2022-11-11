@@ -80,8 +80,6 @@ class _ProfileDetailsState extends State<ProfileDetails> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    String decodeFluttermojifromString =
-        FluttermojiFunctions().decodeFluttermojifromString(user.avatar!);
     return Scaffold(
         appBar: AppBar(
           backgroundColor: ColorPalette.backgroundcolor2,
@@ -135,7 +133,7 @@ class _ProfileDetailsState extends State<ProfileDetails> {
                       backgroundColor: ColorPalette.backgroundcolor1,
                       radius: 60,
                       child: SvgPicture.string(
-                        decodeFluttermojifromString,
+                        user.avatar ?? '',
                         width: size.height * 0.099,
                       ),
                     ),

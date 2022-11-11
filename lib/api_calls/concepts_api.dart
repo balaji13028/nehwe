@@ -43,9 +43,5 @@ Future<void> conceptstatus(unitId, unitStatus, lessonId, lessonStatus,
     conceptId, conceptStatus, userId) async {
   final response = await http.get(Uri.parse(
       '${Consttext.ipAddress}/appupdateuserconcepts?unitId=$unitId&unitStatus=$unitStatus&lessonId=$lessonId&lessonStatus=$lessonStatus&conceptId=$conceptId&conceptStatus=$conceptStatus&userId=$userId'));
-  print(
-      '${Consttext.ipAddress}/appupdateuserconcepts?unitId=$unitId&unitStatus=$unitStatus&lessonId=$lessonId&lessonStatus=$lessonStatus&conceptId=$conceptId&conceptStatus=$conceptStatus&userId=$userId');
   debugPrint('status :${response.statusCode}');
-
-  debugPrint('concepts status is ${response.body}');
 }

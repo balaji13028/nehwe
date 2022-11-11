@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:fluttermoji/fluttermojiFunctions.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'models/user_details_model.dart';
@@ -39,6 +40,8 @@ Future<List<UserProfileData>> user() async {
   final List<Map<String, dynamic>> maps = await db.query('userDetails');
 
   List<UserProfileData> userslist = List.generate(maps.length, (i) {
+    String decode = FluttermojiFunctions()
+        .decodeFluttermojifromString(maps[i]['avatar'].toString());
     return UserProfileData(
         id: (maps[i]['id'].toString()),
         firstName: maps[i]['firstName'].toString(),
@@ -53,23 +56,18 @@ Future<List<UserProfileData>> user() async {
         address: maps[i]['address'].toString(),
         country: maps[i]['country'].toString(),
         gender: maps[i]['gender'].toString(),
-        avatar: maps[i]['avatar'].toString(),
+        avatar: decode,
         lifes: maps[i]['lifes'].toString(),
         xp: maps[i]['xp'].toString(),
-        subId: maps[i]['subscrption'].toString(),
+        subId: maps[i]['subscription'].toString(),
         lastused: maps[i]['lastused'].toString(),
         coins: maps[i]['coins'].toString());
   });
-  print(userslist.length);
-  var value = userslist.isNotEmpty;
-  if (userslist.length != 0) {
-    String userlifes =
+
+  if (userslist.isNotEmpty) {
+    userslist[0].lifes =
         setuserLifes(userslist[0].lastused, userslist.first.lifes);
-    //localUserList[0].lifes = newuserlifes;
   }
-  //var lifes = (userslist.isNotEmpty) ? newuserlifes : null;
-  //localUserList[0].lifes = lifes;
-  //print(userslist);
   localUserList = userslist;
   return userslist;
 }

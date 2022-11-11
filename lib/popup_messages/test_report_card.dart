@@ -36,7 +36,7 @@ testReport(BuildContext context) {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(25)),
               child: Container(
-                height: size.height * 0.3,
+                height: size.height * 0.32,
                 width: size.width * 0.3,
                 padding: EdgeInsets.only(
                   left: 20,

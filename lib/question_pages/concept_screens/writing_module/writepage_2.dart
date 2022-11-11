@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:nehwe/question_pages/concept_screens/concepts_screen_status.dart';
-import '../../../bottom_sheets/glossary.dart';
 import '../../../constants/buttons.dart';
 import '../../../constants/text_const.dart';
 import '../../../models/courses_model.dart';

@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/scholarlysolutionssm/Desktop/nehwe/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_macos.build/DerivedSources/path_provider_macos_vers.c
+  /Users/scholarlysolutionssm/Desktop/nehwe-1/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_macos.build/DerivedSources/path_provider_macos_vers.c

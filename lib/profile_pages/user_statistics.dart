@@ -2,9 +2,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/emojione_monotone.dart';
+import 'package:lottie/lottie.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/popup_messages/ad_alert_message.dart';
@@ -27,7 +27,7 @@ class _UserStatisticsState extends State<UserStatistics> {
   UserProfileData user = localUserList[0];
   Timer? timer;
   var intime = DateTime.parse(userTiming.intime.toString());
-  RewardedAd? rewardedAd;
+  //RewardedAd? rewardedAd;
 
   @override
   void initState() {
@@ -36,35 +36,35 @@ class _UserStatisticsState extends State<UserStatistics> {
   }
 
   void loadRewardedAd() {
-    RewardedAd.load(
-      adUnitId: AdHelper.rewardedAdUnitId,
-      request: const AdRequest(),
-      rewardedAdLoadCallback: RewardedAdLoadCallback(
-        onAdLoaded: (ad) {
-          ad.fullScreenContentCallback = FullScreenContentCallback(
-            onAdDismissedFullScreenContent: (ad) {
-              setState(() {
-                ad.dispose();
-                rewardedAd = null;
-              });
-              loadRewardedAd();
-            },
-          );
+    // RewardedAd.load(
+    //   adUnitId: AdHelper.rewardedAdUnitId,
+    //   request: const AdRequest(),
+    //   rewardedAdLoadCallback: RewardedAdLoadCallback(
+    //     onAdLoaded: (ad) {
+    //       ad.fullScreenContentCallback = FullScreenContentCallback(
+    //         onAdDismissedFullScreenContent: (ad) {
+    //           setState(() {
+    //             ad.dispose();
+    //             rewardedAd = null;
+    //           });
+    //           loadRewardedAd();
+    //         },
+    //       );
 
-          setState(() {
-            rewardedAd = ad;
-          });
-        },
-        onAdFailedToLoad: (err) {
-          print('Failed to load a rewarded ad: ${err.message}');
-        },
-      ),
-    );
+    //       setState(() {
+    //         rewardedAd = ad;
+    //       });
+    //     },
+    //     onAdFailedToLoad: (err) {
+    //       print('Failed to load a rewarded ad: ${err.message}');
+    //     },
+    //   ),
+    // );
   }
 
   @override
   void dispose() {
-    rewardedAd?.dispose();
+    //rewardedAd?.dispose();
 
     super.dispose();
   }
@@ -96,8 +96,8 @@ class _UserStatisticsState extends State<UserStatistics> {
                     child: Row(
                       children: [
                         Container(
-                          height: 45,
-                          width: 45,
+                          height: size.height * 0.048,
+                          width: size.width * 0.11,
                           margin: const EdgeInsets.symmetric(
                               horizontal: 5, vertical: 5),
                           decoration: BoxDecoration(
@@ -137,8 +137,8 @@ class _UserStatisticsState extends State<UserStatistics> {
                     ),
                   ),
                   Container(
-                    height: 45,
-                    width: 45,
+                    height: size.height * 0.048,
+                    width: size.width * 0.11,
                     margin:
                         const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                     decoration: BoxDecoration(
@@ -172,8 +172,8 @@ class _UserStatisticsState extends State<UserStatistics> {
                     child: Row(
                       children: [
                         Container(
-                            height: 45,
-                            width: 45,
+                            height: size.height * 0.048,
+                            width: size.width * 0.11,
                             margin: const EdgeInsets.symmetric(
                                 horizontal: 5, vertical: 5),
                             decoration: BoxDecoration(
@@ -218,26 +218,39 @@ class _UserStatisticsState extends State<UserStatistics> {
                   ),
                   Visibility(
                     visible: user.lifes == '10' ? false : true,
-                    child: Text(
-                      'Next life in ${widget.minutesinString} : ${widget.secondsString} ',
-                      style: const TextStyle(
-                        fontSize: 14,
-                        color: ColorPalette.textcolor,
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Row(
+                          children: [
+                            Lottie.asset('assets/lottie/lifes_timer.json',
+                                width: size.height * 0.06,
+                                repeat: true,
+                                animate: true),
+                            Text(
+                              '${widget.minutesinString} : ${widget.secondsString} ',
+                              style: const TextStyle(
+                                fontSize: 18,
+                                color: ColorPalette.textcolor,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                   GestureDetector(
                     onTap: () {
                       var lifes = int.parse(user.lifes!);
                       if (lifes < 10) {
-                        displayADAlert(context, rewardedAd);
+                        //displayADAlert(context, rewardedAd);
                       } else {
                         EasyLoading.showInfo('No More Ads');
                       }
                     },
                     child: Container(
-                      height: 45,
-                      width: 45,
+                      height: size.height * 0.048,
+                      width: size.width * 0.11,
                       margin: const EdgeInsets.symmetric(
                           horizontal: 5, vertical: 5),
                       decoration: BoxDecoration(
@@ -272,8 +285,8 @@ class _UserStatisticsState extends State<UserStatistics> {
                     child: Row(
                       children: [
                         Container(
-                          height: 45,
-                          width: 45,
+                          height: size.height * 0.048,
+                          width: size.width * 0.11,
                           margin: const EdgeInsets.symmetric(
                               horizontal: 5, vertical: 5),
                           decoration: BoxDecoration(
@@ -315,8 +328,8 @@ class _UserStatisticsState extends State<UserStatistics> {
                     ),
                   ),
                   Container(
-                    height: 45,
-                    width: 45,
+                    height: size.height * 0.048,
+                    width: size.width * 0.11,
                     margin:
                         const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                     decoration: BoxDecoration(
@@ -349,8 +362,8 @@ class _UserStatisticsState extends State<UserStatistics> {
                     child: Row(
                       children: [
                         Container(
-                          height: 45,
-                          width: 45,
+                          height: size.height * 0.048,
+                          width: size.width * 0.11,
                           margin: const EdgeInsets.symmetric(
                               horizontal: 5, vertical: 5),
                           decoration: BoxDecoration(

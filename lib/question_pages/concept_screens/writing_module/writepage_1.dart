@@ -3,7 +3,6 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/loadings/loader.dart';
 import '../../../bottom_sheets/correct_answer.dart';
-import '../../../bottom_sheets/glossary.dart';
 import '../../../bottom_sheets/wrong_answer.dart';
 import '../../../constants/buttons.dart';
 import '../../../constants/color_palettes.dart';
@@ -191,15 +190,14 @@ class _WritingModule1State extends State<WritingModule1> {
                                   (states) => Colors.transparent),
                             ),
                             onPressed: () {
-                              if (value == widget.screendata.answer!.first) {
+                              if (value == widget.screendata.answer!) {
                                 showModalBottomSheet(
                                     backgroundColor: Colors.transparent,
                                     context: context,
                                     builder: (context) {
                                       return CorrectAnswer(index: widget.index);
                                     });
-                              } else if (value !=
-                                  widget.screendata.answer!.first) {
+                              } else if (value != widget.screendata.answer!) {
                                 showModalBottomSheet(
                                     backgroundColor: Colors.transparent,
                                     context: context,

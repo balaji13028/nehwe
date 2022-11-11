@@ -2,8 +2,8 @@ import 'dart:async';
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hexagon/hexagon.dart';
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/emojione_monotone.dart';
@@ -11,25 +11,23 @@ import 'package:iconify_flutter/icons/zondicons.dart';
 import 'package:intl/intl.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/units_api.dart';
+import 'package:nehwe/courses/question_screen.dart';
 import 'package:nehwe/courses/units_screen.dart';
-import 'package:nehwe/models/courses_status_model.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/popup_messages/completed.dart';
+import 'package:nehwe/popup_messages/glossary.dart';
 import 'package:nehwe/popup_messages/screens_Not_Asssigned.dart';
 import '../api_calls/concepts_api.dart';
 import '../api_calls/screens_api.dart';
 import '../constants/color_palettes.dart';
 import '../loadings/loader.dart';
 import '../models/courses_model.dart';
-import '../popup_messages/ad_alert_message.dart';
-import '../prepare_screen_list/concept_screens/concept_prepare_ScreenList.dart';
 import '../screens/buddies.dart';
 import '../screens/homepage.dart';
 import '../screens/leaderboard.dart';
 import '../screens/profile.dart';
 import '../slide_drawers/slide_drawer.dart';
-import '../widgets/ad_helper.dart';
 
 // ignore: must_be_immutable
 class Lessons extends StatefulWidget {
@@ -49,9 +47,7 @@ class Lessons extends StatefulWidget {
 
 class _LessonsState extends State<Lessons> {
   List<ConceptData> concept = conceptlist;
-  List<StatusOfCourses> status = statuslist;
   UserProfileData user = localUserList[0];
-
   final slidebar = GlobalKey<ScaffoldState>();
   int _currentIndex = -1;
   bool _isLoaderVisible = false;
@@ -63,7 +59,7 @@ class _LessonsState extends State<Lessons> {
   String _timeasString = '';
   String minutes = '';
   String seconds = '';
-  RewardedAd? rewardedAd;
+  //RewardedAd? rewardedAd;
 
   timerRun() {
     _timeasString = DateFormat("kk:mm:ss").format(intime);
@@ -79,7 +75,8 @@ class _LessonsState extends State<Lessons> {
           setState(() {
             if (value < 10) {
               if (_timeasString == '-0:00:00') {
-                //user.lifes = value.toString();
+                value = (life + 1);
+                user.lifes = value.toString();
               }
             } else {
               timer!.cancel();
@@ -105,30 +102,30 @@ class _LessonsState extends State<Lessons> {
   }
 
   void loadRewardedAd() {
-    RewardedAd.load(
-      adUnitId: AdHelper.rewardedAdUnitId,
-      request: const AdRequest(),
-      rewardedAdLoadCallback: RewardedAdLoadCallback(
-        onAdLoaded: (ad) {
-          ad.fullScreenContentCallback = FullScreenContentCallback(
-            onAdDismissedFullScreenContent: (ad) {
-              setState(() {
-                ad.dispose();
-                rewardedAd = null;
-              });
-              loadRewardedAd();
-            },
-          );
+    // RewardedAd.load(
+    //   adUnitId: AdHelper.rewardedAdUnitId,
+    //   request: const AdRequest(),
+    //   rewardedAdLoadCallback: RewardedAdLoadCallback(
+    //     onAdLoaded: (ad) {
+    //       ad.fullScreenContentCallback = FullScreenContentCallback(
+    //         onAdDismissedFullScreenContent: (ad) {
+    //           setState(() {
+    //             ad.dispose();
+    //             rewardedAd = null;
+    //           });
+    //           loadRewardedAd();
+    //         },
+    //       );
 
-          setState(() {
-            rewardedAd = ad;
-          });
-        },
-        onAdFailedToLoad: (err) {
-          print('Failed to load a rewarded ad: ${err.message}');
-        },
-      ),
-    );
+    //       setState(() {
+    //         rewardedAd = ad;
+    //       });
+    //     },
+    //     onAdFailedToLoad: (err) {
+    //       print('Failed to load a rewarded ad: ${err.message}');
+    //     },
+    //   ),
+    // );
   }
 
   @override
@@ -192,7 +189,7 @@ class _LessonsState extends State<Lessons> {
 
   @override
   void dispose() {
-    rewardedAd!.dispose();
+    //rewardedAd!.dispose();
     super.dispose();
   }
 
@@ -244,6 +241,28 @@ class _LessonsState extends State<Lessons> {
                       fontWeight: FontWeight.bold,
                       color: ColorPalette.primarycolor),
                 )
+              : null,
+          floatingActionButton: (_currentIndex == -1)
+              ? widget.lesson.glossary != 'null'
+                  ? FloatingActionButton.extended(
+                      backgroundColor: ColorPalette.primarycolor,
+                      splashColor: ColorPalette.primarycolor,
+                      elevation: 2,
+                      onPressed: () {
+                        glossaryPopUP(context, widget.lesson.glossary);
+                      },
+                      icon: SvgPicture.asset(
+                        'assets/icons/glossary_icon.svg',
+                        color: ColorPalette.whitetextcolor,
+                      ),
+                      label: const Text(
+                        'Glossary',
+                        style: TextStyle(
+                            fontSize: 14,
+                            color: ColorPalette.whitetextcolor,
+                            fontWeight: FontWeight.bold),
+                      ))
+                  : null
               : null,
           body: Column(
             children: [
@@ -319,7 +338,7 @@ class _LessonsState extends State<Lessons> {
                             onTap: () {
                               var lifes = int.parse(user.lifes!);
                               if (lifes < 10) {
-                                displayADAlert(context, rewardedAd);
+                                //displayADAlert(context, rewardedAd);
                               } else {
                                 EasyLoading.showInfo('No More Ads');
                               }
@@ -359,15 +378,14 @@ class _LessonsState extends State<Lessons> {
                           ),
                         ],
                       ),
-                      Container(
-                        margin: EdgeInsets.only(top: size.height * 0.09),
+                      Padding(
+                        padding: EdgeInsets.only(top: size.height * 0.05),
                         child: conceptsHexagon(
                             (widget.lesson.lessonName != null)
                                 ? widget.lesson.lessonName!
                                 : 'EMPTY',
                             size,
                             concept,
-                            status,
                             context),
                       ),
                     ],
@@ -407,7 +425,7 @@ class _LessonsState extends State<Lessons> {
                     iconSize: 35.0,
                     scaleFactor: 0.5,
                     bubbleCurve: Curves.ease,
-                    strokeColor: ColorPalette.secondarycolor,
+                    strokeColor: Colors.transparent,
                     selectedColor: ColorPalette.whitetextcolor,
                     unSelectedColor:
                         ColorPalette.whitetextcolor.withOpacity(0.5),
@@ -473,7 +491,7 @@ class _LessonsState extends State<Lessons> {
                     iconSize: 35.0,
                     scaleFactor: 0.5,
                     bubbleCurve: Curves.ease,
-                    strokeColor: ColorPalette.secondarycolor,
+                    strokeColor: Colors.transparent,
                     selectedColor: ColorPalette.whitetextcolor.withOpacity(0.5),
                     unSelectedColor:
                         ColorPalette.whitetextcolor.withOpacity(0.5),
@@ -524,7 +542,7 @@ class _LessonsState extends State<Lessons> {
   }
 
   Widget conceptsHexagon(
-      String lessonName, Size size, concepts, status, BuildContext context) {
+      String lessonName, Size size, concepts, BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -538,7 +556,7 @@ class _LessonsState extends State<Lessons> {
                   setState(() {
                     _isLoaderVisible = true;
                   });
-
+                  var life = int.parse(user.lifes!);
                   var value = await screensList(concepts[0].conceptId);
                   if (value == 'concept data is incomplete!') {
                     // ignore: use_build_context_synchronously
@@ -546,17 +564,24 @@ class _LessonsState extends State<Lessons> {
                   } else if (concepts[0].conceptstatus == '1') {
                     // ignore: use_build_context_synchronously
                     completed(context);
-                  } else if (user.lifes != '0') {
+                  } else if (life <= 0) {
+                    EasyLoading.showToast(
+                        'Sorry, you dont have lifes to take the concept.');
+                  } else {
                     loader();
                     newunit = widget.unit;
                     newlesson = widget.lesson;
                     newconpt = concepts[0];
                     const idx = 0;
                     // ignore: use_build_context_synchronously
-                    navigatetoScreen(context, idx);
-                  } else {
-                    EasyLoading.showToast(
-                        'Sorry, you dont have lifes to take concepts.');
+                    Navigator.push(
+                        context,
+                        PageRouteBuilder(
+                            pageBuilder:
+                                ((context, animation, secondaryAnimation) =>
+                                    QuestionPage(
+                                        index: idx,
+                                        glossary: widget.lesson.glossary))));
                   }
                   setState(() {
                     _isLoaderVisible = false;
@@ -648,12 +673,21 @@ class _LessonsState extends State<Lessons> {
                   } else {
                     loader();
                     const idx = 0;
-
+                    newscreen.gsHeading = widget.lesson.glossary;
                     newunit = widget.unit;
                     newlesson = widget.lesson;
                     newconpt = concepts[1];
+
+                    //navigatetoScreen(context, idx);
                     // ignore: use_build_context_synchronously
-                    navigatetoScreen(context, idx);
+                    Navigator.push(
+                        context,
+                        PageRouteBuilder(
+                            pageBuilder:
+                                ((context, animation, secondaryAnimation) =>
+                                    QuestionPage(
+                                        index: idx,
+                                        glossary: widget.lesson.glossary))));
                     setState(() {
                       _isLoaderVisible = false;
                     });
@@ -754,8 +788,17 @@ class _LessonsState extends State<Lessons> {
                       newlesson = widget.lesson;
                       const idx = 0;
                       newconpt = concepts[5];
+                      newscreen.gsHeading = widget.lesson.glossary;
                       // ignore: use_build_context_synchronously
-                      navigatetoScreen(context, idx);
+                      Navigator.push(
+                          context,
+                          PageRouteBuilder(
+                              pageBuilder:
+                                  ((context, animation, secondaryAnimation) =>
+                                      QuestionPage(
+                                          index: idx,
+                                          glossary: widget.lesson.glossary))));
+                      //navigatetoScreen(context, idx);
                     }
                     setState(() {
                       _isLoaderVisible = false;
@@ -876,8 +919,17 @@ class _LessonsState extends State<Lessons> {
                     newunit = widget.unit;
                     newlesson = widget.lesson;
                     newconpt = concepts[2];
+                    newscreen.gsHeading = widget.lesson.glossary;
                     // ignore: use_build_context_synchronously
-                    navigatetoScreen(context, idx);
+                    Navigator.push(
+                        context,
+                        PageRouteBuilder(
+                            pageBuilder:
+                                ((context, animation, secondaryAnimation) =>
+                                    QuestionPage(
+                                        index: idx,
+                                        glossary: widget.lesson.glossary))));
+                    //navigatetoScreen(context, idx);
                   }
                   setState(() {
                     _isLoaderVisible = false;
@@ -976,8 +1028,17 @@ class _LessonsState extends State<Lessons> {
                     newunit = widget.unit;
                     newlesson = widget.lesson;
                     newconpt = concepts[4];
+                    newscreen.gsHeading = widget.lesson.glossary;
                     // ignore: use_build_context_synchronously
-                    navigatetoScreen(context, idx);
+                    Navigator.push(
+                        context,
+                        PageRouteBuilder(
+                            pageBuilder:
+                                ((context, animation, secondaryAnimation) =>
+                                    QuestionPage(
+                                        index: idx,
+                                        glossary: widget.lesson.glossary))));
+                    //navigatetoScreen(context, idx);
                   }
                   setState(() {
                     _isLoaderVisible = false;
@@ -1071,8 +1132,17 @@ class _LessonsState extends State<Lessons> {
                     newunit = widget.unit;
                     newlesson = widget.lesson;
                     newconpt = concepts[3];
+                    newscreen.gsHeading = widget.lesson.glossary;
                     // ignore: use_build_context_synchronously
-                    navigatetoScreen(context, idx);
+                    Navigator.push(
+                        context,
+                        PageRouteBuilder(
+                            pageBuilder:
+                                ((context, animation, secondaryAnimation) =>
+                                    QuestionPage(
+                                        index: idx,
+                                        glossary: widget.lesson.glossary))));
+                    //navigatetoScreen(context, idx);
                   }
                   setState(() {
                     _isLoaderVisible = false;

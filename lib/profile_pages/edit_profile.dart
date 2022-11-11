@@ -69,8 +69,7 @@ class _EditProfileState extends State<EditProfile> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    String decodeFluttermojifromString =
-        FluttermojiFunctions().decodeFluttermojifromString(userDetails.avatar!);
+
     return Scaffold(
       resizeToAvoidBottomInset: true,
       backgroundColor: ColorPalette.backgroundcolor2,
@@ -857,7 +856,7 @@ class _EditProfileState extends State<EditProfile> {
                                 backgroundColor: ColorPalette.backgroundcolor1,
                                 radius: size.height * 0.085,
                                 child: SvgPicture.string(
-                                  decodeFluttermojifromString,
+                                  userDetails.avatar ?? '',
                                   width: size.height * 0.13,
                                 ),
                               ),

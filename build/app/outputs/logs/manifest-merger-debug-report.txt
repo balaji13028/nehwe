@@ -1,8 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:6:4-36:19
-MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-36:19
-MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-36:19
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:6:4-38:19
+MERGED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-36:19
+MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-36:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [com.github.bumptech.glide:glide:4.13.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/bfba3c917cd2024d4af889c87b0e3f2d/transformed/jetified-glide-4.13.0/AndroidManifest.xml:10:5-20
@@ -16,19 +18,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/scho
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from [:shared_preferences_android] /Users/scholarlysolutionssm/Desktop/nehwe/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:sqflite] /Users/scholarlysolutionssm/Desktop/nehwe/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:path_provider_android] /Users/scholarlysolutionssm/Desktop/nehwe/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-38:12
-MERGED from [:assets_audio_player_web] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:audio_waveforms] /Users/scholarlysolutionssm/Desktop/nehwe/build/audio_waveforms/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:shared_preferences_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:speech_to_text] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:screen_protector] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/screen_protector/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:syncfusion_flutter_pdfviewer] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-38:12
+MERGED from [:assets_audio_player_web] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_waveforms] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/audio_waveforms/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/1084b997db70f9a41dbd052c2dbf83ed/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
@@ -79,53 +85,61 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/scholarlysolutions
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/4c666c731f72bca13b96ec6fea44ce5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/e9ca322f243d3b7ed3a19622385d8532/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml:1:1-8:12
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml:1:1-8:12
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:2:5-32
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:1-37:12
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:3:5-66
-MERGED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:3:5-66
-MERGED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:3:5-66
+ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:3:5-66
 	android:name
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:4:5-71
+ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:4:5-71
 	android:name
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:4:22-68
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:4:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:5:5-81
+ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:5:22-78
 uses-sdk
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /Users/scholarlysolutionssm/Desktop/nehwe/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] /Users/scholarlysolutionssm/Desktop/nehwe/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:sqflite] /Users/scholarlysolutionssm/Desktop/nehwe/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:sqflite] /Users/scholarlysolutionssm/Desktop/nehwe/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] /Users/scholarlysolutionssm/Desktop/nehwe/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] /Users/scholarlysolutionssm/Desktop/nehwe/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:40
-MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:40
-MERGED from [:assets_audio_player_web] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:assets_audio_player_web] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:audio_waveforms] /Users/scholarlysolutionssm/Desktop/nehwe/build/audio_waveforms/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:audio_waveforms] /Users/scholarlysolutionssm/Desktop/nehwe/build/audio_waveforms/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:speech_to_text] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:speech_to_text] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:screen_protector] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/screen_protector/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:screen_protector] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/screen_protector/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:syncfusion_flutter_pdfviewer] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:syncfusion_flutter_pdfviewer] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/syncfusion_flutter_pdfviewer/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:40
+MERGED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:40
+MERGED from [:assets_audio_player_web] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:assets_audio_player_web] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player_web/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_waveforms] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/audio_waveforms/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_waveforms] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/audio_waveforms/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -226,56 +240,68 @@ MERGED from [androidx.print:print:1.0.0] /Users/scholarlysolutionssm/.gradle/cac
 MERGED from [androidx.print:print:1.0.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/e9ca322f243d3b7ed3a19622385d8532/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [:speech_to_text] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from [:speech_to_text] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-73
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
 uses-permission#android.permission.VIBRATE
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
 receiver#com.github.florent37.assets_audio_player.notification.NotificationActionReceiver
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:39
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:39
 	android:exported
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-36
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-108
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-108
 receiver#com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:20
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:20
 	android:exported
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-107
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-107
 intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
 action#android.intent.action.MEDIA_BUTTON
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-77
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-74
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-74
 service#com.github.florent37.assets_audio_player.notification.NotificationService
-ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-35:19
+ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-35:19
 	android:enabled
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
 	android:exported
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-101
+		ADDED from [:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-101
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml:1:1-8:12 reason: com.github.florent37.assets_audio_player has a targetSdkVersion < 4
+IMPLIED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml:1:1-8:12 reason: com.github.florent37.assets_audio_player has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/scholarlysolutionssm/Desktop/nehwe/android/app/src/debug/AndroidManifest.xml:1:1-8:12 reason: com.github.florent37.assets_audio_player requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/debug/AndroidManifest.xml:1:1-8:12 reason: com.github.florent37.assets_audio_player requested WRITE_EXTERNAL_STORAGE
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

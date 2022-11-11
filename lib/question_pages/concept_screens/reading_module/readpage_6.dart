@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:flutter_svg/svg.dart';
-import '../../../bottom_sheets/glossary.dart';
 import '../../../constants/buttons.dart';
 import '../../../constants/color_palettes.dart';
 import '../../../constants/text_const.dart';
 import '../../../models/courses_model.dart';
 import '../../../prepare_screen_list/concept_screens/concept_prepare_ScreenList.dart';
 import '../../../models/user_details_model.dart';
-import '../../../popup_messages/exit_message.dart';
 import '../../../popup_messages/hint_dispaly.dart';
 import '../../../slide_drawers/glossary_drawr.dart';
 import '../concepts_screen_status.dart';

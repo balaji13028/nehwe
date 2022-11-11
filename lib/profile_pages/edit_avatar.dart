@@ -17,8 +17,6 @@ class _EditAvatarState extends State<EditAvatar> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    String decodeFluttermojifromString =
-        FluttermojiFunctions().decodeFluttermojifromString(user.avatar!);
     return Scaffold(
         backgroundColor: ColorPalette.backgroundcolor2,
         body: Column(children: [

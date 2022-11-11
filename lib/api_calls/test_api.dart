@@ -11,20 +11,24 @@ Future testapi(courseId, unitId, userId) async {
   try {
     List<dynamic> maps = json.decode(response.body);
     List<ScreenData> screenList = List.generate(maps.length, (index) {
-      String option1 = (maps[index]['optionset1']).toString();
-      String option2 = (maps[index]['optionset2']).toString();
-      String answ = (maps[index]['answer']).toString();
+      String option1 = (maps[index]['optionset1']).toString().trim();
+      String option2 = (maps[index]['optionset2']).toString().trim();
+
       return ScreenData(
         screenId: (maps[index]['testscreenId']).toString(),
         testId: (maps[index]['testId']).toString(),
         status: (maps[index]['teststatus']).toString(),
         screenlkpId: (maps[index]['screenlkpId']).toString(),
         screenName: (maps[index]['testName']).toString(),
-        text: (maps[index]['text']).toString(),
-        question: (maps[index]['question']).toString(),
+        text: (maps[index]['text']).toString().trim(),
+        question: (maps[index]['question']).toString().trim(),
         optionset1: option1.split(","),
         optionset2: option2.split(","),
-        answer: answ.split(","),
+        answer: (maps[index]['answer']).toString().trim(),
+        imageStatus: (maps[index]['imagemodule']).toString(),
+        audioStatus: (maps[index]['audiomodule']).toString(),
+        textStatus: (maps[index]['textmodule']).toString(),
+        answertype: (maps[index]['answertype']).toString(),
         audiofile: (maps[index]['audiopath'][0]).toString(),
         imagefile: (maps[index]['imagepath']).toString(),
       );

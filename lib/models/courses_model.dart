@@ -56,6 +56,7 @@ List<UnitData> unitlist = [];
 ///This is for lesson model class....
 class LessonData {
   String? lessonId, lessonName, lessonStatus, unitId, lessonXP;
+  var glossary;
   int? xp;
   LessonData(
       {this.lessonId,
@@ -63,6 +64,7 @@ class LessonData {
       this.unitId,
       this.lessonXP,
       this.xp,
+      this.glossary,
       this.lessonStatus});
 
   Map<String, dynamic> toMap() {
@@ -72,12 +74,13 @@ class LessonData {
       'lessonStatus': lessonStatus,
       'unitId': unitId,
       'lessonXP': lessonXP,
+      'glossary': glossary
     };
   }
 
   @override
   String toString() {
-    return 'lessonsData{lessonId: $lessonId, lessonName: $lessonName,unitId:$unitId,lessonXP:$lessonXP,lessonStatus:$lessonStatus}';
+    return 'lessonsData{lessonId: $lessonId, lessonName: $lessonName,unitId:$unitId,lessonXP:$lessonXP,lessonStatus:$lessonStatus,glossary:$glossary}';
   }
 }
 
@@ -117,12 +120,15 @@ class ScreenData {
       audiofile,
       imagefile,
       text,
+      answertype,
+      textStatus,
       gsHeading,
-      gsDescription,
-      gsExample,
+      imageStatus,
+      audioStatus,
+      answer,
       hint;
 
-  List<String>? optionset1, optionset2, answer;
+  List<String>? optionset1, optionset2;
 
   ScreenData(
       {this.screenId,
@@ -135,9 +141,11 @@ class ScreenData {
       this.optionset2,
       this.answer,
       this.gsHeading,
-      this.gsDescription,
-      this.gsExample,
+      this.imageStatus,
+      this.audioStatus,
       this.text,
+      this.answertype,
+      this.textStatus,
       this.testId,
       this.status,
       this.hint});
@@ -154,10 +162,12 @@ class ScreenData {
       'optionset1': optionset1,
       'optionset2': optionset2,
       'text': text,
+      'answertype': answertype,
+      'textStatus': textStatus,
       'answer': answer,
       'gsHeading': gsHeading,
-      'gsDescription': gsDescription,
-      'gsExample': gsExample,
+      'gsDescription': imageStatus,
+      'gsExample': audioStatus,
       'hint': hint,
       'status': status
     };
@@ -165,7 +175,7 @@ class ScreenData {
 
   @override
   String toString() {
-    return 'screenData{screenId: $screenId,screenlkpId:$screenlkpId,testId:$testId screenName: $screenName,question:$question,optionset1:$optionset1,optionset2:$optionset2,answer:$answer,text:$text,audiofile:$audiofile,imagefile:$imagefile,gsHeading:$gsHeading,gsDescription:$gsDescription,gsExample:$gsExample,hint:$hint,status:$status}';
+    return 'screenData{screenId: $screenId,screenlkpId:$screenlkpId,testId:$testId screenName: $screenName,question:$question,optionset1:$optionset1,optionset2:$optionset2,answer:$answer,text:$text,audiofile:$audiofile,imagefile:$imagefile,answertype:$answertype,gsHeading:$gsHeading,textStatus:$textStatus,imageStatus:$imageStatus,audioStatus:$audioStatus,hint:$hint,status:$status}';
   }
 }
 

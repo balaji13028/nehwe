@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/scholarlysolutionssm/Desktop/nehwe/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/res/values-fr-rCA/values-fr-rCA.xml",

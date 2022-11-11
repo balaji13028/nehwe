@@ -16,23 +16,23 @@ Future screensList(conceptId) async {
     List<dynamic> maps = json.decode(response.body);
 
     List<ScreenData> screenList = List.generate(maps.length, (index) {
-      //sname = sname.split('_').join('');
-      String option1 = (maps[index]['optionset1']).toString();
-      String option2 = (maps[index]['optionset2']).toString();
-      String answ = (maps[index]['answer']).toString();
+      String option1 = (maps[index]['optionset1']).toString().trim();
+      String option2 = (maps[index]['optionset2']).toString().trim();
+      String answ = (maps[index]['answer']).toString().trim();
       return ScreenData(
         screenId: (maps[index]['screenId']).toString(),
         screenlkpId: (maps[index]['screenlkpId']).toString(),
         screenName: (maps[index]['screenName']).toString(),
-        text: (maps[index]['text']).toString(),
+        text: (maps[index]['text']).toString().trim(),
         question: (maps[index]['question']).toString(),
         optionset1: option1.split(","),
         optionset2: option2.split(","),
-        answer: answ.split(","),
-        hint: maps[index]['hint'].toString(),
-        gsHeading: (maps[index]['heading']).toString(),
-        gsDescription: (maps[index]['description']).toString(),
-        gsExample: (maps[index]['example']).toString(),
+        answer: answ.toString(),
+        hint: maps[index]['hint'].toString().trim(),
+        imageStatus: (maps[index]['imagemodule']).toString(),
+        audioStatus: (maps[index]['audiomodule']).toString(),
+        textStatus: (maps[index]['textmodule']).toString(),
+        answertype: (maps[index]['answertype']).toString(),
         audiofile: (maps[index]['audiopath'][0]).toString(),
         imagefile: (maps[index]['imagepath']).toString(),
       );

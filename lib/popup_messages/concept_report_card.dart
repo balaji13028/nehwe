@@ -23,7 +23,7 @@ loader(BuildContext context) async {
 conceptReport(BuildContext context) {
   Size size = MediaQuery.of(context).size;
   return showDialog(
-      barrierDismissible: false,
+      barrierDismissible: true,
       context: context,
       builder: (context) {
         return GlobalLoaderOverlay(
@@ -36,7 +36,7 @@ conceptReport(BuildContext context) {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(25)),
               child: Container(
-                height: size.height * 0.3,
+                height: size.height * 0.35,
                 width: size.width * 0.3,
                 padding: EdgeInsets.only(
                   left: 20,
@@ -64,7 +64,7 @@ conceptReport(BuildContext context) {
                           ),
                           SizedBox(height: size.height * 0.004),
                           const Text(
-                            'You have completed this concept successfully.',
+                            'You are completed this concept successfully.',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 fontSize: 16, color: ColorPalette.textcolor),

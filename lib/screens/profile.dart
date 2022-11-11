@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:fluttermoji/fluttermoji.dart';
-import 'package:fluttermoji/fluttermojiCircleAvatar.dart';
 import '../constants/color_palettes.dart';
 import '../models/user_details_model.dart';
 import '../profile_pages/edit_profile.dart';
@@ -31,8 +29,6 @@ class _ProfileState extends State<Profile> {
     Size size = MediaQuery.of(context).size;
     var upperContainerheight = size.height * 0.31;
     var middleContainerHeight = size.height * 0.1;
-    String decodeFluttermojifromString =
-        FluttermojiFunctions().decodeFluttermojifromString(user.avatar!);
     return Column(children: [
       Container(
         height: upperContainerheight,
@@ -75,7 +71,7 @@ class _ProfileState extends State<Profile> {
                   backgroundColor: ColorPalette.backgroundcolor1,
                   radius: 60,
                   child: SvgPicture.string(
-                    decodeFluttermojifromString,
+                    user.avatar ?? '',
                     width: size.height * 0.099,
                   ),
                 ),

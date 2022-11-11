@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:flutter_svg/svg.dart';
-import '../../../bottom_sheets/glossary.dart';
 import '../../../constants/buttons.dart';
 import '../../../constants/color_palettes.dart';
 import '../../../constants/text_const.dart';

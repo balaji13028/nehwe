@@ -28,8 +28,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-3940256099942544~1458002511</string>
+	<!-- <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-3940256099942544~1458002511</string> -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app requires anlaysize the user speech to text</string>
 	<key>NSMicrophoneUsageDescription</key>
  	<string>This app requires Mic's permission.</string>
 	<key>UISupportedInterfaceOrientations</key>

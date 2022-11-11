@@ -4,11 +4,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/scholarlysolutionssm/Desktop/nehwe/build/macos/Build/Products/Debug/assets_audio_player/assets_audio_player.framework/Modules"
+    'name': "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/macos/Build/Products/Debug/assets_audio_player/assets_audio_player.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/scholarlysolutionssm/Desktop/nehwe/build/macos/Build/Intermediates.noindex/Pods.build/Debug/assets_audio_player.build/unextended-module.modulemap",
+      'external-contents': "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/macos/Build/Intermediates.noindex/Pods.build/Debug/assets_audio_player.build/unextended-module.modulemap",
     }]
   }]
 }

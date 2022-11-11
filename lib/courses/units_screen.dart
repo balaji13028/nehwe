@@ -121,47 +121,52 @@ class _UnitsState extends State<Units> {
               Expanded(
                 child: PageView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: unit.length,
+                    itemCount: 6,
                     controller: controller,
                     physics: const ClampingScrollPhysics(),
                     itemBuilder: (context, index) {
-                      var x = (70 / 100) * int.parse(unit[index].unitXP!);
-                      var y = unit[index].completedXP!;
-                      if (y >= x) {
-                        if (index == 0) {
-                          unit[0].status = 1;
-                          unit[1].status = 1;
-                        } else if (index == 1) {
-                          unit[0].status = 1;
-                          unit[1].status = 1;
-                          unit[2].status = 1;
-                        } else if (index == 2) {
-                          unit[0].status = 1;
-                          unit[1].status = 1;
-                          unit[2].status = 1;
-                          unit[3].status = 1;
-                        } else if (index == 3) {
-                          unit[0].status = 1;
-                          unit[1].status = 1;
-                          unit[2].status = 1;
-                          unit[3].status = 1;
-                          unit[4].status = 1;
-                        } else if (index == 4) {
-                          unit[0].status = 1;
-                          unit[1].status = 1;
-                          unit[2].status = 1;
-                          unit[3].status = 1;
-                          unit[4].status = 1;
-                          unit[5].status = 1;
-                        } else if (index == 5) {
-                          unit[0].status = 1;
-                          unit[1].status = 1;
-                          unit[2].status = 1;
-                          unit[3].status = 1;
-                          unit[4].status = 1;
-                          unit[5].status = 1;
+                      if (unit[index].unitXP != null) {
+                        var x = (70 / 100) * int.parse(unit[index].unitXP!);
+                        var y = unit[index].completedXP!;
+                        if (y >= x) {
+                          if (index == 0) {
+                            unit[0].status = 1;
+                            unit[1].status = 1;
+                          } else if (index == 1) {
+                            unit[0].status = 1;
+                            unit[1].status = 1;
+                            unit[2].status = 1;
+                          } else if (index == 2) {
+                            unit[0].status = 1;
+                            unit[1].status = 1;
+                            unit[2].status = 1;
+                            unit[3].status = 1;
+                          } else if (index == 3) {
+                            unit[0].status = 1;
+                            unit[1].status = 1;
+                            unit[2].status = 1;
+                            unit[3].status = 1;
+                            unit[4].status = 1;
+                          } else if (index == 4) {
+                            unit[0].status = 1;
+                            unit[1].status = 1;
+                            unit[2].status = 1;
+                            unit[3].status = 1;
+                            unit[4].status = 1;
+                            unit[5].status = 1;
+                          } else if (index == 5) {
+                            unit[0].status = 1;
+                            unit[1].status = 1;
+                            unit[2].status = 1;
+                            unit[3].status = 1;
+                            unit[4].status = 1;
+                            unit[5].status = 1;
+                          }
                         }
+                      } else {
+                        EasyLoading.showError('no more units');
                       }
+
                       return Column(
                         children: [
                           SizedBox(
@@ -525,7 +530,7 @@ class _UnitsState extends State<Units> {
                       iconSize: 35.0,
                       scaleFactor: 0.5,
                       bubbleCurve: Curves.ease,
-                      strokeColor: ColorPalette.secondarycolor,
+                      strokeColor: Colors.transparent,
                       selectedColor: ColorPalette.whitetextcolor,
                       unSelectedColor:
                           ColorPalette.whitetextcolor.withOpacity(0.5),
@@ -592,7 +597,7 @@ class _UnitsState extends State<Units> {
                       iconSize: 35.0,
                       scaleFactor: 0.5,
                       bubbleCurve: Curves.ease,
-                      strokeColor: ColorPalette.secondarycolor,
+                      strokeColor: Colors.transparent,
                       selectedColor:
                           ColorPalette.whitetextcolor.withOpacity(0.5),
                       unSelectedColor:
@@ -895,8 +900,8 @@ class _UnitsState extends State<Units> {
           setState(() {
             if (value < 10) {
               if (_timeasString == '-0:00:00') {
-                // value = (life + 1);
-                // user.lifes = value.toString();
+                value = (life + 1);
+                user.lifes = value.toString();
               }
             } else {
               timer!.cancel();

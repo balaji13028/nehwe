@@ -34,35 +34,36 @@ class WrongAnswer extends StatelessWidget {
                         topLeft: Radius.circular(20),
                         topRight: Radius.circular(20))),
                 child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.end,
                       children: [
-                        SizedBox(
-                          width: size.width * 0.4,
-                        ),
-                        Column(children: [
-                          const Text(
-                            'Incorrect',
-                            style: TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.w600,
-                                color: ColorPalette.wrongAnstextcolor),
-                          ),
-                          SizedBox(
-                            height: size.height * 0.01,
-                          ),
-                          Text(
-                            'Answer :- ${screendata.answer!.first}',
-                            style: const TextStyle(
-                                fontSize: 16,
-                                color: ColorPalette.wrongAnstextcolor,
-                                fontWeight: FontWeight.w500),
-                          ),
-                        ])
+                        SizedBox(width: size.width * 0.25),
+                        Flexible(
+                          child: Column(children: [
+                            const Text(
+                              'Incorrect',
+                              style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.w600,
+                                  color: ColorPalette.wrongAnstextcolor),
+                            ),
+                            SizedBox(
+                              height: size.height * 0.01,
+                            ),
+                            Text(
+                              'Answer :- ${screendata.answer!}',
+                              style: const TextStyle(
+                                  fontSize: 16,
+                                  color: ColorPalette.wrongAnstextcolor,
+                                  fontWeight: FontWeight.w500),
+                            ),
+                          ]),
+                        )
                       ],
                     ),
-                    SizedBox(height: size.height * 0.06),
+                    SizedBox(height: size.height * 0.02),
                     TextButton(
                         style: ButtonStyle(
                           overlayColor: MaterialStateColor.resolveWith(

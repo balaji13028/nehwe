@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/flutter_assets/AssetManifest.json</key>
 		<data>
-		OvED0WNdPDZlIIpDapv6VCKIX3U=
+		RQUiweUs6Nh7aBIs3mMxko0uRd8=
 		</data>
 		<key>Resources/flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Resources/flutter_assets/NOTICES.Z</key>
 		<data>
-		9d2EPjmMUOCgLI8DmJ0bpmEy9gY=
+		yzXQSpa/97s1xFLedVAvZXmiWJg=
 		</data>
 		<key>Resources/flutter_assets/assets/audio/sample-4.mp3</key>
 		<data>
@@ -280,6 +280,10 @@
 		<data>
 		+4s852zabhLJYnrSia8O+x3ReHk=
 		</data>
+		<key>Resources/flutter_assets/assets/lottie/lifes_timer.json</key>
+		<data>
+		d++DusuVF+U+8z9oGdPg9PpZTTo=
+		</data>
 		<key>Resources/flutter_assets/assets/lottie/loader.json</key>
 		<data>
 		BDyWPLchK4/exAAI/H1wxJChPE4=
@@ -330,7 +334,7 @@
 		</data>
 		<key>Resources/flutter_assets/kernel_blob.bin</key>
 		<data>
-		8aI3CWvyXW39HnprndBmdwGsPqE=
+		Ue/RJoYrAFiUqD9D+2W00bfk38M=
 		</data>
 		<key>Resources/flutter_assets/packages/country_pickers/assets/ad.png</key>
 		<data>
@@ -1430,7 +1434,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kaE0mZ+rzJlvlh0ClvO1Agjyh4YMI5ldvpRYAeyOM8=
+			H6NbNmeD7aCWjuP/SkiByGYJeRf3ad7ozbGrqThnKv8=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/FontManifest.json</key>
@@ -1444,7 +1448,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jxgpXl3UvXXEDoKZwr9CxnP6YChV6a9NZ7HJTxbbJqQ=
+			xqjwBx4Et6pZ0Z3ZORLGYek0FWD5eNMdv7hNmmiQ1V8=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/assets/audio/sample-4.mp3</key>
@@ -1902,6 +1906,13 @@
 			dABEWg4v3ltZrfIYrxNKZ+5G+Q6nWokNhjiJc4/CA5A=
 			</data>
 		</dict>
+		<key>Resources/flutter_assets/assets/lottie/lifes_timer.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K14+IWAzGtZ9f14GhWavSVO+bpRrX9BNjpNkYxCDmKs=
+			</data>
+		</dict>
 		<key>Resources/flutter_assets/assets/lottie/loader.json</key>
 		<dict>
 			<key>hash2</key>
@@ -1990,7 +2001,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yqt6gLJEs2P35ZakYtdZjnYriV4TRpQDPRW8m+syaSo=
+			6G/jceKBR0V3u8zkGEPw5YpxOb5TH4b+D2Tz93u1+7k=
 			</data>
 		</dict>
 		<key>Resources/flutter_assets/packages/country_pickers/assets/ad.png</key>

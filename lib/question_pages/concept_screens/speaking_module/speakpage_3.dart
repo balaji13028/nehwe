@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:loader_overlay/loader_overlay.dart';
-import '../../../bottom_sheets/glossary.dart';
 import '../../../constants/buttons.dart';
 import '../../../constants/color_palettes.dart';
 import '../../../constants/text_const.dart';
