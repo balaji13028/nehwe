@@ -47,6 +47,7 @@ dependencies:
   syncfusion_flutter_pdfviewer: ^20.3.52
   screen_protector: ^1.1.4
   speech_to_text: ^6.1.0
+  intl_phone_field: ^3.1.0
   
   
   
@@ -76,6 +77,7 @@ flutter:
      - assets/audio/
      - assets/mascots/
      - assets/lottie/
+     - assets/gifs/
      
 
   

@@ -4,7 +4,6 @@ import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/concepts_api.dart';
 import 'package:nehwe/local_database.dart';
 import 'package:nehwe/models/user_details_model.dart';
-import '../api_calls/units_api.dart';
 import '../api_calls/xp_api.dart';
 import '../constants/color_palettes.dart';
 import '../courses/concpets_screen.dart';
@@ -141,7 +140,6 @@ conceptReport(BuildContext context) {
                                             lesson: newlesson,
                                             course: newcourse,
                                           ))));
-                              _isLoaderVisible = false;
                             },
                             child: Container(
                               height: size.height * 0.035,

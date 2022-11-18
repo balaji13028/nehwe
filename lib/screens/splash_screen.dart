@@ -1,10 +1,9 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/screens/welcome_screen.dart';
-
-import 'package:splash_screen_view/SplashScreenView.dart';
 import '../api_calls/course_api.dart';
-import '../constants/color_palettes.dart';
 import '../loadings/loader.dart';
 import '../local_database.dart';
 import '../models/user_details_model.dart';
@@ -26,6 +25,13 @@ class _SplashScreenState extends State<SplashScreen> {
     userTiming.intime = DateTime.now().toString();
     super.initState();
     myfunction();
+    Timer(Duration(milliseconds: 2200.toInt()), () {
+      (localUserList.isEmpty)
+          ? Navigator.pushReplacement(context,
+              MaterialPageRoute(builder: ((context) => const WelcomePage())))
+          : Navigator.pushReplacement(context,
+              MaterialPageRoute(builder: ((context) => const DashBoard())));
+    });
   }
 
   myfunction() async {
@@ -46,21 +52,16 @@ class _SplashScreenState extends State<SplashScreen> {
     if (_hasdata == false) {
       return const Loader();
     }
-    //debugPrint('useras are $localUserList');
-
-    return SplashScreenView(
-        imageSrc: 'assets/images/ic_launcher.png',
-        navigateRoute:
-            (localUserList.isEmpty) ? const WelcomePage() : const DashBoard(),
-        text: 'Nehwe',
-        speed: 350,
-        textStyle: const TextStyle(
-            fontSize: 60,
-            color: ColorPalette.whitetextcolor,
-            fontWeight: FontWeight.bold),
-        textType: TextType.TyperAnimatedText,
-        duration: 2800,
-        imageSize: 220,
-        backgroundColor: ColorPalette.primarycolor);
+    debugPrint('useras are $localUserList');
+    return Image.asset(
+      'assets/gifs/splash_screen.gif',
+      fit: BoxFit.cover,
+    );
+    // return SplashScreenView(
+    //   imageSrc: 'assets/gifs/splash.gif',
+    //   imageSize: size.height.toInt(),
+    //   navigateRoute:
+    //       (localUserList.isEmpty) ? const WelcomePage() : const DashBoard(),
+    // );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:nehwe/constants/color_palettes.dart';
 import 'package:nehwe/screens/splash_screen.dart';
 
 class MyBehavior extends ScrollBehavior {

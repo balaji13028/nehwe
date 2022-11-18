@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:loader_overlay/loader_overlay.dart';
+import 'package:nehwe/api_calls/listof_users.dart';
 import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/profile_pages/profile_screen.dart';
 import '../api_calls/units_api.dart';
@@ -21,6 +22,7 @@ class Homepage extends StatefulWidget {
 }
 
 class _HomepageState extends State<Homepage> {
+  final TextEditingController controller = TextEditingController();
   List<CoursesData> course = courseList;
   UserProfileData user = localUserList[0];
   var courseImages = [];
@@ -209,8 +211,13 @@ class _HomepageState extends State<Homepage> {
                                 fontSize: 18, color: ColorPalette.textcolor),
                             cursorColor: const Color.fromARGB(244, 2, 65, 92),
                             decoration: InputDecoration(
-                                suffixIcon: const Icon(Icons.search_sharp,
-                                    color: ColorPalette.textcolor),
+                                suffixIcon: GestureDetector(
+                                  onTap: () async {
+                                    await noOfUsers(user.id);
+                                  },
+                                  child: const Icon(Icons.search_sharp,
+                                      color: ColorPalette.textcolor),
+                                ),
                                 hintText: "Search",
                                 hintStyle: TextStyle(
                                     height: 1.4,

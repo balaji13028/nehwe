@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:io';
-import 'dart:ui';
 import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:avatar_glow/avatar_glow.dart';
@@ -11,7 +9,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:nehwe/models/courses_model.dart';
 import 'package:nehwe/slide_drawers/glossary_drawer.dart';
 import 'package:speech_to_text/speech_to_text.dart' as speechToText;
-import '../bottom_sheets/corrected.dart';
+import '../bottom_sheets/correct_answer.dart';
 import '../bottom_sheets/wrong_answer.dart';
 import '../constants/buttons.dart';
 import '../constants/color_palettes.dart';

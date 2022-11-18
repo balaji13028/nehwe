@@ -18,6 +18,8 @@ import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/popup_messages/completed.dart';
 import 'package:nehwe/popup_messages/glossary.dart';
 import 'package:nehwe/popup_messages/screens_Not_Asssigned.dart';
+import 'package:path/path.dart';
+import '../api_calls/buddies_api.dart';
 import '../api_calls/concepts_api.dart';
 import '../api_calls/screens_api.dart';
 import '../constants/color_palettes.dart';
@@ -179,7 +181,7 @@ class _LessonsState extends State<Lessons> {
   }
 
   ///this is for loading when data is load and navigating to next...
-  loader() async {
+  loader(BuildContext context) async {
     if (_isLoaderVisible) {
       context.loaderOverlay.show();
     } else {
@@ -217,7 +219,7 @@ class _LessonsState extends State<Lessons> {
                       setState(() {
                         _isLoaderVisible = true;
                       });
-                      loader();
+                      loader(context);
                       await unitsList(widget.course.courseId, newUser.id);
                       // ignore: use_build_context_synchronously
                       Navigator.push(
@@ -481,10 +483,18 @@ class _LessonsState extends State<Lessons> {
                           )),
                     ],
                     currentIndex: _currentIndex,
-                    onTap: (index) {
-                      setState(() {
-                        _currentIndex = index;
-                      });
+                    onTap: (index) async {
+                      if (index == 2) {
+                        await buddies(user.id);
+                        setState(() {
+                          _currentIndex = index;
+                          loader(context);
+                        });
+                      } else {
+                        setState(() {
+                          _currentIndex = index;
+                        });
+                      }
                     },
                   )
                 : CustomNavigationBar(
@@ -531,10 +541,18 @@ class _LessonsState extends State<Lessons> {
                         ),
                       ),
                     ],
-                    onTap: (index) {
-                      setState(() {
-                        _currentIndex = index;
-                      });
+                    onTap: (index) async {
+                      if (index == 2) {
+                        await buddies(user.id);
+                        setState(() {
+                          _currentIndex = index;
+                          loader(context);
+                        });
+                      } else {
+                        setState(() {
+                          _currentIndex = index;
+                        });
+                      }
                     },
                   ),
           ])),
@@ -556,6 +574,7 @@ class _LessonsState extends State<Lessons> {
                   setState(() {
                     _isLoaderVisible = true;
                   });
+                  loader(context);
                   var life = int.parse(user.lifes!);
                   var value = await screensList(concepts[0].conceptId);
                   if (value == 'concept data is incomplete!') {
@@ -568,7 +587,6 @@ class _LessonsState extends State<Lessons> {
                     EasyLoading.showToast(
                         'Sorry, you dont have lifes to take the concept.');
                   } else {
-                    loader();
                     newunit = widget.unit;
                     newlesson = widget.lesson;
                     newconpt = concepts[0];
@@ -671,7 +689,7 @@ class _LessonsState extends State<Lessons> {
                     // ignore: use_build_context_synchronously
                     completed(context);
                   } else {
-                    loader();
+                    loader(context);
                     const idx = 0;
                     newscreen.gsHeading = widget.lesson.glossary;
                     newunit = widget.unit;
@@ -783,7 +801,7 @@ class _LessonsState extends State<Lessons> {
                       // ignore: use_build_context_synchronously
                       completed(context);
                     } else {
-                      loader();
+                      loader(context);
                       newunit = widget.unit;
                       newlesson = widget.lesson;
                       const idx = 0;
@@ -914,7 +932,7 @@ class _LessonsState extends State<Lessons> {
                     // ignore: use_build_context_synchronously
                     completed(context);
                   } else {
-                    loader();
+                    loader(context);
                     const idx = 0;
                     newunit = widget.unit;
                     newlesson = widget.lesson;
@@ -1023,7 +1041,7 @@ class _LessonsState extends State<Lessons> {
                     // ignore: use_build_context_synchronously
                     completed(context);
                   } else {
-                    loader();
+                    loader(context);
                     const idx = 0;
                     newunit = widget.unit;
                     newlesson = widget.lesson;
@@ -1127,7 +1145,7 @@ class _LessonsState extends State<Lessons> {
                     // ignore: use_build_context_synchronously
                     completed(context);
                   } else {
-                    loader();
+                    loader(context);
                     const idx = 0;
                     newunit = widget.unit;
                     newlesson = widget.lesson;

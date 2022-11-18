@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:csc_picker/csc_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fluttermoji/fluttermoji.dart';
@@ -20,16 +23,16 @@ class EditProfile extends StatefulWidget {
 }
 
 class _EditProfileState extends State<EditProfile> {
-  UserProfileData userDetails = localUserList[0];
+  GlobalKey<CSCPickerState> cscPickerKey = GlobalKey();
   final formKey = GlobalKey<FormState>();
   late final TextEditingController firstController;
   late final TextEditingController lastName;
   late final TextEditingController displayName;
   late final TextEditingController email;
   late final TextEditingController address;
-  late final TextEditingController city;
-  late final TextEditingController state;
-  late final TextEditingController country;
+  String city = '';
+  String state = '';
+  String country = '';
   late final TextEditingController zipcode;
   bool _isLoaderVisible = false;
   loader() async {
@@ -51,15 +54,7 @@ class _EditProfileState extends State<EditProfile> {
     address = (widget.user.address != 'null')
         ? TextEditingController(text: widget.user.address)
         : TextEditingController(text: '');
-    city = (widget.user.city != 'null')
-        ? TextEditingController(text: widget.user.city)
-        : TextEditingController(text: '');
-    state = (widget.user.state != 'null')
-        ? TextEditingController(text: widget.user.state)
-        : TextEditingController(text: '');
-    country = (widget.user.country != 'null')
-        ? TextEditingController(text: widget.user.country)
-        : TextEditingController(text: '');
+
     zipcode = (widget.user.zipcode != 'null')
         ? TextEditingController(text: widget.user.zipcode)
         : TextEditingController(text: '');
@@ -74,6 +69,7 @@ class _EditProfileState extends State<EditProfile> {
       resizeToAvoidBottomInset: true,
       backgroundColor: ColorPalette.backgroundcolor2,
       body: SingleChildScrollView(
+        physics: const ClampingScrollPhysics(),
         child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -355,7 +351,7 @@ class _EditProfileState extends State<EditProfile> {
                                   width: double.infinity,
                                   alignment: Alignment.center,
                                   margin:
-                                      const EdgeInsets.symmetric(vertical: 2),
+                                      const EdgeInsets.symmetric(vertical: 4),
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(20),
                                       // color: Color(0xffd6dde7)
@@ -405,7 +401,7 @@ class _EditProfileState extends State<EditProfile> {
                                   width: double.infinity,
                                   alignment: Alignment.center,
                                   margin:
-                                      const EdgeInsets.symmetric(vertical: 4),
+                                      const EdgeInsets.symmetric(vertical: 5),
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(20),
                                       // color: Color(0xffd6dde7)
@@ -456,253 +452,122 @@ class _EditProfileState extends State<EditProfile> {
                                   ),
                                 ),
                               ]),
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Container(
-                                    height: size.height * 0.05,
-                                    width: size.width * 0.4,
-                                    alignment: Alignment.center,
-                                    margin:
-                                        const EdgeInsets.symmetric(vertical: 4),
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(20),
-                                        // color: Color(0xffd6dde7)
-                                        color: ColorPalette.statusfillcolor
-                                            .withOpacity(0.4)),
-                                    child: Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 15,
-                                      ),
-                                      child: TextFormField(
-                                        controller: city,
-                                        cursorHeight: 22,
-                                        cursorColor:
-                                            ColorPalette.secondarycolor,
-                                        keyboardType: TextInputType.name,
-                                        textCapitalization:
-                                            TextCapitalization.words,
-                                        style: const TextStyle(
-                                          letterSpacing: 0.9,
-                                          fontSize: 18,
-                                          color: ColorPalette.textcolor,
-                                        ),
-                                        decoration: InputDecoration(
-                                            hintText: 'City ',
-                                            contentPadding:
-                                                const EdgeInsets.symmetric(
-                                                    horizontal: 6,
-                                                    vertical: 15),
-                                            hintStyle: TextStyle(
-                                                letterSpacing: 1,
-                                                color: ColorPalette.textcolor
-                                                    .withOpacity(0.4),
-                                                fontSize: 15,
-                                                fontWeight: FontWeight.w100),
-                                            focusedErrorBorder:
-                                                InputBorder.none,
-                                            errorBorder: InputBorder.none,
-                                            errorStyle: const TextStyle(
-                                                fontSize: 10, height: 0.1),
-                                            enabledBorder: InputBorder.none,
-                                            focusedBorder: InputBorder.none),
-                                        validator: (value) {
-                                          if (value == null ||
-                                              value.trim().isEmpty) {
-                                            return '*This field is mandatory';
-                                          }
-
-                                          return null;
-                                        },
-                                      ),
-                                    ),
+                              Container(
+                                margin: const EdgeInsets.symmetric(vertical: 6),
+                                child: CSCPicker(
+                                  key: cscPickerKey,
+                                  dropdownDecoration: BoxDecoration(
+                                    borderRadius: const BorderRadius.all(
+                                        Radius.circular(50)),
+                                    color: ColorPalette.statusfillcolor
+                                        .withOpacity(0.4),
                                   ),
-                                  Container(
-                                    height: size.height * 0.05,
-                                    width: size.width * 0.4,
-                                    alignment: Alignment.center,
-                                    margin:
-                                        const EdgeInsets.symmetric(vertical: 4),
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(20),
-                                        // color: Color(0xffd6dde7)
-                                        color: ColorPalette.statusfillcolor
-                                            .withOpacity(0.4)),
-                                    child: Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 15,
-                                      ),
-                                      child: TextFormField(
-                                        controller: state,
-                                        textAlignVertical:
-                                            TextAlignVertical.top,
-                                        cursorHeight: 22,
-                                        cursorColor:
-                                            ColorPalette.secondarycolor,
-                                        keyboardType: TextInputType.name,
-                                        textCapitalization:
-                                            TextCapitalization.words,
-                                        style: const TextStyle(
-                                          letterSpacing: 0.9,
-                                          fontSize: 18,
-                                          color: ColorPalette.textcolor,
-                                        ),
-                                        decoration: InputDecoration(
-                                            hintText: 'State ',
-                                            contentPadding:
-                                                const EdgeInsets.symmetric(
-                                                    horizontal: 6,
-                                                    vertical: 15),
-                                            hintStyle: TextStyle(
-                                                letterSpacing: 1,
-                                                color: ColorPalette.textcolor
-                                                    .withOpacity(0.4),
-                                                fontSize: 15,
-                                                fontWeight: FontWeight.w100),
-                                            focusedErrorBorder:
-                                                InputBorder.none,
-                                            errorBorder: InputBorder.none,
-                                            errorStyle: const TextStyle(
-                                                fontSize: 10, height: 0.2),
-                                            enabledBorder: InputBorder.none,
-                                            focusedBorder: InputBorder.none),
-                                        validator: (value) {
-                                          if (value == null ||
-                                              value.trim().isEmpty) {
-                                            return '*This field is mandatory';
-                                          }
+                                  disabledDropdownDecoration: BoxDecoration(
+                                    borderRadius: const BorderRadius.all(
+                                        Radius.circular(50)),
+                                    color: ColorPalette.statusfillcolor
+                                        .withOpacity(0.4),
+                                  ),
+                                  selectedItemStyle: const TextStyle(
+                                      letterSpacing: 0.9,
+                                      fontSize: 18,
+                                      color: ColorPalette.textcolor),
+                                  currentCountry:
+                                      (widget.user.country == 'null')
+                                          ? ''
+                                          : '  ${widget.user.country}',
+                                  currentState: (widget.user.state == 'null')
+                                      ? ''
+                                      : '  ${widget.user.state}',
+                                  currentCity: (widget.user.city == 'null')
+                                      ? ''
+                                      : '  ${widget.user.city}',
+                                  searchBarRadius: 50,
+                                  layout: Layout.vertical,
+                                  flagState: CountryFlag.DISABLE,
+                                  dropdownDialogRadius: 20,
+                                  countrySearchPlaceholder: "Country",
+                                  stateSearchPlaceholder: "State",
+                                  citySearchPlaceholder: "City",
 
-                                          return null;
-                                        },
-                                      ),
-                                    ),
-                                  )
-                                ],
+                                  ///labels for dropdown
+                                  countryDropdownLabel: " Country",
+                                  stateDropdownLabel: " State",
+                                  cityDropdownLabel: " City",
+                                  onCountryChanged: (value) {
+                                    setState(() {
+                                      country = value;
+                                    });
+                                  },
+                                  onStateChanged: (value) {
+                                    setState(() {
+                                      if (value != null) {
+                                        state = value;
+                                      }
+                                    });
+                                  },
+                                  onCityChanged: (value) {
+                                    setState(() {
+                                      if (value != null) {
+                                        city = value;
+                                      }
+                                    });
+                                  },
+                                ),
                               ),
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Container(
-                                    height: size.height * 0.05,
-                                    width: size.width * 0.4,
-                                    alignment: Alignment.center,
-                                    margin:
-                                        const EdgeInsets.symmetric(vertical: 4),
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(20),
-                                        // color: Color(0xffd6dde7)
-                                        color: ColorPalette.statusfillcolor
-                                            .withOpacity(0.4)),
-                                    child: Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 15,
-                                      ),
-                                      child: TextFormField(
-                                        controller: country,
-                                        textAlignVertical:
-                                            TextAlignVertical.top,
-                                        cursorHeight: 22,
-                                        cursorColor:
-                                            ColorPalette.secondarycolor,
-                                        keyboardType: TextInputType.name,
-                                        textCapitalization:
-                                            TextCapitalization.words,
-                                        style: const TextStyle(
-                                          letterSpacing: 0.9,
-                                          fontSize: 18,
-                                          color: ColorPalette.textcolor,
-                                        ),
-                                        decoration: InputDecoration(
-                                            hintText: 'Country ',
-                                            contentPadding:
-                                                const EdgeInsets.symmetric(
-                                                    horizontal: 6,
-                                                    vertical: 15),
-                                            hintStyle: TextStyle(
-                                                letterSpacing: 1,
-                                                color: ColorPalette.textcolor
-                                                    .withOpacity(0.4),
-                                                fontSize: 15,
-                                                fontWeight: FontWeight.w100),
-                                            focusedErrorBorder:
-                                                InputBorder.none,
-                                            errorBorder: InputBorder.none,
-                                            errorStyle: const TextStyle(
-                                                fontSize: 10, height: 0.2),
-                                            enabledBorder: InputBorder.none,
-                                            focusedBorder: InputBorder.none),
-                                        validator: (value) {
-                                          if (value == null ||
-                                              value.trim().isEmpty) {
-                                            return '*This field is mandatory';
-                                          }
-
-                                          return null;
-                                        },
-                                      ),
-                                    ),
+                              Container(
+                                height: size.height * 0.05,
+                                width: size.width,
+                                alignment: Alignment.center,
+                                margin: const EdgeInsets.symmetric(vertical: 4),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    // color: Color(0xffd6dde7)
+                                    color: ColorPalette.statusfillcolor
+                                        .withOpacity(0.4)),
+                                child: Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 15,
                                   ),
-                                  Container(
-                                    height: size.height * 0.05,
-                                    width: size.width * 0.4,
-                                    alignment: Alignment.center,
-                                    margin:
-                                        const EdgeInsets.symmetric(vertical: 4),
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(20),
-                                        // color: Color(0xffd6dde7)
-                                        color: ColorPalette.statusfillcolor
-                                            .withOpacity(0.4)),
-                                    child: Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 15,
-                                      ),
-                                      child: TextFormField(
-                                        controller: zipcode,
-                                        cursorHeight: 22,
-                                        cursorColor:
-                                            ColorPalette.secondarycolor,
-                                        keyboardType: TextInputType.name,
-                                        textCapitalization:
-                                            TextCapitalization.words,
-                                        style: const TextStyle(
-                                          letterSpacing: 0.9,
-                                          fontSize: 18,
-                                          color: ColorPalette.textcolor,
-                                        ),
-                                        decoration: InputDecoration(
-                                            hintText: 'Zip Code ',
-                                            contentPadding:
-                                                const EdgeInsets.symmetric(
-                                                    horizontal: 6,
-                                                    vertical: 15),
-                                            hintStyle: TextStyle(
-                                                letterSpacing: 1,
-                                                color: ColorPalette.textcolor
-                                                    .withOpacity(0.4),
-                                                fontSize: 15,
-                                                fontWeight: FontWeight.w100),
-                                            focusedErrorBorder:
-                                                InputBorder.none,
-                                            errorBorder: InputBorder.none,
-                                            errorStyle: const TextStyle(
-                                                fontSize: 10, height: 0.2),
-                                            enabledBorder: InputBorder.none,
-                                            focusedBorder: InputBorder.none),
-                                        validator: (value) {
-                                          if (value == null ||
-                                              value.trim().isEmpty) {
-                                            return '*This field is mandatory';
-                                          }
-
-                                          return null;
-                                        },
-                                      ),
+                                  child: TextFormField(
+                                    controller: zipcode,
+                                    cursorHeight: 22,
+                                    cursorColor: ColorPalette.secondarycolor,
+                                    keyboardType: TextInputType.name,
+                                    textCapitalization:
+                                        TextCapitalization.words,
+                                    style: const TextStyle(
+                                      letterSpacing: 0.9,
+                                      fontSize: 18,
+                                      color: ColorPalette.textcolor,
                                     ),
-                                  )
-                                ],
+                                    decoration: InputDecoration(
+                                        hintText: 'Zip Code ',
+                                        contentPadding:
+                                            const EdgeInsets.symmetric(
+                                                horizontal: 6, vertical: 15),
+                                        hintStyle: TextStyle(
+                                            letterSpacing: 1,
+                                            color: ColorPalette.textcolor
+                                                .withOpacity(0.4),
+                                            fontSize: 15,
+                                            fontWeight: FontWeight.w100),
+                                        focusedErrorBorder: InputBorder.none,
+                                        errorBorder: InputBorder.none,
+                                        errorStyle: const TextStyle(
+                                            fontSize: 10, height: 0.2),
+                                        enabledBorder: InputBorder.none,
+                                        focusedBorder: InputBorder.none),
+                                    validator: (value) {
+                                      if (value == null ||
+                                          value.trim().isEmpty) {
+                                        return '*This field is mandatory';
+                                      }
+
+                                      return null;
+                                    },
+                                  ),
+                                ),
                               ),
                               TextButton(
                                 style: ButtonStyle(
@@ -715,9 +580,9 @@ class _EditProfileState extends State<EditProfile> {
                                   });
 
                                   if (address.text.isNotEmpty ||
-                                      city.text.isNotEmpty ||
-                                      state.text.isNotEmpty ||
-                                      country.text.isNotEmpty ||
+                                      city.isNotEmpty ||
+                                      state.isNotEmpty ||
+                                      country.isNotEmpty ||
                                       zipcode.text.isNotEmpty) {
                                     loader();
                                     if (formKey.currentState!.validate()) {
@@ -731,10 +596,17 @@ class _EditProfileState extends State<EditProfile> {
                                       newUser.displayName = displayName.text;
                                       newUser.emailId = email.text;
                                       newUser.address = address.text;
-                                      newUser.city = city.text;
-                                      newUser.state = state.text;
-                                      newUser.country = country.text;
+                                      newUser.city = (city.isEmpty)
+                                          ? widget.user.city
+                                          : city;
+                                      newUser.state = (state.isEmpty)
+                                          ? widget.user.state
+                                          : state;
+                                      newUser.country = (country.isEmpty)
+                                          ? widget.user.country
+                                          : country;
                                       newUser.zipcode = zipcode.text;
+                                      newUser.subId = '1';
                                       newUser.id = widget.user.id;
                                       newUser.coins = widget.user.coins;
                                       newUser.xp = widget.user.xp;
@@ -778,13 +650,14 @@ class _EditProfileState extends State<EditProfile> {
                                     newUser.displayName = displayName.text;
                                     newUser.emailId = email.text;
                                     newUser.address = address.text;
-                                    newUser.city = city.text;
-                                    newUser.state = state.text;
-                                    newUser.country = country.text;
+                                    newUser.city = city;
+                                    newUser.state = state;
+                                    newUser.country = country;
                                     newUser.zipcode = zipcode.text;
                                     newUser.id = widget.user.id;
                                     newUser.coins = widget.user.coins;
                                     newUser.xp = widget.user.xp;
+                                    newUser.subId = '1';
                                     newUser.lifes = widget.user.lifes;
                                     newUser.lastused = widget.user.lastused;
                                     newUser.avatar =
@@ -841,8 +714,8 @@ class _EditProfileState extends State<EditProfile> {
                           ),
                         ),
                       ),
-                      (userDetails.avatar == null ||
-                              userDetails.avatar == 'null')
+                      (widget.user.avatar == null ||
+                              widget.user.avatar == 'null')
                           ? Positioned(
                               top: -size.height * 0.085,
                               child: FluttermojiCircleAvatar(
@@ -856,7 +729,7 @@ class _EditProfileState extends State<EditProfile> {
                                 backgroundColor: ColorPalette.backgroundcolor1,
                                 radius: size.height * 0.085,
                                 child: SvgPicture.string(
-                                  userDetails.avatar ?? '',
+                                  widget.user.avatar!,
                                   width: size.height * 0.13,
                                 ),
                               ),

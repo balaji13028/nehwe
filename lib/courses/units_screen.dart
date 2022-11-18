@@ -11,6 +11,7 @@ import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/models/user_intime.dart';
+import '../api_calls/buddies_api.dart';
 import '../api_calls/concepts_api.dart';
 import '../constants/color_palettes.dart';
 import 'dart:math' as math;
@@ -587,10 +588,19 @@ class _UnitsState extends State<Units> {
                             )),
                       ],
                       currentIndex: _currentIndex,
-                      onTap: (index) {
-                        setState(() {
-                          _currentIndex = index;
-                        });
+                      onTap: (index) async {
+                        if (index == 2) {
+                          await buddies(user.id);
+                          setState(() {
+                            _currentIndex = index;
+                            _isLoaderVisible = true;
+                            loader();
+                          });
+                        } else {
+                          setState(() {
+                            _currentIndex = index;
+                          });
+                        }
                       },
                     )
                   : CustomNavigationBar(
@@ -639,10 +649,18 @@ class _UnitsState extends State<Units> {
                           ),
                         ),
                       ],
-                      onTap: (index) {
-                        setState(() {
-                          _currentIndex = index;
-                        });
+                      onTap: (index) async {
+                        if (index == 2) {
+                          await buddies(user.id);
+                          setState(() {
+                            _currentIndex = index;
+                            loader();
+                          });
+                        } else {
+                          setState(() {
+                            _currentIndex = index;
+                          });
+                        }
                       },
                     ),
             ],

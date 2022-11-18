@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/speech_to_text/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    }
+]

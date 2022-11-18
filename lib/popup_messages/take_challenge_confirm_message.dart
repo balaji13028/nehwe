@@ -1,63 +1,101 @@
 import 'package:flutter/material.dart';
+import 'package:loader_overlay/loader_overlay.dart';
+import 'package:nehwe/loadings/loader.dart';
 import '../constants/color_palettes.dart';
 import '../loadings/loading_screen.dart';
+import '../models/user_details_model.dart';
+
+bool _isLoaderVisible = false;
+loader(BuildContext context) async {
+  if (_isLoaderVisible) {
+    context.loaderOverlay.show();
+  } else {
+    context.loaderOverlay.hide();
+  }
+}
 
 confirmToChallenge(BuildContext context) {
+  Size size = MediaQuery.of(context).size;
+  UserProfileData user = localUserList[0];
   return showDialog(
+      barrierDismissible: false,
       context: context,
       builder: (context) {
-        return AlertDialog(
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-          title: const Text('Confirmation!'),
-          titleTextStyle: const TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-              color: ColorPalette.textcolor),
-          content: const Text(
-            'Are you sure you want to take challenge ?',
-            style: TextStyle(
-                fontSize: 14,
-                //fontWeight: FontWeight.bold,
+        return GlobalLoaderOverlay(
+          useDefaultLoading: false,
+          overlayWidget: const Loader(),
+          child: AlertDialog(
+            backgroundColor: ColorPalette.backgroundcolor2,
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+            title: const Text('Confirmation!', textAlign: TextAlign.center),
+            titleTextStyle: const TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
                 color: ColorPalette.textcolor),
-          ),
-          actions: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                TextButton(
-                    style: ButtonStyle(
-                      overlayColor: MaterialStateColor.resolveWith(
-                          (states) => Colors.transparent),
-                    ),
-                    onPressed: () {
-                      Navigator.pop(context);
-                    },
-                    child: const Text(
-                      'NO',
-                      style: TextStyle(
-                          fontSize: 18, color: ColorPalette.secondarycolor),
-                    )),
-                TextButton(
-                    style: ButtonStyle(
-                      overlayColor: MaterialStateColor.resolveWith(
-                          (states) => Colors.transparent),
-                    ),
-                    onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: ((context) => LoadingScreen(
-                                  text: 'Searching for buddies'))));
-                    },
-                    child: const Text(
-                      'YES',
-                      style: TextStyle(
-                          fontSize: 18, color: ColorPalette.secondarycolor),
-                    ))
-              ],
+            content: const Text(
+              'Are you sure you want to take challenge ?',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 16,
+                  //fontWeight: FontWeight.bold,
+                  color: ColorPalette.textcolor),
             ),
-          ],
+            actions: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  TextButton(
+                      style: ButtonStyle(
+                        overlayColor: MaterialStateColor.resolveWith(
+                            (states) => Colors.transparent),
+                      ),
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: Container(
+                        height: size.height * 0.035,
+                        width: size.width * 0.25,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50),
+                            border: Border.all(
+                                width: 1, color: ColorPalette.secondarycolor)),
+                        child: const Text(
+                          'NO',
+                          style: TextStyle(
+                              fontSize: 18, color: ColorPalette.primarycolor),
+                        ),
+                      )),
+                  TextButton(
+                      style: ButtonStyle(
+                        overlayColor: MaterialStateColor.resolveWith(
+                            (states) => Colors.transparent),
+                      ),
+                      onPressed: () async {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: ((context) => LoadingScreen(
+                                    text: 'Searching for buddies'))));
+                      },
+                      child: Container(
+                        height: size.height * 0.035,
+                        width: size.width * 0.25,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50),
+                            color: ColorPalette.primarycolor),
+                        child: const Text(
+                          'YES',
+                          style: TextStyle(
+                              fontSize: 18, color: ColorPalette.whitetextcolor),
+                        ),
+                      ))
+                ],
+              ),
+            ],
+          ),
         );
       });
 }

@@ -4,6 +4,9 @@ import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
+import 'package:loader_overlay/loader_overlay.dart';
+import 'package:nehwe/api_calls/buddies_api.dart';
+import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/screens/profile.dart';
 import 'package:nehwe/slide_drawers/slide_drawer.dart';
@@ -35,6 +38,14 @@ class _DashBoardState extends State<DashBoard> {
   String minutes = '';
   String seconds = '';
   int _currentIndex = 0;
+  bool _isLoaderVisible = false;
+  loader() async {
+    if (_isLoaderVisible) {
+      context.loaderOverlay.show();
+    } else {
+      context.loaderOverlay.hide();
+    }
+  }
 
   timerRun() {
     _timeasString = DateFormat("kk:mm:ss").format(intime);
@@ -91,20 +102,24 @@ class _DashBoardState extends State<DashBoard> {
       },
       child: Scaffold(
         backgroundColor: ColorPalette.whitetextcolor,
-        body: Column(
-          children: [
-            if (_currentIndex == 0)
-              Homepage(slider: slidebar)
-            else if (_currentIndex == 2)
-              const Buddies()
-            else if (_currentIndex == 3)
-              Profile(
-                minutesinString: minutes,
-                secondsString: seconds,
-              )
-            else if (_currentIndex == 1)
-              const LeaderBaord()
-          ],
+        body: GlobalLoaderOverlay(
+          useDefaultLoading: false,
+          overlayWidget: const Loader(),
+          child: Column(
+            children: [
+              if (_currentIndex == 0)
+                Homepage(slider: slidebar)
+              else if (_currentIndex == 2)
+                const Buddies()
+              else if (_currentIndex == 3)
+                Profile(
+                  minutesinString: minutes,
+                  secondsString: seconds,
+                )
+              else if (_currentIndex == 1)
+                const LeaderBaord()
+            ],
+          ),
         ),
         key: slidebar,
         drawerEnableOpenDragGesture: false,
@@ -182,10 +197,18 @@ class _DashBoardState extends State<DashBoard> {
                     )),
               ],
               currentIndex: _currentIndex,
-              onTap: (index) {
-                setState(() {
-                  _currentIndex = index;
-                });
+              onTap: (index) async {
+                if (index == 2) {
+                  loader();
+                  await buddies(user.id);
+                  setState(() {
+                    _currentIndex = index;
+                  });
+                } else {
+                  setState(() {
+                    _currentIndex = index;
+                  });
+                }
               },
             ),
           ],

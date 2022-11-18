@@ -30,23 +30,26 @@ class _LoadingScreenState extends State<LoadingScreen>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: ColorPalette.backgroundcolor2,
-      child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-        Lottie.asset('assets/lottie/loading_buddies.json',
-            controller: lottieController, onLoaded: (comp) {
-          lottieController
-            ..duration = const Duration(seconds: 20)
-            ..forward();
-        }, animate: true),
-        Text(
-          widget.text,
-          style: const TextStyle(
-              fontSize: 18,
-              color: ColorPalette.primarycolor,
-              fontWeight: FontWeight.bold),
-        )
-      ]),
+    return Scaffold(
+      appBar: AppBar(),
+      body: Container(
+        color: ColorPalette.backgroundcolor2,
+        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Lottie.asset('assets/lottie/loading_buddies.json',
+              controller: lottieController, onLoaded: (comp) {
+            lottieController
+              ..duration = const Duration(seconds: 20)
+              ..forward();
+          }, animate: true),
+          Text(
+            widget.text,
+            style: const TextStyle(
+                fontSize: 18,
+                color: ColorPalette.primarycolor,
+                fontWeight: FontWeight.bold),
+          )
+        ]),
+      ),
     );
   }
 }

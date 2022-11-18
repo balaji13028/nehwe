@@ -16,7 +16,7 @@ class ProfileInfo2 extends StatefulWidget {
 
 class _ProfileInfo2State extends State<ProfileInfo2> {
   final formKey = GlobalKey<FormState>();
-  GlobalKey<CSCPickerState> _cscPickerKey = GlobalKey();
+  GlobalKey<CSCPickerState> cscPickerKey = GlobalKey();
   String email = '';
   String address = '';
   String city = '';
@@ -70,7 +70,7 @@ class _ProfileInfo2State extends State<ProfileInfo2> {
                     Container(
                       height: size.height * 0.045,
                       width: double.infinity,
-                      margin: const EdgeInsets.symmetric(vertical: 5),
+                      margin: const EdgeInsets.only(top: 10),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(50),
                           color: ColorPalette.statusfillcolor.withOpacity(0.4)),
@@ -118,14 +118,13 @@ class _ProfileInfo2State extends State<ProfileInfo2> {
                     Container(
                       height: size.height * 0.045,
                       width: double.infinity,
-                      margin: const EdgeInsets.symmetric(vertical: 5),
-                      alignment: Alignment.center,
+                      margin: const EdgeInsets.only(bottom: 8, top: 10),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(50),
                           color: ColorPalette.statusfillcolor.withOpacity(0.4)),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 15, bottom: 8),
+                      padding: const EdgeInsets.only(left: 15),
                       child: TextFormField(
                         textAlignVertical: TextAlignVertical.top,
                         cursorHeight: 20,
@@ -163,58 +162,54 @@ class _ProfileInfo2State extends State<ProfileInfo2> {
                       ),
                     ),
                   ]),
-                  Container(
-                    child: CSCPicker(
-                      key: _cscPickerKey,
-                      dropdownDecoration: BoxDecoration(
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(50)),
-                        color: ColorPalette.statusfillcolor.withOpacity(0.4),
-                      ),
-                      disabledDropdownDecoration: BoxDecoration(
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(50)),
-                        color: ColorPalette.statusfillcolor.withOpacity(0.4),
-                      ),
-                      selectedItemStyle: TextStyle(
-                          letterSpacing: 0.9,
-                          fontSize: (country.isEmpty) ? 15 : 18,
-                          color: (country.isEmpty)
-                              ? ColorPalette.textcolor.withOpacity(0.4)
-                              : ColorPalette.textcolor),
-
-                      searchBarRadius: 50,
-                      layout: Layout.horizontal,
-                      flagState: CountryFlag.DISABLE,
-                      dropdownDialogRadius: 20,
-                      countrySearchPlaceholder: "Country",
-                      stateSearchPlaceholder: "State",
-                      citySearchPlaceholder: "City",
-
-                      ///labels for dropdown
-                      countryDropdownLabel: " Country",
-                      stateDropdownLabel: " State",
-                      cityDropdownLabel: " City",
-                      onCountryChanged: (value) {
-                        setState(() {
-                          country = value;
-                        });
-                      },
-                      onStateChanged: (value) {
-                        setState(() {
-                          if (value != null) {
-                            state = value;
-                          }
-                        });
-                      },
-                      onCityChanged: (value) {
-                        setState(() {
-                          if (value != null) {
-                            city = value;
-                          }
-                        });
-                      },
+                  CSCPicker(
+                    key: cscPickerKey,
+                    dropdownDecoration: BoxDecoration(
+                      borderRadius: const BorderRadius.all(Radius.circular(50)),
+                      color: ColorPalette.statusfillcolor.withOpacity(0.4),
                     ),
+                    disabledDropdownDecoration: BoxDecoration(
+                      borderRadius: const BorderRadius.all(Radius.circular(50)),
+                      color: ColorPalette.statusfillcolor.withOpacity(0.4),
+                    ),
+                    selectedItemStyle: TextStyle(
+                        letterSpacing: 0.9,
+                        fontSize: (country.isEmpty) ? 15 : 18,
+                        color: (country.isEmpty)
+                            ? ColorPalette.textcolor.withOpacity(0.4)
+                            : ColorPalette.textcolor),
+
+                    searchBarRadius: 50,
+                    layout: Layout.vertical,
+                    flagState: CountryFlag.DISABLE,
+                    dropdownDialogRadius: 20,
+                    countrySearchPlaceholder: "Country",
+                    stateSearchPlaceholder: "State",
+                    citySearchPlaceholder: "City",
+
+                    ///labels for dropdown
+                    countryDropdownLabel: " Country",
+                    stateDropdownLabel: " State",
+                    cityDropdownLabel: " City",
+                    onCountryChanged: (value) {
+                      setState(() {
+                        country = '  $value';
+                      });
+                    },
+                    onStateChanged: (value) {
+                      setState(() {
+                        if (value != null) {
+                          state = '  $value';
+                        }
+                      });
+                    },
+                    onCityChanged: (value) {
+                      setState(() {
+                        if (value != null) {
+                          city = '  $value';
+                        }
+                      });
+                    },
                   ),
                   Stack(children: [
                     Container(
@@ -308,12 +303,12 @@ class _ProfileInfo2State extends State<ProfileInfo2> {
                         onTap: () async {
                           if (formKey.currentState!.validate()) {
                             formKey.currentState!.save();
-                            newUser.emailId = email;
-                            newUser.address = address;
-                            newUser.city = city;
-                            newUser.state = state;
-                            newUser.country = country;
-                            newUser.zipcode = zipcode;
+                            newUser.emailId = email.trim();
+                            newUser.address = address.trim();
+                            newUser.city = city.trim();
+                            newUser.state = state.trim();
+                            newUser.country = country.trim();
+                            newUser.zipcode = zipcode.trim();
                             await coinslifes(newUser.phoneNumber);
                             // ignore: use_build_context_synchronously
                             Navigator.push(

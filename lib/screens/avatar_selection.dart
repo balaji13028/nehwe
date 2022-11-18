@@ -82,6 +82,7 @@ class _AvatarSelectionState extends State<AvatarSelection> {
                               String svgstring = await FluttermojiFunctions()
                                   .encodeMySVGtoString();
                               newUser.avatar = svgstring;
+                              newUser.subId = '1';
                               newUser.xp = '0';
                               newUser.lifes = userdata.lifes;
                               newUser.coins = userdata.coins;
