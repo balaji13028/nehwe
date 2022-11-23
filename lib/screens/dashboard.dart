@@ -10,6 +10,7 @@ import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/screens/profile.dart';
 import 'package:nehwe/slide_drawers/slide_drawer.dart';
+import '../api_calls/listof_users.dart';
 import '../constants/color_palettes.dart';
 import '../models/courses_model.dart';
 import '../models/user_intime.dart';
@@ -201,6 +202,7 @@ class _DashBoardState extends State<DashBoard> {
                 if (index == 2) {
                   loader();
                   await buddies(user.id);
+                  await noOfUsers(user.id);
                   setState(() {
                     _currentIndex = index;
                   });

@@ -68,7 +68,7 @@ Future<List<UserProfileData>> user() async {
     userslist[0].lifes =
         setuserLifes(userslist[0].lastused, userslist.first.lifes);
   }
-  print(userslist[0]);
+
   localUserList = userslist;
   return userslist;
 }

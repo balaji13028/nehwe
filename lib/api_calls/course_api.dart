@@ -13,7 +13,6 @@ Future<List<CoursesData>> coursesList(userId) async {
   //print('courses list is ${maps.toString()}');
   debugPrint('course status is ${response.statusCode}');
   List<CoursesData> coursesList = List.generate(maps.length, (index) {
-    var image = base64Decode(maps[index]['imagePath'].toString());
     return CoursesData(
       courseId: (maps[index]['courseId']).toString(),
       courseName: (maps[index]['courseName']).toString(),

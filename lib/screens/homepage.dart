@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/listof_users.dart';
+import 'package:nehwe/courses/search_courses.dart';
 import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/profile_pages/profile_screen.dart';
 import '../api_calls/units_api.dart';
@@ -207,14 +208,16 @@ class _HomepageState extends State<Homepage> {
                               borderRadius: BorderRadius.circular(10),
                               color: ColorPalette.searchbarcolor),
                           child: TextFormField(
+                            readOnly: true,
+                            onTap: () {
+                              showSearch(
+                                  context: context, delegate: SearchCourses());
+                            },
                             style: const TextStyle(
                                 fontSize: 18, color: ColorPalette.textcolor),
                             cursorColor: const Color.fromARGB(244, 2, 65, 92),
                             decoration: InputDecoration(
                                 suffixIcon: GestureDetector(
-                                  onTap: () async {
-                                    await noOfUsers(user.id);
-                                  },
                                   child: const Icon(Icons.search_sharp,
                                       color: ColorPalette.textcolor),
                                 ),

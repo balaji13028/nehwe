@@ -32,7 +32,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(fontFamily: 'Proxima Nova'),
+        theme: ThemeData(
+            fontFamily: 'Proxima Nova',
+            appBarTheme:
+                const AppBarTheme(color: ColorPalette.backgroundcolor2)),
         home: const SplashScreen(),
         builder: EasyLoading.init(
           builder: (context, child) {
