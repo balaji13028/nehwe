@@ -51,21 +51,26 @@ List<BuddyProfileData> listofusers = [];
 BuddyProfileData newBuddy = BuddyProfileData();
 
 class FriendRequestsData {
-  String? senderUesrId, requetsedUserId, friendStatus;
+  String? senderUesrId, requetsedUserId, friendStatus, suggestionId;
   FriendRequestsData(
-      {this.senderUesrId, this.requetsedUserId, this.friendStatus});
+      {this.senderUesrId,
+      this.requetsedUserId,
+      this.friendStatus,
+      this.suggestionId});
   Map<String, dynamic> toMap() {
     return {
       'senderUesrId': senderUesrId,
       'requetsedUserId': requetsedUserId,
+      'suggestionId': suggestionId,
       'friendStatus': friendStatus
     };
   }
 
   @override
   String toString() {
-    return 'friend_requests{senderUesrId:$senderUesrId, requetsedUserId:$requetsedUserId,friendStatus:$friendStatus}';
+    return 'friend_requests{senderUesrId:$senderUesrId, requetsedUserId:$requetsedUserId,friendStatus:$friendStatus,suggestionId:$suggestionId}';
   }
 }
 
 List<FriendRequestsData> requestsList = [];
+List<FriendRequestsData> suggestionsList = [];

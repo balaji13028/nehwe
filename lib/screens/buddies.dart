@@ -20,13 +20,17 @@ class _BuddiesState extends State<Buddies> {
   List<BuddyProfileData> buddies = buddiesList;
   List<BuddyProfileData> listusers = listofusers;
   List<FriendRequestsData> requets = requestsList;
+  List<FriendRequestsData> suggestions = suggestionsList;
   List<bool> ontap = [];
   UserProfileData user = localUserList[0];
   bool isLoaderVisible = false;
-  // List<BuddyProfileData>
+  List<bool> rejected = [];
+  List<bool> accepted = [];
+  List<bool> addBuddy = [];
+  List<bool> remove = [];
   var friendRequests = [];
   List<BuddyProfileData> friends = [];
-  List<BuddyProfileData> pendingRequests = [];
+  List<BuddyProfileData> friendsuggestions = [];
   loader() async {
     if (isLoaderVisible) {
       context.loaderOverlay.show();
@@ -41,7 +45,7 @@ class _BuddiesState extends State<Buddies> {
       if (values.status == '1') {
         friends.add(values);
       }
-    }
+    } //to get friends list
 
     for (var data in requets) {
       if (data.requetsedUserId == user.id) {
@@ -52,7 +56,15 @@ class _BuddiesState extends State<Buddies> {
           }
         }
       }
-    }
+    } // to get friend requests.
+
+    for (var a in suggestions) {
+      for (var b in listusers) {
+        if (a.suggestionId == b.buddyId && b.status != '0') {
+          friendsuggestions.add(b);
+        }
+      }
+    } // to get suggestions friend details from listofusers compare to suggestions ids.
     super.initState();
   }
 
@@ -193,8 +205,10 @@ class _BuddiesState extends State<Buddies> {
                                         const NeverScrollableScrollPhysics(),
                                     itemBuilder: (context, index) {
                                       ontap.add(false);
+                                      rejected.add(false);
+                                      accepted.add(false);
                                       return GestureDetector(
-                                        onTap: () {
+                                        onTap: () async {
                                           Navigator.push(
                                               context,
                                               MaterialPageRoute(
@@ -203,154 +217,200 @@ class _BuddiesState extends State<Buddies> {
                                                           buddy: friendRequests[
                                                               index]))));
                                         },
-                                        child: Container(
-                                          height: size.height * 0.06,
-                                          width: double.infinity,
-                                          margin:
-                                              const EdgeInsets.only(top: 10),
-                                          padding: const EdgeInsets.only(
-                                              left: 10, top: 2, bottom: 2),
-                                          decoration: BoxDecoration(
-                                              borderRadius:
-                                                  BorderRadius.circular(10),
-                                              color:
-                                                  ColorPalette.whitetextcolor,
-                                              boxShadow: const []),
-                                          child: Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            children: [
-                                              SizedBox(
+                                        child: (rejected[index] == true)
+                                            ? const SizedBox()
+                                            : Container(
+                                                height: size.height * 0.06,
+                                                width: double.infinity,
+                                                margin: const EdgeInsets.only(
+                                                    top: 10),
+                                                padding: const EdgeInsets.only(
+                                                    left: 10,
+                                                    top: 2,
+                                                    bottom: 2),
+                                                decoration: BoxDecoration(
+                                                  borderRadius:
+                                                      BorderRadius.circular(10),
+                                                  color: ColorPalette
+                                                      .whitetextcolor,
+                                                ),
                                                 child: Row(
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment
+                                                          .spaceBetween,
                                                   children: [
-                                                    CircleAvatar(
-                                                      backgroundColor:
-                                                          ColorPalette
-                                                              .backgroundcolor1,
-                                                      radius:
-                                                          size.height * 0.03,
-                                                      child: SvgPicture.string(
-                                                        friendRequests[index]
-                                                            .buddyAvatar!,
-                                                        width:
-                                                            size.width * 0.088,
+                                                    SizedBox(
+                                                      child: Row(
+                                                        children: [
+                                                          CircleAvatar(
+                                                            backgroundColor:
+                                                                ColorPalette
+                                                                    .backgroundcolor1,
+                                                            radius:
+                                                                size.height *
+                                                                    0.03,
+                                                            child: SvgPicture
+                                                                .string(
+                                                              friendRequests[
+                                                                      index]
+                                                                  .buddyAvatar!,
+                                                              width:
+                                                                  size.width *
+                                                                      0.088,
+                                                            ),
+                                                          ),
+                                                          Padding(
+                                                            padding:
+                                                                const EdgeInsets
+                                                                        .only(
+                                                                    left: 10),
+                                                            child: Text(
+                                                              friendRequests[
+                                                                          index]
+                                                                      .buddyDisplayName ??
+                                                                  'buddy',
+                                                              style: const TextStyle(
+                                                                  fontSize: 18,
+                                                                  color: ColorPalette
+                                                                      .textcolor,
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .w600),
+                                                            ),
+                                                          ),
+                                                        ],
                                                       ),
                                                     ),
-                                                    Padding(
-                                                      padding:
-                                                          const EdgeInsets.only(
-                                                              left: 10),
-                                                      child: Text(
-                                                        friendRequests[index]
-                                                                .buddyDisplayName ??
-                                                            'buddy',
-                                                        style: const TextStyle(
-                                                            fontSize: 18,
+                                                    (accepted[index] == true)
+                                                        ? const Icon(
+                                                            Icons.check,
                                                             color: ColorPalette
-                                                                .textcolor,
-                                                            fontWeight:
-                                                                FontWeight
-                                                                    .w600),
-                                                      ),
-                                                    ),
+                                                                .greenColor,
+                                                            size: 24,
+                                                          )
+                                                        : Row(
+                                                            mainAxisAlignment:
+                                                                MainAxisAlignment
+                                                                    .end,
+                                                            children: [
+                                                              TextButton(
+                                                                style:
+                                                                    ButtonStyle(
+                                                                  overlayColor:
+                                                                      MaterialStateColor.resolveWith(
+                                                                          (states) =>
+                                                                              Colors.transparent),
+                                                                ),
+                                                                onPressed:
+                                                                    () async {
+                                                                  setState(() {
+                                                                    ontap[index] =
+                                                                        true;
+                                                                    rejected[
+                                                                            index] =
+                                                                        true;
+                                                                  });
+                                                                  if (ontap[
+                                                                          index] ==
+                                                                      true) {
+                                                                    await friendRequestResponse(
+                                                                        friendRequests[index]
+                                                                            .buddyId,
+                                                                        user.id,
+                                                                        '2');
+                                                                  }
+                                                                },
+                                                                child:
+                                                                    Container(
+                                                                  height:
+                                                                      size.height *
+                                                                          0.03,
+                                                                  width:
+                                                                      size.width *
+                                                                          0.16,
+                                                                  alignment:
+                                                                      Alignment
+                                                                          .center,
+                                                                  decoration: BoxDecoration(
+                                                                      borderRadius:
+                                                                          BorderRadius.circular(
+                                                                              8),
+                                                                      border: Border.all(
+                                                                          width:
+                                                                              0.4,
+                                                                          color:
+                                                                              ColorPalette.secondarycolor)),
+                                                                  child:
+                                                                      const Text(
+                                                                    'Reject',
+                                                                    style: TextStyle(
+                                                                        fontSize:
+                                                                            14,
+                                                                        color: ColorPalette
+                                                                            .primarycolor),
+                                                                  ),
+                                                                ),
+                                                              ),
+                                                              TextButton(
+                                                                style:
+                                                                    ButtonStyle(
+                                                                  overlayColor:
+                                                                      MaterialStateColor.resolveWith(
+                                                                          (states) =>
+                                                                              Colors.transparent),
+                                                                ),
+                                                                onPressed:
+                                                                    () async {
+                                                                  setState(() {
+                                                                    ontap[index] =
+                                                                        true;
+                                                                    accepted[
+                                                                            index] =
+                                                                        true;
+                                                                  });
+                                                                  if (ontap[
+                                                                          index] ==
+                                                                      true) {
+                                                                    await friendRequestResponse(
+                                                                        friendRequests[index]
+                                                                            .buddyId,
+                                                                        user.id,
+                                                                        '1');
+                                                                  }
+                                                                },
+                                                                child:
+                                                                    Container(
+                                                                  height:
+                                                                      size.height *
+                                                                          0.03,
+                                                                  width:
+                                                                      size.width *
+                                                                          0.16,
+                                                                  alignment:
+                                                                      Alignment
+                                                                          .center,
+                                                                  decoration: BoxDecoration(
+                                                                      borderRadius:
+                                                                          BorderRadius.circular(
+                                                                              8),
+                                                                      color: ColorPalette
+                                                                          .primarycolor),
+                                                                  child:
+                                                                      const Text(
+                                                                    'Accept',
+                                                                    style: TextStyle(
+                                                                        fontSize:
+                                                                            14,
+                                                                        color: ColorPalette
+                                                                            .whitetextcolor),
+                                                                  ),
+                                                                ),
+                                                              ),
+                                                            ],
+                                                          ),
                                                   ],
                                                 ),
                                               ),
-                                              Row(
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.end,
-                                                children: [
-                                                  TextButton(
-                                                    style: ButtonStyle(
-                                                      overlayColor: MaterialStateColor
-                                                          .resolveWith(
-                                                              (states) => Colors
-                                                                  .transparent),
-                                                    ),
-                                                    onPressed: () async {
-                                                      setState(() {
-                                                        ontap[index] = true;
-                                                      });
-                                                      if (ontap[index] ==
-                                                          true) {
-                                                        await friendRequestResponse(
-                                                            user.id,
-                                                            friendRequests[
-                                                                    index]
-                                                                .buddyId,
-                                                            '2');
-                                                      }
-                                                    },
-                                                    child: Container(
-                                                      height:
-                                                          size.height * 0.03,
-                                                      width: size.width * 0.16,
-                                                      alignment:
-                                                          Alignment.center,
-                                                      decoration: BoxDecoration(
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(8),
-                                                          border: Border.all(
-                                                              width: 0.4,
-                                                              color: ColorPalette
-                                                                  .secondarycolor)),
-                                                      child: const Text(
-                                                        'Reject',
-                                                        style: TextStyle(
-                                                            fontSize: 14,
-                                                            color: ColorPalette
-                                                                .primarycolor),
-                                                      ),
-                                                    ),
-                                                  ),
-                                                  TextButton(
-                                                    style: ButtonStyle(
-                                                      overlayColor: MaterialStateColor
-                                                          .resolveWith(
-                                                              (states) => Colors
-                                                                  .transparent),
-                                                    ),
-                                                    onPressed: () async {
-                                                      setState(() {
-                                                        ontap[index] = true;
-                                                      });
-                                                      if (ontap[index] ==
-                                                          true) {
-                                                        await friendRequestResponse(
-                                                            friendRequests[
-                                                                    index]
-                                                                .buddyId,
-                                                            user.id,
-                                                            '1');
-                                                      }
-                                                    },
-                                                    child: Container(
-                                                      height:
-                                                          size.height * 0.03,
-                                                      width: size.width * 0.16,
-                                                      alignment:
-                                                          Alignment.center,
-                                                      decoration: BoxDecoration(
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(8),
-                                                          color: ColorPalette
-                                                              .primarycolor),
-                                                      child: const Text(
-                                                        'Accept',
-                                                        style: TextStyle(
-                                                            fontSize: 14,
-                                                            color: ColorPalette
-                                                                .whitetextcolor),
-                                                      ),
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ],
-                                          ),
-                                        ),
                                       );
                                     },
                                   ),
@@ -360,7 +420,7 @@ class _BuddiesState extends State<Buddies> {
                           Row(
                             children: [
                               Text(
-                                'Your Buddies ',
+                                'Buddies '.trim(),
                                 style: TextStyle(
                                   color:
                                       ColorPalette.textcolor.withOpacity(0.8),
@@ -396,15 +456,11 @@ class _BuddiesState extends State<Buddies> {
                                             padding: const EdgeInsets.symmetric(
                                                 horizontal: 10, vertical: 2),
                                             decoration: BoxDecoration(
-                                                borderRadius:
-                                                    BorderRadius.circular(10),
-                                                color:
-                                                    ColorPalette.whitetextcolor,
-                                                boxShadow: const [
-                                                  // BoxShadow(
-                                                  //     offset: Offset(0, 0),
-                                                  //     color: Colors.black45),
-                                                ]),
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                              color:
+                                                  ColorPalette.whitetextcolor,
+                                            ),
                                             child: Row(
                                                 mainAxisAlignment:
                                                     MainAxisAlignment
@@ -462,92 +518,220 @@ class _BuddiesState extends State<Buddies> {
                               : const Center(
                                   child: Text("No buddies"),
                                 ),
+                          const SizedBox(height: 10),
+                          (friendsuggestions.isNotEmpty)
+                              ? Row(
+                                  children: [
+                                    Text(
+                                      'Suggestions'.trim(),
+                                      style: TextStyle(
+                                        color: ColorPalette.textcolor
+                                            .withOpacity(0.8),
+                                        fontSize: 14,
+                                      ),
+                                    ),
+                                  ],
+                                )
+                              : const SizedBox(),
+                          (friendsuggestions.isNotEmpty)
+                              ? ListTileTheme.merge(
+                                  dense: true,
+                                  child: ListView.builder(
+                                      shrinkWrap: true,
+                                      itemCount: friendsuggestions.length,
+                                      physics:
+                                          const NeverScrollableScrollPhysics(),
+                                      itemBuilder: (context, j) {
+                                        remove.add(false);
+                                        addBuddy.add(false);
+                                        return Container(
+                                          height: size.height * 0.06,
+                                          width: double.infinity,
+                                          margin:
+                                              const EdgeInsets.only(top: 10),
+                                          padding: const EdgeInsets.only(
+                                              left: 10,
+                                              right: 5,
+                                              top: 2,
+                                              bottom: 2),
+                                          decoration: BoxDecoration(
+                                            borderRadius:
+                                                BorderRadius.circular(10),
+                                            color: ColorPalette.whitetextcolor,
+                                          ),
+                                          child: (remove[j] == true)
+                                              ? const SizedBox()
+                                              : Row(
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment
+                                                          .spaceBetween,
+                                                  children: [
+                                                      GestureDetector(
+                                                        onTap: () async {
+                                                          if (addBuddy[j] ==
+                                                              true) {
+                                                            setState(() {
+                                                              Navigator.push(
+                                                                  context,
+                                                                  MaterialPageRoute(
+                                                                      builder: ((context) =>
+                                                                          BuddieProfile(
+                                                                              buddy: friendsuggestions[j]))));
+                                                            });
+                                                          } else {
+                                                            Navigator.push(
+                                                                context,
+                                                                MaterialPageRoute(
+                                                                    builder: ((context) =>
+                                                                        BuddieProfile(
+                                                                            buddy:
+                                                                                friendsuggestions[j]))));
+                                                          }
+                                                        },
+                                                        child: SizedBox(
+                                                          child: Row(
+                                                            children: [
+                                                              CircleAvatar(
+                                                                backgroundColor:
+                                                                    ColorPalette
+                                                                        .backgroundcolor1,
+                                                                radius:
+                                                                    size.height *
+                                                                        0.03,
+                                                                child:
+                                                                    SvgPicture
+                                                                        .string(
+                                                                  friendsuggestions[
+                                                                          j]
+                                                                      .buddyAvatar!,
+                                                                  width:
+                                                                      size.width *
+                                                                          0.088,
+                                                                ),
+                                                              ),
+                                                              Padding(
+                                                                padding:
+                                                                    const EdgeInsets
+                                                                            .only(
+                                                                        left:
+                                                                            10),
+                                                                child: Text(
+                                                                  friendsuggestions[
+                                                                              j]
+                                                                          .buddyDisplayName ??
+                                                                      'buddy',
+                                                                  style: const TextStyle(
+                                                                      fontSize:
+                                                                          18,
+                                                                      color: ColorPalette
+                                                                          .primarycolor,
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .w600),
+                                                                ),
+                                                              ),
+                                                            ],
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      (addBuddy[j] == true)
+                                                          ? Row(
+                                                              children: const [
+                                                                Icon(
+                                                                  Icons.check,
+                                                                  size: 24,
+                                                                  color: ColorPalette
+                                                                      .greenColor,
+                                                                ),
+                                                                Text(
+                                                                  'Request Sent',
+                                                                  style: TextStyle(
+                                                                      fontSize:
+                                                                          14,
+                                                                      color: ColorPalette
+                                                                          .textcolor),
+                                                                ),
+                                                              ],
+                                                            )
+                                                          : Row(
+                                                              children: [
+                                                                TextButton(
+                                                                  style:
+                                                                      ButtonStyle(
+                                                                    overlayColor:
+                                                                        MaterialStateColor.resolveWith((states) =>
+                                                                            Colors.transparent),
+                                                                  ),
+                                                                  onPressed:
+                                                                      () async {
+                                                                    setState(
+                                                                        () {
+                                                                      addBuddy[
+                                                                              j] =
+                                                                          true;
+                                                                      friendsuggestions[
+                                                                              j]
+                                                                          .status = '0';
+                                                                    });
+                                                                    await friendRequestResponse(
+                                                                        user.id,
+                                                                        friendsuggestions[j]
+                                                                            .buddyId,
+                                                                        '0');
+                                                                  },
+                                                                  child:
+                                                                      Container(
+                                                                    height: size
+                                                                            .height *
+                                                                        0.034,
+                                                                    width: size
+                                                                            .width *
+                                                                        0.22,
+                                                                    alignment:
+                                                                        Alignment
+                                                                            .center,
+                                                                    decoration: BoxDecoration(
+                                                                        borderRadius:
+                                                                            BorderRadius.circular(
+                                                                                6),
+                                                                        color: ColorPalette
+                                                                            .primarycolor),
+                                                                    child:
+                                                                        const Text(
+                                                                      'Add Buddy',
+                                                                      style: TextStyle(
+                                                                          fontSize:
+                                                                              14,
+                                                                          color:
+                                                                              ColorPalette.whitetextcolor),
+                                                                    ),
+                                                                  ),
+                                                                ),
+                                                                GestureDetector(
+                                                                  onTap: () {
+                                                                    setState(
+                                                                        () {
+                                                                      remove[j] =
+                                                                          true;
+                                                                    });
+                                                                  },
+                                                                  child: const Icon(
+                                                                      Icons
+                                                                          .clear,
+                                                                      size: 22,
+                                                                      color: ColorPalette
+                                                                          .exiticoncolor),
+                                                                )
+                                                              ],
+                                                            ),
+                                                    ]),
+                                        );
+                                      }),
+                                )
+                              : const SizedBox()
                         ]),
                       ),
                     )
-
-                    //     ])
-                    //     // Row(
-                    //     //   children: [
-                    //     //     Text(
-                    //     //       'Suggestions ',
-                    //     //       style: TextStyle(
-                    //     //         color: ColorPalette.textcolor.withOpacity(0.8),
-                    //     //         fontSize: 13,
-                    //     //       ),
-                    //     //     ),
-                    //     //   ],
-                    //     // ),
-                    //     // Expanded(
-                    //     //   child: ListView.builder(
-                    //     //     itemCount: 4,
-                    //     //     physics: const ClampingScrollPhysics(),
-                    //     //     itemBuilder: (context, index) {
-                    //     //       return GestureDetector(
-                    //     //         onTap: () {
-                    //     //           Navigator.push(
-                    //     //               context,
-                    //     //               MaterialPageRoute(
-                    //     //                   builder: ((context) => const BuddieAdd())));
-                    //     //         },
-                    //     //         child: Container(
-                    //     //           height: size.height * 0.06,
-                    //     //           width: double.infinity,
-                    //     //           margin: const EdgeInsets.only(top: 10, bottom: 10),
-                    //     //           padding: const EdgeInsets.symmetric(
-                    //     //               horizontal: 10, vertical: 5),
-                    //     //           decoration: BoxDecoration(
-                    //     //             borderRadius: BorderRadius.circular(10),
-                    //     //             color: ColorPalette.backgroundcolor2
-                    //     //                 .withOpacity(0.8),
-                    //     //           ),
-                    //     //           child: Row(
-                    //     //             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    //     //             children: [
-                    //     //               SizedBox(
-                    //     //                 child: Row(
-                    //     //                   children: [
-                    //     //                     CircleAvatar(
-                    //     //                       radius: 20,
-                    //     //                       child: Image.asset(
-                    //     //                           'assets/images/avatar1.png'),
-                    //     //                     ),
-                    //     //                     const Padding(
-                    //     //                       padding: EdgeInsets.only(left: 10),
-                    //     //                       child: Text(
-                    //     //                         'Mahamadou_Lovel',
-                    //     //                         style: TextStyle(
-                    //     //                             fontSize: 18,
-                    //     //                             color: ColorPalette.primarycolor,
-                    //     //                             fontWeight: FontWeight.w600),
-                    //     //                       ),
-                    //     //                     ),
-                    //     //                   ],
-                    //     //                 ),
-                    //     //               ),
-                    //     //               Container(
-                    //     //                 height: 35,
-                    //     //                 width: 35,
-                    //     //                 margin: const EdgeInsets.symmetric(
-                    //     //                     horizontal: 5, vertical: 5),
-                    //     //                 decoration: BoxDecoration(
-                    //     //                     borderRadius: BorderRadius.circular(5),
-                    //     //                     color: ColorPalette.secondarycolor),
-                    //     //                 child: const Icon(
-                    //     //                   Icons.add,
-                    //     //                   color: ColorPalette.whitetextcolor,
-                    //     //                   size: 28,
-                    //     //                 ),
-                    //     //               ),
-                    //     //             ],
-                    //     //           ),
-                    //     //         ),
-                    //     //       );
-                    //     //     },
-                    //     //   ),
-                    //     // ),
-                    //   ],
-                    // ),
                   ]),
             ),
           ),

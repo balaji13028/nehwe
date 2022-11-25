@@ -7,7 +7,7 @@ import 'package:nehwe/models/buddies_model.dart';
 
 import '../constants/text_const.dart';
 
-Future buddies(userId) async {
+Future getbuddies(userId) async {
   final response = await http
       .get(Uri.parse('${Consttext.ipAddress}/appgetfrndlist?userId=$userId'));
   debugPrint('user id is $userId');
@@ -50,6 +50,7 @@ Future buddies(userId) async {
   }
 }
 
+//to send reponse to server about the requests.
 Future<String> friendRequestResponse(userId, requestUserID, sendstatus) async {
   final response = await http.post(Uri.parse(
       '${Consttext.ipAddress}/appaddfrnd?userId1=$userId&userId2=$requestUserID&status=$sendstatus'));
@@ -61,6 +62,23 @@ Future<String> friendRequestResponse(userId, requestUserID, sendstatus) async {
     debugPrint('Request failed with status: ${response.statusCode}.');
   }
   return 'friend request to ${response.body}';
+}
+
+//to get friend suggestions.
+Future friendSuggestions(userId) async {
+  final response = await http.get(
+      Uri.parse('${Consttext.ipAddress}/appgetfrndsuggestions?userId=$userId'));
+
+  List<dynamic> maps = json.decode(response.body);
+
+  List<FriendRequestsData> suggestionIds = List.generate(maps.length, (i) {
+    return FriendRequestsData(
+      suggestionId: maps[i]['userId'].toString(),
+    );
+  });
+
+  suggestionsList = suggestionIds;
+  return suggestionIds;
 }
 
 

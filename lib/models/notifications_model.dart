@@ -1,5 +1,8 @@
+import 'dart:async';
+
 class NotificationData {
-  String? title, descripation;
+  String? title, descripation; //fileds inside the class
+
   NotificationData({this.title, this.descripation});
 }
 

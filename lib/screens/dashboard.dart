@@ -200,9 +200,9 @@ class _DashBoardState extends State<DashBoard> {
               currentIndex: _currentIndex,
               onTap: (index) async {
                 if (index == 2) {
-                  loader();
-                  await buddies(user.id);
+                  await getbuddies(user.id);
                   await noOfUsers(user.id);
+                  await friendSuggestions(user.id);
                   setState(() {
                     _currentIndex = index;
                   });

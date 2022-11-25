@@ -17,11 +17,12 @@ class BuddieProfile extends StatefulWidget {
 }
 
 class _BuddieProfileState extends State<BuddieProfile> {
+  bool accepted = false;
+  bool rejected = false;
   bool statusBuddy = false;
   UserProfileData user = localUserList[0];
   @override
   Widget build(BuildContext context) {
-    print(widget.buddy.requestStatus);
     Size size = MediaQuery.of(context).size;
     var totalHeight = size.height;
     var upperContainerheight = size.height * 0.4;
@@ -38,7 +39,7 @@ class _BuddieProfileState extends State<BuddieProfile> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    Navigator.pop(context);
+                    Navigator.of(context).pop();
                   },
                   child: Container(
                     height: 40,
@@ -277,222 +278,208 @@ class _BuddieProfileState extends State<BuddieProfile> {
                   ],
                 ),
               ),
-              (widget.buddy.status != '1')
-                  ? (widget.buddy.requestStatus == '0')
-                      ? Positioned(
-                          top: -size.height * 0.028,
-                          child: Row(
-                            children: [
-                              GestureDetector(
-                                onTap: () async {
-                                  await friendRequestResponse(
-                                      widget.buddy.buddyId, user.id, '2');
-                                  setState(() {
-                                    widget.buddy.status = '-1';
-                                  });
-                                },
-                                child: Card(
-                                  borderOnForeground: false,
-                                  semanticContainer: false,
-                                  color:
-                                      const Color.fromARGB(255, 154, 197, 128),
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(10)),
-                                  child: Container(
-                                    height: size.height * 0.046,
-                                    width: size.width * 0.3,
-                                    alignment: Alignment.center,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                        border: Border.all(
-                                            width: 0.4,
-                                            color: ColorPalette.lifescolor),
-                                        color: ColorPalette.whitetextcolor),
-                                    child: const Text(
-                                      'Reject',
-                                      style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.w500,
-                                          color: ColorPalette.lifescolor),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              const SizedBox(width: 20),
-                              GestureDetector(
-                                onTap: () async {
-                                  await friendRequestResponse(
-                                      widget.buddy.buddyId, user.id, '1');
-                                },
-                                child: Card(
-                                  borderOnForeground: false,
-                                  semanticContainer: false,
-                                  color:
-                                      const Color.fromARGB(255, 154, 197, 128),
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(10)),
-                                  child: Container(
-                                    height: size.height * 0.046,
-                                    width: size.width * 0.3,
-                                    alignment: Alignment.center,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                        color: ColorPalette.greenColor),
-                                    child: const Text(
-                                      'Accept',
-                                      style: TextStyle(
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.w500,
-                                          color: ColorPalette.whitetextcolor),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        )
-                      : Positioned(
-                          top: -28,
-                          child: GestureDetector(
-                            onTap: (widget.buddy.status == '0')
-                                ? null
-                                : () async {
+              (widget.buddy.status == '1')
+                  ? const SizedBox()
+                  : (widget.buddy.requestStatus == '0')
+                      ? Visibility(
+                          visible: (accepted == true || rejected == true)
+                              ? false
+                              : true,
+                          child: Positioned(
+                            top: -size.height * 0.028,
+                            child: Row(
+                              children: [
+                                GestureDetector(
+                                  onTap: () async {
+                                    await friendRequestResponse(
+                                        widget.buddy.buddyId, user.id, '2');
                                     setState(() {
-                                      widget.buddy.status = '0';
-                                      statusBuddy = true;
+                                      rejected = true;
+                                      widget.buddy.requestStatus = '1';
                                     });
-                                    if (statusBuddy == true) {
-                                      await friendRequestResponse(
-                                          user.id, widget.buddy.buddyId, '0');
-                                    }
                                   },
-                            child: Card(
-                              borderOnForeground: false,
-                              semanticContainer: false,
-                              color: const Color.fromARGB(255, 154, 197, 128),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: Container(
-                                  height: 45,
-                                  width: 180,
-                                  alignment: Alignment.center,
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      color: (widget.buddy.status == '0')
-                                          ? ColorPalette.rightAnsFillcolor
-                                          : ColorPalette.greenColor),
-                                  child: Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        (widget.buddy.status == '0')
-                                            ? const Icon(Icons.check,
-                                                size: 28,
-                                                color: ColorPalette.greenColor)
-                                            : const Icon(Icons.add,
-                                                size: 28,
-                                                color: ColorPalette
-                                                    .whitetextcolor),
-                                        const SizedBox(
-                                          width: 10,
-                                        ),
-                                        (widget.buddy.status == '0')
-                                            ? const Text(
-                                                'Request sent',
-                                                style: TextStyle(
-                                                    fontSize: 18,
-                                                    fontWeight: FontWeight.bold,
-                                                    color: ColorPalette
-                                                        .greenColor),
-                                              )
-                                            : const Text(
-                                                'Add Buddy',
-                                                style: TextStyle(
-                                                    fontSize: 18,
-                                                    fontWeight: FontWeight.w500,
-                                                    color: ColorPalette
-                                                        .whitetextcolor),
-                                              ),
-                                      ])),
+                                  child: Card(
+                                    borderOnForeground: false,
+                                    semanticContainer: false,
+                                    color: const Color.fromARGB(
+                                        255, 154, 197, 128),
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(10)),
+                                    child: Container(
+                                      height: size.height * 0.046,
+                                      width: size.width * 0.3,
+                                      alignment: Alignment.center,
+                                      decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          border: Border.all(
+                                              width: 0.4,
+                                              color: ColorPalette.lifescolor),
+                                          color: ColorPalette.whitetextcolor),
+                                      child: const Text(
+                                        'Reject',
+                                        style: TextStyle(
+                                            fontSize: 18,
+                                            fontWeight: FontWeight.w500,
+                                            color: ColorPalette.lifescolor),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 20),
+                                GestureDetector(
+                                  onTap: () async {
+                                    setState(() {
+                                      accepted = true;
+                                    });
+                                    await friendRequestResponse(
+                                        widget.buddy.buddyId, user.id, '1');
+                                  },
+                                  child: Card(
+                                    borderOnForeground: false,
+                                    semanticContainer: false,
+                                    color: const Color.fromARGB(
+                                        255, 154, 197, 128),
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(10)),
+                                    child: Container(
+                                      height: size.height * 0.046,
+                                      width: size.width * 0.3,
+                                      alignment: Alignment.center,
+                                      decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          color: ColorPalette.greenColor),
+                                      child: const Text(
+                                        'Accept',
+                                        style: TextStyle(
+                                            fontSize: 18,
+                                            fontWeight: FontWeight.w500,
+                                            color: ColorPalette.whitetextcolor),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         )
-                  : const SizedBox(),
+                      : (widget.buddy.status == '-1' || rejected == true)
+                          ? Positioned(
+                              top: -28,
+                              child: GestureDetector(
+                                onTap: (statusBuddy == true)
+                                    ? null
+                                    : () async {
+                                        setState(() {
+                                          widget.buddy.status = '0';
+                                          statusBuddy = true;
+                                        });
+                                        if (statusBuddy == true) {
+                                          await friendRequestResponse(user.id,
+                                              widget.buddy.buddyId, '0');
+                                        }
+                                      },
+                                child: Card(
+                                  borderOnForeground: false,
+                                  semanticContainer: false,
+                                  color:
+                                      const Color.fromARGB(255, 154, 197, 128),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Container(
+                                      height: 45,
+                                      width: 180,
+                                      alignment: Alignment.center,
+                                      decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          color: (statusBuddy == true)
+                                              ? ColorPalette.rightAnsFillcolor
+                                              : ColorPalette.greenColor),
+                                      child: Row(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.center,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            (statusBuddy == true)
+                                                ? const Icon(Icons.check,
+                                                    size: 28,
+                                                    color:
+                                                        ColorPalette.greenColor)
+                                                : const Icon(Icons.add,
+                                                    size: 28,
+                                                    color: ColorPalette
+                                                        .whitetextcolor),
+                                            const SizedBox(width: 10),
+                                            (statusBuddy == true)
+                                                ? const Text(
+                                                    'Request sent',
+                                                    style: TextStyle(
+                                                        fontSize: 18,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        color: ColorPalette
+                                                            .greenColor),
+                                                  )
+                                                : const Text(
+                                                    'Add Buddy',
+                                                    style: TextStyle(
+                                                        fontSize: 18,
+                                                        fontWeight:
+                                                            FontWeight.w500,
+                                                        color: ColorPalette
+                                                            .whitetextcolor),
+                                                  ),
+                                          ])),
+                                ),
+                              ),
+                            )
+                          : Positioned(
+                              top: -28,
+                              child: Card(
+                                borderOnForeground: false,
+                                semanticContainer: false,
+                                color: const Color.fromARGB(255, 154, 197, 128),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                child: Container(
+                                    height: 45,
+                                    width: 180,
+                                    alignment: Alignment.center,
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(10),
+                                      color: ColorPalette.rightAnsFillcolor,
+                                    ),
+                                    child: Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: const [
+                                          Icon(Icons.check,
+                                              size: 28,
+                                              color: ColorPalette.greenColor),
+                                          SizedBox(width: 10),
+                                          Text(
+                                            'Request sent',
+                                            style: TextStyle(
+                                                fontSize: 18,
+                                                fontWeight: FontWeight.bold,
+                                                color: ColorPalette.greenColor),
+                                          )
+                                        ])),
+                              ),
+                            ),
             ],
           ),
         ],
       ),
-    );
-  }
-
-  Widget acceptandreject() {
-    Size size = MediaQuery.of(context).size;
-    return Row(
-      children: [
-        GestureDetector(
-          onTap: () async {
-            await friendRequestResponse(widget.buddy.buddyId, user.id, '2');
-            setState(() {
-              widget.buddy.status = '-1';
-            });
-          },
-          child: Card(
-            borderOnForeground: false,
-            semanticContainer: false,
-            color: const Color.fromARGB(255, 154, 197, 128),
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            child: Container(
-              height: size.height * 0.046,
-              width: size.width * 0.3,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  border:
-                      Border.all(width: 0.4, color: ColorPalette.lifescolor),
-                  color: ColorPalette.whitetextcolor),
-              child: const Text(
-                'Reject',
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    color: ColorPalette.lifescolor),
-              ),
-            ),
-          ),
-        ),
-        const SizedBox(width: 20),
-        GestureDetector(
-          onTap: () async {
-            await friendRequestResponse(widget.buddy.buddyId, user.id, '1');
-          },
-          child: Card(
-            borderOnForeground: false,
-            semanticContainer: false,
-            color: const Color.fromARGB(255, 154, 197, 128),
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            child: Container(
-              height: size.height * 0.046,
-              width: size.width * 0.3,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: ColorPalette.greenColor),
-              child: const Text(
-                'Accept',
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    color: ColorPalette.whitetextcolor),
-              ),
-            ),
-          ),
-        ),
-      ],
     );
   }
 }

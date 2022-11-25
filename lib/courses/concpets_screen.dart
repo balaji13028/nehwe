@@ -485,7 +485,7 @@ class _LessonsState extends State<Lessons> {
                     currentIndex: _currentIndex,
                     onTap: (index) async {
                       if (index == 2) {
-                        await buddies(user.id);
+                        await getbuddies(user.id);
                         setState(() {
                           _currentIndex = index;
                           loader(context);
@@ -543,7 +543,7 @@ class _LessonsState extends State<Lessons> {
                     ],
                     onTap: (index) async {
                       if (index == 2) {
-                        await buddies(user.id);
+                        await getbuddies(user.id);
                         setState(() {
                           _currentIndex = index;
                           loader(context);

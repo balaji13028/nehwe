@@ -590,7 +590,7 @@ class _UnitsState extends State<Units> {
                       currentIndex: _currentIndex,
                       onTap: (index) async {
                         if (index == 2) {
-                          await buddies(user.id);
+                          await getbuddies(user.id);
                           setState(() {
                             _currentIndex = index;
                             _isLoaderVisible = true;
@@ -651,7 +651,7 @@ class _UnitsState extends State<Units> {
                       ],
                       onTap: (index) async {
                         if (index == 2) {
-                          await buddies(user.id);
+                          await getbuddies(user.id);
                           setState(() {
                             _currentIndex = index;
                             loader();
