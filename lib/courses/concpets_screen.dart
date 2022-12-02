@@ -21,6 +21,7 @@ import 'package:nehwe/popup_messages/screens_Not_Asssigned.dart';
 import 'package:path/path.dart';
 import '../api_calls/buddies_api.dart';
 import '../api_calls/concepts_api.dart';
+import '../api_calls/listof_users.dart';
 import '../api_calls/screens_api.dart';
 import '../constants/color_palettes.dart';
 import '../loadings/loader.dart';
@@ -486,6 +487,8 @@ class _LessonsState extends State<Lessons> {
                     onTap: (index) async {
                       if (index == 2) {
                         await getbuddies(user.id);
+                        await noOfUsers(user.id);
+                        await friendSuggestions(user.id);
                         setState(() {
                           _currentIndex = index;
                           loader(context);
@@ -544,6 +547,8 @@ class _LessonsState extends State<Lessons> {
                     onTap: (index) async {
                       if (index == 2) {
                         await getbuddies(user.id);
+                        await noOfUsers(user.id);
+                        await friendSuggestions(user.id);
                         setState(() {
                           _currentIndex = index;
                           loader(context);

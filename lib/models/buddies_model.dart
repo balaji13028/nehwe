@@ -9,6 +9,7 @@ class BuddyProfileData {
       buddyStreak,
       buddiescount,
       buddyCoins,
+      onlineStatus,
       requestStatus;
   BuddyProfileData({
     this.buddyId,
@@ -21,6 +22,7 @@ class BuddyProfileData {
     this.buddiescount,
     this.buddyCoins,
     this.status,
+    this.onlineStatus,
     this.requestStatus,
   });
 
@@ -32,6 +34,7 @@ class BuddyProfileData {
       'buddyLastName': buddyLastName,
       'buddyAvatar': buddyAvatar,
       'buddyXp': buddyXp,
+      'onlineStatus': onlineStatus,
       'requestStatus': status,
       'buddyStreak': buddyStreak,
       'buddiescount': buddiescount,
@@ -42,11 +45,12 @@ class BuddyProfileData {
 
   @override
   String toString() {
-    return 'Buddyprofile{buddyId:$buddyId,buddyDisplayName:$buddyDisplayName,buddyFirstName:$buddyFirstName,buddyLastName:$buddyLastName,requestStatus:$status,buddyAvatar:$buddyAvatar,buddyXp:$buddyXp,buddyStreak:$buddyStreak,buddiescount:$buddiescount,buddyCoins:$buddyCoins,requestsStatus:$requestStatus}';
+    return 'Buddyprofile{buddyId:$buddyId,buddyDisplayName:$buddyDisplayName,buddyFirstName:$buddyFirstName,buddyLastName:$buddyLastName,requestStatus:$status,buddyAvatar:$buddyAvatar,buddyXp:$buddyXp,buddyStreak:$buddyStreak,onlineStatus:$onlineStatus,buddiescount:$buddiescount,buddyCoins:$buddyCoins,requestsStatus:$requestStatus}';
   }
 }
 
 List<BuddyProfileData> buddiesList = [];
+List<BuddyProfileData> userBuddy = [];
 List<BuddyProfileData> listofusers = [];
 BuddyProfileData newBuddy = BuddyProfileData();
 

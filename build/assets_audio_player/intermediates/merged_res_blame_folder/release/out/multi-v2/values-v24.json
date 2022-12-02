@@ -4,7 +4,7 @@
             "outputFile": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/values-v24/values-v24.xml",
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -19,7 +19,7 @@
             "outputFile": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/values-v24/values-v24.xml",
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

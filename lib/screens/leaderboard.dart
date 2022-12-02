@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:loader_overlay/loader_overlay.dart';
-import 'package:nehwe/loadings/loader.dart';
-import 'package:nehwe/notifications/notifications.dart';
+import 'package:nehwe/leader_board/global_ranks.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import '../constants/color_palettes.dart';
-import '../help_support/help_support.dart';
+import '../leader_board/local_ranks.dart';
 import '../leader_board/rank_level_page.dart';
-import '../profile_pages/user_badges.dart';
-
-enum MenuItem { item1, item2 }
 
 class LeaderBaord extends StatefulWidget {
   const LeaderBaord({Key? key}) : super(key: key);
@@ -20,9 +16,9 @@ class LeaderBaord extends StatefulWidget {
 class _LeaderBaordState extends State<LeaderBaord> {
   bool onmissions = true;
   bool onbadges = false;
-  bool _isLoaderVisible = false;
+  bool isLoaderVisible = false;
   loader() async {
-    if (_isLoaderVisible) {
+    if (isLoaderVisible) {
       context.loaderOverlay.show();
     } else {
       context.loaderOverlay.hide();
@@ -32,12 +28,10 @@ class _LeaderBaordState extends State<LeaderBaord> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-
-    return Column(children: [
-      GlobalLoaderOverlay(
-        useDefaultLoading: false,
-        overlayWidget: const Loader(),
-        child: Container(
+    return GlobalLoaderOverlay(
+        child: Column(
+      children: [
+        Container(
             height: size.height * 0.25,
             color: ColorPalette.primarycolor,
             padding: EdgeInsets.only(
@@ -73,8 +67,8 @@ class _LeaderBaordState extends State<LeaderBaord> {
                           });
                         },
                         child: Container(
-                          height: 40,
-                          width: 100,
+                          height: size.height * 0.045,
+                          width: size.width * 0.35,
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(50),
@@ -82,7 +76,7 @@ class _LeaderBaordState extends State<LeaderBaord> {
                                   ? ColorPalette.whitetextcolor
                                   : ColorPalette.primarycolor.withOpacity(0.0)),
                           child: Text(
-                            'Missions',
+                            'Local Rank',
                             style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w600,
@@ -103,8 +97,8 @@ class _LeaderBaordState extends State<LeaderBaord> {
                           });
                         },
                         child: Container(
-                          height: 40,
-                          width: 100,
+                          height: size.height * 0.045,
+                          width: size.width * 0.35,
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(50),
@@ -112,7 +106,7 @@ class _LeaderBaordState extends State<LeaderBaord> {
                                   ? ColorPalette.whitetextcolor
                                   : ColorPalette.primarycolor.withOpacity(0.0)),
                           child: Text(
-                            'Badges',
+                            'Global Rank',
                             style: TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w600,
@@ -126,24 +120,12 @@ class _LeaderBaordState extends State<LeaderBaord> {
                     ],
                   ),
                 ])),
-      ),
-      SingleChildScrollView(
-        child: Container(
-            width: double.infinity,
-            padding: const EdgeInsets.only(left: 15, right: 15, top: 20),
-            decoration: const BoxDecoration(
-                color: ColorPalette.whitetextcolor,
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(30),
-                    topRight: Radius.circular(30))),
-            child: Column(children: [
-              if (onmissions == true)
-                missons()
-              else if (onbadges == true)
-                const UserBadges()
-            ])),
-      ),
-    ]);
+        if (onmissions == true)
+          const LocalRank()
+        else if (onbadges == true)
+          const GlobalRanks()
+      ],
+    ));
   }
 
   Widget missons() {
@@ -156,7 +138,7 @@ class _LeaderBaordState extends State<LeaderBaord> {
       child: Container(
         height: size.height * 0.1,
         width: double.infinity,
-        margin: const EdgeInsets.only(bottom: 30),
+        margin: const EdgeInsets.only(bottom: 30, left: 15, right: 15, top: 10),
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),

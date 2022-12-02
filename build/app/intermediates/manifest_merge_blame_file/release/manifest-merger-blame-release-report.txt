@@ -28,146 +28,343 @@
 16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 16-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:8:5-75
 16-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:8:22-73
-17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-17-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
-17-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
-18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
-18-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
-19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
-19-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
-20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-22-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
-22-->[com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:22-76
-23
-24    <application
-25        android:name="android.app.Application"
-25-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:11:9-42
-26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.7.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-27        android:icon="@mipmap/ic_launcher"
-27-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:12:9-43
-28        android:label="Nehwe" >
-28-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:10:9-30
-29        <activity
-29-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:13:9-34:20
-30            android:name="com.example.nehwe.MainActivity"
-30-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:14:13-41
-31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-31-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:18:13-163
-32            android:exported="true"
-32-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:15:13-36
-33            android:hardwareAccelerated="true"
-33-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:19:13-47
-34            android:launchMode="singleTop"
-34-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:16:13-43
-35            android:theme="@style/LaunchTheme"
-35-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:17:13-47
-36            android:windowSoftInputMode="adjustResize" >
-36-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:20:13-55
-37
-38            <!--
-39                 Specifies an Android theme to apply to this Activity as soon as
-40                 the Android process has started. This theme is visible to the user
-41                 while the Flutter UI initializes. After that, this theme continues
-42                 to determine the Window background behind the Flutter UI.
-43            -->
-44            <meta-data
-44-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:25:13-28:17
-45                android:name="io.flutter.embedding.android.NormalTheme"
-45-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:26:15-70
-46                android:resource="@style/NormalTheme" />
-46-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:27:15-52
-47
-48            <intent-filter>
-48-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:29:13-33:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:30:17-68
-49-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:30:25-66
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+17-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+18-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+18-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+19-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[:network_info_plus] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/network_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+20-->[:network_info_plus] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/network_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+21-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+22-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:5-82
+25-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:22-79
+26
+27    <application
+28        android:name="android.app.Application"
+28-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:11:9-42
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:12:9-43
+31        android:label="Nehwe" >
+31-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:10:9-30
+32        <activity
+32-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:13:9-34:20
+33            android:name="com.example.nehwe.MainActivity"
+33-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:14:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:18:13-163
+35            android:exported="true"
+35-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:15:13-36
+36            android:hardwareAccelerated="true"
+36-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:19:13-47
+37            android:launchMode="singleTop"
+37-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:16:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:17:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:20:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:25:13-28:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:26:15-70
+49                android:resource="@style/NormalTheme" />
+49-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:27:15-52
 50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:31:17-76
-51-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:31:27-74
-52
-53                <action android:name="android.speech.RecognitionService" />
-53-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:32:17-76
-53-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:32:25-73
-54            </intent-filter>
-55        </activity>
-56        <!--
-57             Don't delete the meta-data below.
-58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-59        -->
-60        <meta-data
-60-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:37:9-39:33
-61            android:name="flutterEmbedding"
-61-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:38:13-44
-62            android:value="2" />
-62-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:39:13-30
-63        <!--
-64            android:name="com.google.android.gms.ads.APPLICATION_ID"
-65            android:value="ca-app-pub-3940256099942544~3347511713" />
-66        -->
-67        <activity
-67-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
-68            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-68-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
-69            android:exported="false"
-69-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
-70            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-70-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
-71
-72        <receiver
-72-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:39
-73            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
-73-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-108
-74            android:exported="true" />
-74-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-36
-75        <receiver
-75-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:20
-76            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
-76-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-107
-77            android:exported="true" >
-77-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-36
-78            <intent-filter>
-78-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:29
-79                <action android:name="android.intent.action.MEDIA_BUTTON" />
-79-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-77
-79-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-74
-80            </intent-filter>
-81        </receiver>
-82
-83        <service
-83-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-35:19
-84            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
-84-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-101
-85            android:enabled="true"
-85-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-35
-86            android:exported="true" >
-86-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
-87
-88            <!--
-89            <intent-filter>
-90                <action android:name="android.intent.action.MEDIA_BUTTON" />
-91            </intent-filter>
-92            -->
-93        </service>
-94
-95        <uses-library
-95-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-96            android:name="androidx.window.extensions"
-96-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-97            android:required="false" />
-97-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-98        <uses-library
-98-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-99            android:name="androidx.window.sidecar"
-99-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-100            android:required="false" />
-100-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-101    </application>
-102
-103</manifest>
+51            <intent-filter>
+51-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:29:13-33:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:30:17-68
+52-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:30:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:31:17-76
+54-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:31:27-74
+55
+56                <action android:name="android.speech.RecognitionService" />
+56-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:32:17-76
+56-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:32:25-73
+57            </intent-filter>
+58        </activity>
+59        <!--
+60             Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+63-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:37:9-39:33
+64            android:name="flutterEmbedding"
+64-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:38:13-44
+65            android:value="2" />
+65-->/Users/scholarlysolutionssm/Desktop/nehwe-1/android/app/src/main/AndroidManifest.xml:39:13-30
+66        <!--
+67            android:name="com.google.android.gms.ads.APPLICATION_ID"
+68            android:value="ca-app-pub-3940256099942544~3347511713" />
+69        -->
+70        <service
+70-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+71            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+71-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+72            android:exported="false"
+72-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+73            android:permission="android.permission.BIND_JOB_SERVICE" />
+73-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+74        <service
+74-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+75            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+75-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+76            android:exported="false" >
+76-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+77            <intent-filter>
+77-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+78                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+78-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+78-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+79            </intent-filter>
+80        </service>
+81
+82        <receiver
+82-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+83            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+83-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+84            android:exported="true"
+84-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+85            android:permission="com.google.android.c2dm.permission.SEND" >
+85-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+86            <intent-filter>
+86-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+87                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+87-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+87-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+88            </intent-filter>
+89        </receiver>
+90
+91        <service
+91-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:54:13-37
+95            <meta-data
+95-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+96-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+98            <meta-data
+98-->[:firebase_core] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+99-->[:firebase_core] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_core] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:55:13-57:85
+102                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+102-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:56:17-119
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:57:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+105                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+105-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/6d46cd01ad2644e3941e793a2c9f0ffe/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-iid:21.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+108-->[com.google.firebase:firebase-iid:21.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-iid:21.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/eaed7886d53cb1ba0475f52afb0dc686/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-installations:17.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/3fe9d54d7b663dbec51ad86b1763f50a/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+111-->[com.google.firebase:firebase-installations:17.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/3fe9d54d7b663dbec51ad86b1763f50a/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-installations:17.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/3fe9d54d7b663dbec51ad86b1763f50a/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+113        </service>
+114
+115        <provider
+115-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+116            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+116-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+117            android:authorities="com.example.nehwe.flutterfirebasemessaginginitprovider"
+117-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+118            android:exported="false"
+118-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+119            android:initOrder="99" />
+119-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+120
+121        <activity
+121-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+122            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+122-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+123            android:exported="false"
+123-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+124            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+124-->[:url_launcher_android] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+125
+126        <receiver
+126-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:39
+127            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+127-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-108
+128            android:exported="true" />
+128-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-36
+129        <receiver
+129-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:20
+130            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+130-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-107
+131            android:exported="true" >
+131-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-36
+132            <intent-filter>
+132-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:29
+133                <action android:name="android.intent.action.MEDIA_BUTTON" />
+133-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-77
+133-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-74
+134            </intent-filter>
+135        </receiver>
+136
+137        <service
+137-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-35:19
+138            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+138-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-101
+139            android:enabled="true"
+139-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-35
+140            android:exported="true" >
+140-->[:assets_audio_player] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+141
+142            <!--
+143            <intent-filter>
+144                <action android:name="android.intent.action.MEDIA_BUTTON" />
+145            </intent-filter>
+146            -->
+147        </service>
+148
+149        <uses-library
+149-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+150            android:name="androidx.window.extensions"
+150-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+151            android:required="false" />
+151-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+152        <uses-library
+152-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+153            android:name="androidx.window.sidecar"
+153-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+154            android:required="false" />
+154-->[androidx.window:window:1.0.0-beta04] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/542a859793ec57d6a4d40865c7efc6d9/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+155
+156        <receiver
+156-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:31:9-38:20
+157            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+157-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:32:13-78
+158            android:exported="true"
+158-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:33:13-36
+159            android:permission="com.google.android.c2dm.permission.SEND" >
+159-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:34:13-73
+160            <intent-filter>
+160-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+161                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+161-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+161-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+162            </intent-filter>
+163        </receiver>
+164        <!--
+165             FirebaseMessagingService performs security checks at runtime,
+166             but set to not exported to explicitly avoid allowing another app to call it.
+167        -->
+168        <service
+168-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:44:9-51:19
+169            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+169-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:45:13-82
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:46:13-43
+171            android:exported="false" >
+171-->[com.google.firebase:firebase-messaging:23.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/b57df5d590e748a32ef06a865c954969/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:47:13-37
+172            <intent-filter android:priority="-500" >
+172-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+173                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+173-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+173-->[:firebase_messaging] /Users/scholarlysolutionssm/Desktop/nehwe-1/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+174            </intent-filter>
+175        </service>
+176        <service
+176-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+177            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+177-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+178            android:exported="false" >
+178-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+179            <meta-data
+179-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+180                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+180-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+181                android:value="cct" />
+181-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/2e212974fabf70c844067783fe04df4d/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+182        </service>
+183        <service
+183-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+184            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+184-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+185            android:exported="false"
+185-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" >
+186-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+187        </service>
+188
+189        <receiver
+189-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+190            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+190-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+191            android:exported="false" />
+191-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c23d9811568143692758aab014c5c508/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+192
+193        <provider
+193-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+194            android:name="com.google.firebase.provider.FirebaseInitProvider"
+194-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+195            android:authorities="com.example.nehwe.firebaseinitprovider"
+195-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+197            android:exported="false"
+197-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+198            android:initOrder="100" />
+198-->[com.google.firebase:firebase-common:20.2.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+199
+200        <activity
+200-->[com.google.android.gms:play-services-base:18.0.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+201            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+201-->[com.google.android.gms:play-services-base:18.0.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+202            android:exported="false"
+202-->[com.google.android.gms:play-services-base:18.0.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.android.gms:play-services-base:18.0.1] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+204
+205        <meta-data
+205-->[com.google.android.gms:play-services-basement:18.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+206            android:name="com.google.android.gms.version"
+206-->[com.google.android.gms:play-services-basement:18.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+207            android:value="@integer/google_play_services_version" />
+207-->[com.google.android.gms:play-services-basement:18.1.0] /Users/scholarlysolutionssm/.gradle/caches/transforms-3/3ee0f8915dc9bf42c60f3eef0b7bd28a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+208    </application>
+209
+210</manifest>

@@ -266,14 +266,18 @@ class _ProfileInfo2State extends State<ProfileInfo2> {
                     children: [
                       GestureDetector(
                         onTap: () async {
-                          await coinslifes(newUser.phoneNumber);
-                          // ignore: use_build_context_synchronously
-                          Navigator.push(
-                              context,
-                              PageRouteBuilder(
-                                  pageBuilder: ((context, animation,
-                                          secondaryAnimation) =>
-                                      const AvatarSelection())));
+                          try {
+                            await coinslifes(newUser.phoneNumber);
+                            // ignore: use_build_context_synchronously
+                            Navigator.push(
+                                context,
+                                PageRouteBuilder(
+                                    pageBuilder: ((context, animation,
+                                            secondaryAnimation) =>
+                                        const AvatarSelection())));
+                          } catch (e) {
+                            print('skiped');
+                          }
                         },
                         child: Container(
                           height: size.height * 0.045,

@@ -32,6 +32,6 @@
       classOutputs="/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/javac/release/classes:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/tmp/kotlin-classes/release:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/kotlinToolingMetadata:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.nehwe"
       generatedSourceFolders="/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/ap_generated_sources/release/out:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/aidl_source_output_dir/release/out:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/source/buildConfig/release:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/res/rs/release:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/res/resValues/release">
+      generatedResourceFolders="/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/res/google-services/release:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/res/rs/release:/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

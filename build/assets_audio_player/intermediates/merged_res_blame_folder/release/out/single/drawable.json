@@ -1,22 +1,22 @@
 [
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/drawable/notification_bg_low.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/drawable/exo_rounded_rectangle.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable/exo_rounded_rectangle.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable/exo_rounded_rectangle.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/drawable/notification_bg.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/drawable/notification_icon_background.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
     }
 ]

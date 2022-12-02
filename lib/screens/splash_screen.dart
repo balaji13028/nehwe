@@ -1,6 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:nehwe/api_calls/listof_users.dart';
+import 'package:nehwe/api_calls/online_status.dart';
 import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/screens/welcome_screen.dart';
 import '../api_calls/course_api.dart';
@@ -19,7 +21,8 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  bool _hasdata = false;
+  bool hasdata = false;
+
   @override
   void initState() {
     userTiming.intime = DateTime.now().toString();
@@ -37,22 +40,24 @@ class _SplashScreenState extends State<SplashScreen> {
   myfunction() async {
     await database();
     localUserList = await user();
-    setState(() {
-      courses();
-      _hasdata = true;
-    });
+    await courses();
   }
 
-  void courses() async {
-    if (localUserList.isNotEmpty) await coursesList(localUserList[0].id);
+  courses() async {
+    if (localUserList.isNotEmpty) {
+      newUser.id = localUserList[0].id;
+      await coursesList(localUserList[0].id);
+      await updateOnline(localUserList[0].id, 'online');
+      await noOfUsers(localUserList[0].id);
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    if (_hasdata == false) {
+    if (hasdata == false) {
       return const Loader();
     }
-    debugPrint('useras are $localUserList');
+    //debugPrint('useras are $localUserList');
     return Image.asset(
       'assets/gifs/splash_screen.gif',
       fit: BoxFit.cover,

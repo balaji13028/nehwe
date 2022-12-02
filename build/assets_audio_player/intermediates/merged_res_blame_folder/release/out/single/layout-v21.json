@@ -1,18 +1,18 @@
 [
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/layout-v21/notification_action.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
     }
 ]

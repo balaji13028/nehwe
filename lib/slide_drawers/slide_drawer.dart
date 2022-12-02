@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:iconify_flutter/iconify_flutter.dart';
+import 'package:iconify_flutter/icons/emojione_monotone.dart';
+import 'package:iconify_flutter/icons/zondicons.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/subscriptions_api.dart';
+import 'package:nehwe/rewards/my_rewards.dart';
 import '../constants/color_palettes.dart';
 import '../help_support/help_support.dart';
 import '../local_database.dart';
@@ -17,9 +21,9 @@ class SlideDrawer extends StatelessWidget {
   SlideDrawer({super.key, required this.slider});
   UserProfileData user = localUserList[0];
   String decodeFluttermojifromString = '';
-  bool _isLoaderVisible = false;
+  bool isLoaderVisible = false;
   loader(BuildContext context) async {
-    if (_isLoaderVisible) {
+    if (isLoaderVisible) {
       context.loaderOverlay.show();
     } else {
       context.loaderOverlay.hide();
@@ -59,48 +63,57 @@ class SlideDrawer extends StatelessWidget {
                         ),
                       )),
                   const SizedBox(width: 10),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        user.displayName ?? '',
-                        style: const TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 0.9,
-                            color: ColorPalette.whitetextcolor),
-                      ),
-                      Text(
-                        user.phoneNumber ?? '',
-                        style: const TextStyle(
-                            fontSize: 14,
-                            letterSpacing: 0.9,
-                            color: Colors.white),
-                      ),
-                    ],
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Flexible(
+                              child: Text(
+                                user.displayName ?? '',
+                                overflow: TextOverflow.ellipsis,
+                                maxLines: 1,
+                                softWrap: false,
+                                style: const TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                    letterSpacing: 0.9,
+                                    color: ColorPalette.whitetextcolor),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          user.phoneNumber ?? '',
+                          style: const TextStyle(
+                              fontSize: 14,
+                              letterSpacing: 0.9,
+                              color: Colors.white),
+                        ),
+                      ],
+                    ),
                   )
                 ],
               ),
             ),
-            const SizedBox(
-              height: 15,
-            ),
+            const SizedBox(height: 15),
             ListTile(
                 title: const Text(
-                  "My Profile",
+                  "My Rewards",
                   style: TextStyle(
                       fontSize: 16, color: ColorPalette.whitetextcolor),
                 ),
-                leading: const Icon(
-                  Icons.person,
-                  size: 35,
+                leading: Iconify(
+                  Zondicons.gift,
+                  size: size.width * 0.08,
                   color: ColorPalette.whitetextcolor,
                 ),
                 onTap: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: ((context) => const ProfileDetails())));
+                          builder: ((context) => const MyRewards())));
                 }),
             SizedBox(
               height: 0,
@@ -115,9 +128,9 @@ class SlideDrawer extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 16, color: ColorPalette.whitetextcolor),
                 ),
-                leading: const Icon(
-                  Icons.payment,
-                  size: 35,
+                leading: Icon(
+                  Icons.credit_card,
+                  size: size.width * 0.09,
                   color: ColorPalette.whitetextcolor,
                 ),
                 onTap: () async {
@@ -143,9 +156,9 @@ class SlideDrawer extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 16, color: ColorPalette.whitetextcolor),
                 ),
-                leading: const Icon(
+                leading: Icon(
                   Icons.notifications,
-                  size: 35,
+                  size: size.width * 0.09,
                   color: ColorPalette.whitetextcolor,
                 ),
                 onTap: () {
@@ -174,9 +187,9 @@ class SlideDrawer extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 16, color: ColorPalette.whitetextcolor),
                 ),
-                leading: const Icon(
+                leading: Icon(
                   Icons.help,
-                  size: 35,
+                  size: size.width * 0.09,
                   color: ColorPalette.whitetextcolor,
                 ),
                 onTap: () {

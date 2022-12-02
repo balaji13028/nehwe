@@ -13,6 +13,7 @@ import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/models/user_intime.dart';
 import '../api_calls/buddies_api.dart';
 import '../api_calls/concepts_api.dart';
+import '../api_calls/listof_users.dart';
 import '../constants/color_palettes.dart';
 import 'dart:math' as math;
 import '../models/courses_model.dart';
@@ -591,6 +592,8 @@ class _UnitsState extends State<Units> {
                       onTap: (index) async {
                         if (index == 2) {
                           await getbuddies(user.id);
+                          await noOfUsers(user.id);
+                          await friendSuggestions(user.id);
                           setState(() {
                             _currentIndex = index;
                             _isLoaderVisible = true;
@@ -652,6 +655,8 @@ class _UnitsState extends State<Units> {
                       onTap: (index) async {
                         if (index == 2) {
                           await getbuddies(user.id);
+                          await noOfUsers(user.id);
+                          await friendSuggestions(user.id);
                           setState(() {
                             _currentIndex = index;
                             loader();

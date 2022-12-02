@@ -17,6 +17,7 @@ class UserProfileData {
       xp,
       coins,
       lastused,
+      onlineStatus,
       lifes;
 
   UserProfileData({
@@ -38,6 +39,7 @@ class UserProfileData {
     this.xp,
     this.coins,
     this.lastused,
+    onlineStatus,
     this.lifes,
   });
 
@@ -61,13 +63,14 @@ class UserProfileData {
       'xp': xp,
       'coins': coins,
       'lifes': lifes,
+      'onlineStatus': onlineStatus,
       "lastused": lastused
     };
   }
 
   @override
   String toString() {
-    return 'UserProfileData{id: $id, firstName: $firstName,lastName:$lastName,displayName:$displayName,phoneNumber: $phoneNumber,avatar:$avatar,gender:$gender,zipcode:$zipcode,email:$emailId,dateOfBirth:$dob,state:$state,city:$city,address:$address,country:$country,lifes:$lifes,coins:$coins,xp:$xp,subscription:$subId,lastused:$lastused}';
+    return 'UserProfileData{id: $id, firstName: $firstName,lastName:$lastName,displayName:$displayName,phoneNumber: $phoneNumber,avatar:$avatar,gender:$gender,zipcode:$zipcode,email:$emailId,dateOfBirth:$dob,state:$state,city:$city,address:$address,country:$country,lifes:$lifes,coins:$coins,xp:$xp,subscription:$subId,onlineStatus:$onlineStatus,lastused:$lastused}';
   }
 }
 
@@ -75,3 +78,4 @@ class UserProfileData {
 UserProfileData newUser = UserProfileData();
 List<UserProfileData> localUserList = [];
 //List<UserProfileData> listofusers = [];
+UserProfileData encodeedavatr = UserProfileData();

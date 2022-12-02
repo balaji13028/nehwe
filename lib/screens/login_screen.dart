@@ -6,10 +6,13 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/concepts_api.dart';
 import 'package:nehwe/api_calls/course_api.dart';
+import 'package:nehwe/api_calls/online_status.dart';
 import 'package:nehwe/api_calls/xp_api.dart';
+import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/screens/profile_info_1.dart';
 import '../api_calls/coins_api.dart';
 import '../api_calls/lifes_api.dart';
+import '../api_calls/listof_users.dart';
 import '../api_calls/login_api.dart';
 import '../constants/color_palettes.dart';
 import '../loadings/loader.dart';
@@ -720,9 +723,10 @@ class _LoginScreenState extends State<LoginScreen> {
                                                         children: [
                                                           GestureDetector(
                                                             onTap: () async {
-                                                              var otp =
-                                                                  await userLogin(
-                                                                      phoneNumber);
+                                                              var otp = await userLogin(
+                                                                  phoneNumber,
+                                                                  userTiming
+                                                                      .devicetoken);
                                                               EasyLoading.showToast(
                                                                   'otp is $otp',
                                                                   duration:
@@ -763,8 +767,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                           formKey.currentState?.save();
                                           newUser.phoneNumber = phoneNumber;
 
-                                          var otp =
-                                              await userLogin(phoneNumber);
+                                          var otp = await userLogin(phoneNumber,
+                                              userTiming.devicetoken);
 
                                           EasyLoading.showToast('otp is $otp',
                                               duration:
@@ -835,10 +839,15 @@ class _LoginScreenState extends State<LoginScreen> {
                                   } else {
                                     loader();
                                     localUserList = values;
+                                    localUserList[0].onlineStatus = 'online';
                                     await insertUser(localUserList[0]);
                                     await user();
                                     await coursesList(localUserList[0].id);
+                                    await noOfUsers(localUserList[0].id);
+                                    await updateOnline(
+                                        localUserList[0].id, 'online');
                                     newUser.phoneNumber = phoneNumber;
+                                    newUser.id = localUserList[0].id;
 
                                     // ignore: use_build_context_synchronously
                                     Navigator.push(

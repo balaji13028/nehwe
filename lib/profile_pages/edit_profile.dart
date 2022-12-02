@@ -64,7 +64,6 @@ class _EditProfileState extends State<EditProfile> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-
     return Scaffold(
       resizeToAvoidBottomInset: true,
       backgroundColor: ColorPalette.backgroundcolor2,
@@ -468,19 +467,45 @@ class _EditProfileState extends State<EditProfile> {
                                     color: ColorPalette.statusfillcolor
                                         .withOpacity(0.4),
                                   ),
-                                  selectedItemStyle: const TextStyle(
+                                  selectedItemStyle: TextStyle(
                                       letterSpacing: 0.9,
-                                      fontSize: 18,
-                                      color: ColorPalette.textcolor),
+                                      fontSize: (country.isNotEmpty ||
+                                              state.isNotEmpty ||
+                                              city.isNotEmpty)
+                                          ? 18
+                                          : (widget.user.country == 'null' ||
+                                                  widget.user.country == null ||
+                                                  widget.user.state == null ||
+                                                  widget.user.city == null ||
+                                                  widget.user.state == 'null' ||
+                                                  widget.user.city == 'null')
+                                              ? 15
+                                              : 18,
+                                      color: (country.isNotEmpty ||
+                                              state.isNotEmpty ||
+                                              city.isNotEmpty)
+                                          ? ColorPalette.textcolor
+                                          : (widget.user.country == 'null' ||
+                                                  widget.user.country == null ||
+                                                  widget.user.state == null ||
+                                                  widget.user.city == null ||
+                                                  widget.user.state == 'null' ||
+                                                  widget.user.city == 'null')
+                                              ? ColorPalette.textcolor
+                                                  .withOpacity(0.4)
+                                              : ColorPalette.textcolor),
                                   currentCountry:
-                                      (widget.user.country == 'null')
-                                          ? ''
+                                      (widget.user.country == 'null' ||
+                                              widget.user.country == null)
+                                          ? '  Country'
                                           : '  ${widget.user.country}',
-                                  currentState: (widget.user.state == 'null')
-                                      ? ''
+                                  currentState: (widget.user.state == 'null' ||
+                                          widget.user.state == null)
+                                      ? '  State'
                                       : '  ${widget.user.state}',
-                                  currentCity: (widget.user.city == 'null')
-                                      ? ''
+                                  currentCity: (widget.user.city == 'null' ||
+                                          widget.user.city == null)
+                                      ? '  City'
                                       : '  ${widget.user.city}',
                                   searchBarRadius: 50,
                                   layout: Layout.vertical,
@@ -615,8 +640,9 @@ class _EditProfileState extends State<EditProfile> {
                                       newUser.avatar =
                                           (newUser.avatar == 'null' ||
                                                   newUser.avatar == null)
-                                              ? widget.user.avatar
+                                              ? encodeedavatr.avatar
                                               : newUser.avatar;
+
                                       await updateUserProfile(
                                           newUser.phoneNumber,
                                           newUser.firstName,
@@ -663,8 +689,9 @@ class _EditProfileState extends State<EditProfile> {
                                     newUser.avatar =
                                         (newUser.avatar == 'null' ||
                                                 newUser.avatar == null)
-                                            ? widget.user.avatar
+                                            ? encodeedavatr.avatar
                                             : newUser.avatar;
+
                                     await updateUser(newUser);
                                     localUserList = await user();
                                     await updateUserProfile(

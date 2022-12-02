@@ -24,6 +24,7 @@ Future noOfUsers(userId) async {
       buddyLastName: (maps[index]['lastname']).toString(),
       status: maps[index]['status'].toString(),
       buddyAvatar: decode,
+      onlineStatus: maps[index]['crr_status'].toString(),
       buddyXp: maps[index]['totalxp'].toString(),
       buddyStreak: maps[index]['subid'].toString(),
       buddiescount: maps[index]['count'].toString(),

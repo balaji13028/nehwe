@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/buddies_api.dart';
+import 'package:nehwe/api_calls/push_notification.dart';
 import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/models/buddies_model.dart';
 import 'package:nehwe/models/user_details_model.dart';
@@ -259,7 +260,9 @@ class _BuddiesState extends State<Buddies> {
                                                                       0.088,
                                                             ),
                                                           ),
-                                                          Padding(
+                                                          Container(
+                                                            width: size.width *
+                                                                0.3,
                                                             padding:
                                                                 const EdgeInsets
                                                                         .only(
@@ -269,6 +272,9 @@ class _BuddiesState extends State<Buddies> {
                                                                           index]
                                                                       .buddyDisplayName ??
                                                                   'buddy',
+                                                              overflow:
+                                                                  TextOverflow
+                                                                      .ellipsis,
                                                               style: const TextStyle(
                                                                   fontSize: 18,
                                                                   color: ColorPalette
@@ -313,11 +319,16 @@ class _BuddiesState extends State<Buddies> {
                                                                   if (ontap[
                                                                           index] ==
                                                                       true) {
-                                                                    await friendRequestResponse(
-                                                                        friendRequests[index]
-                                                                            .buddyId,
+                                                                    // await friendRequestResponse(
+                                                                    //     friendRequests[index]
+                                                                    //         .buddyId,
+                                                                    //     user.id,
+                                                                    //     '2');
+                                                                    await sendFriendNotifation(
                                                                         user.id,
-                                                                        '2');
+                                                                        friendRequests[
+                                                                            index],
+                                                                        'challenge');
                                                                   }
                                                                 },
                                                                 child:
@@ -371,11 +382,16 @@ class _BuddiesState extends State<Buddies> {
                                                                   if (ontap[
                                                                           index] ==
                                                                       true) {
-                                                                    await friendRequestResponse(
+                                                                    // await friendRequestResponse(
+                                                                    //     friendRequests[index]
+                                                                    //         .buddyId,
+                                                                    //     user.id,
+                                                                    //     '1');
+                                                                    await sendFriendNotifation(
+                                                                        user.id,
                                                                         friendRequests[index]
                                                                             .buddyId,
-                                                                        user.id,
-                                                                        '1');
+                                                                        'challenge');
                                                                   }
                                                                 },
                                                                 child:
@@ -609,7 +625,10 @@ class _BuddiesState extends State<Buddies> {
                                                                           0.088,
                                                                 ),
                                                               ),
-                                                              Padding(
+                                                              Container(
+                                                                width:
+                                                                    size.width *
+                                                                        0.35,
                                                                 padding:
                                                                     const EdgeInsets
                                                                             .only(
@@ -620,6 +639,9 @@ class _BuddiesState extends State<Buddies> {
                                                                               j]
                                                                           .buddyDisplayName ??
                                                                       'buddy',
+                                                                  overflow:
+                                                                      TextOverflow
+                                                                          .ellipsis,
                                                                   style: const TextStyle(
                                                                       fontSize:
                                                                           18,
@@ -673,11 +695,16 @@ class _BuddiesState extends State<Buddies> {
                                                                               j]
                                                                           .status = '0';
                                                                     });
-                                                                    await friendRequestResponse(
+                                                                    // await friendRequestResponse(
+                                                                    //     user.id,
+                                                                    //     friendsuggestions[j]
+                                                                    //         .buddyId,
+                                                                    //     '0');
+                                                                    await sendFriendNotifation(
                                                                         user.id,
                                                                         friendsuggestions[j]
                                                                             .buddyId,
-                                                                        '0');
+                                                                        'add friend');
                                                                   },
                                                                   child:
                                                                       Container(

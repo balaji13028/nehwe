@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:fluttermoji/fluttermoji.dart';
 import 'package:loader_overlay/loader_overlay.dart';
+import 'package:nehwe/api_calls/online_status.dart';
+import 'package:nehwe/models/buddies_model.dart';
 import 'package:nehwe/popup_messages/coins_bonus.dart';
 import '../api_calls/course_api.dart';
+import '../api_calls/listof_users.dart';
 import '../api_calls/user_details_api.dart';
 import '../constants/color_palettes.dart';
 import '../loadings/loader.dart';
@@ -78,16 +81,22 @@ class _AvatarSelectionState extends State<AvatarSelection> {
                               setState(() {
                                 _isLoaderVisible = true;
                               });
-                              loader();
+                              if (_isLoaderVisible == true) {
+                                context.loaderOverlay.show();
+                              } else {
+                                context.loaderOverlay.hide();
+                              }
                               String svgstring = await FluttermojiFunctions()
                                   .encodeMySVGtoString();
                               newUser.avatar = svgstring;
                               newUser.subId = '1';
                               newUser.xp = '0';
+                              newUser.onlineStatus = 'online';
                               newUser.lifes = userdata.lifes;
                               newUser.coins = userdata.coins;
                               newUser.id = userdata.id;
                               newUser.lastused = DateTime.now().toString();
+                              await updateOnline(newUser.id, 'online');
                               await insertUser(
                                   newUser); //used for store at local database.
                               userApi(
@@ -109,6 +118,8 @@ class _AvatarSelectionState extends State<AvatarSelection> {
                               localUserList =
                                   await user(); //retrieve user data from local database.
                               await coursesList(newUser.id);
+                              await noOfUsers(newUser.id);
+                              newUser.id = localUserList[0].id;
                               // ignore: use_build_context_synchronously
                               Navigator.push(
                                   context,

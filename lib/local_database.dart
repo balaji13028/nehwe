@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:fluttermoji/fluttermojiFunctions.dart';
+import 'package:nehwe/buddies_profiles/buddie_profile.dart';
+import 'package:nehwe/models/buddies_model.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'models/user_details_model.dart';
@@ -11,10 +13,10 @@ Future<void> database() async {
   WidgetsFlutterBinding.ensureInitialized();
   String dbPath = await getDatabasesPath();
   opendatabase = openDatabase(
-    join(dbPath, 'Nehweapplication.db'),
+    join(dbPath, 'NehweApp.db'),
     onCreate: (db, version) async {
       await db.execute(
-        '''CREATE TABLE IF NOT EXISTS userDetails(id INTEGER , firstName TEXT,lastName TEXT,displayName TEXT, phoneNumber VARCHAR(12),avatar TEXT,gender VARCHAR(10),zipcode VARCHAR(10),email VARCHAR(50),dateOfBirth VARCHAR(20),state VARCHAR(20),city VARCHAR(20),country VARCHAR(40),address VARCHAR(100),lifes VARCHAR(12), coins VARCHAR(20),xp VARCHAR(20),subscription VARCHAR(20),lastused VARCHAR(50))''',
+        '''CREATE TABLE IF NOT EXISTS userDetails(id INTEGER , firstName TEXT,lastName TEXT,displayName TEXT, phoneNumber VARCHAR(12),avatar TEXT,gender VARCHAR(10),zipcode VARCHAR(10),email VARCHAR(50),dateOfBirth VARCHAR(20),state VARCHAR(20),city VARCHAR(20),country VARCHAR(40),address VARCHAR(100),lifes VARCHAR(12), coins VARCHAR(20),xp VARCHAR(20),subscription VARCHAR(20),onlineStatus VARCHAR(20),lastused VARCHAR(50))''',
       );
     },
     version: 1,
@@ -30,8 +32,7 @@ Future<void> insertUser(UserProfileData user) async {
     user.toMap(),
     conflictAlgorithm: ConflictAlgorithm.replace,
   );
-  // ignore: avoid_print
-  print('inserted  is $user');
+  debugPrint('inserted  is $user');
 }
 
 Future<List<UserProfileData>> user() async {
@@ -40,6 +41,7 @@ Future<List<UserProfileData>> user() async {
   final List<Map<String, dynamic>> maps = await db.query('userDetails');
 
   List<UserProfileData> userslist = List.generate(maps.length, (i) {
+    encodeedavatr.avatar = maps[i]['avatar'].toString();
     String decode = FluttermojiFunctions()
         .decodeFluttermojifromString(maps[i]['avatar'].toString());
     return UserProfileData(
@@ -57,6 +59,7 @@ Future<List<UserProfileData>> user() async {
         country: maps[i]['country'].toString(),
         gender: maps[i]['gender'].toString(),
         avatar: decode,
+        onlineStatus: maps[i]['onlineStatus'].toString(),
         lifes: maps[i]['lifes'].toString(),
         xp: maps[i]['xp'].toString(),
         subId: maps[i]['subscription'].toString(),
@@ -64,11 +67,26 @@ Future<List<UserProfileData>> user() async {
         coins: maps[i]['coins'].toString());
   });
 
+  List<BuddyProfileData> list = List.generate(maps.length, (i) {
+    encodeedavatr.avatar = maps[i]['avatar'].toString();
+    String decode = FluttermojiFunctions()
+        .decodeFluttermojifromString(maps[i]['avatar'].toString());
+    return BuddyProfileData(
+        buddyId: (maps[i]['id'].toString()),
+        buddyFirstName: maps[i]['firstName'].toString(),
+        buddyLastName: maps[i]['lastName'].toString(),
+        buddyDisplayName: maps[i]['displayName'].toString(),
+        buddyAvatar: decode,
+        onlineStatus: maps[i]['onlineStatus'].toString(),
+        buddyXp: maps[i]['xp'].toString(),
+        buddyCoins: maps[i]['coins'].toString());
+  });
+
   if (userslist.isNotEmpty) {
     userslist[0].lifes =
         setuserLifes(userslist[0].lastused, userslist.first.lifes);
   }
-
+  userBuddy = list;
   localUserList = userslist;
   return userslist;
 }
@@ -132,7 +150,7 @@ Future<void> updateXP(xp, id) async {
   await db
       .rawUpdate('UPDATE userDetails SET xp = xp + ? WHERE id = ?', [xp, id]);
 
-  print('updated  $xp, in $id');
+  debugPrint('updated  $xp, in $id');
 }
 
 Future<void> updateLIFES(lifes, lastused, id) async {
@@ -141,5 +159,5 @@ Future<void> updateLIFES(lifes, lastused, id) async {
   await db.rawUpdate('UPDATE userDetails SET lifes=?, lastused=? WHERE id = ?',
       [lifes, lastused, id]);
 
-  print('updated  $lifes,$lastused in $id');
+  debugPrint('updated  $lifes,$lastused in $id');
 }

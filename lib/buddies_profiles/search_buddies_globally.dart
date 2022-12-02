@@ -65,13 +65,23 @@ class CustomSearchDelegate extends SearchDelegate {
     Size size = MediaQuery.of(context).size;
     List<BuddyProfileData> matchQuery = [];
     for (var buddy in listusers) {
-      if (buddy.buddyDisplayName!.toLowerCase().contains(query.toLowerCase())) {
-        matchQuery.add(buddy);
+      if (user.id != buddy.buddyId) {
+        if (buddy.buddyDisplayName!
+            .toLowerCase()
+            .contains(query.toLowerCase())) {
+          matchQuery.add(buddy);
+        }
       }
     }
     return (matchQuery.length.toString() != '0')
         ? (query != '')
-            ? ListView.builder(
+            ? ListView.separated(
+                separatorBuilder: (context, index) {
+                  return const Divider(
+                    color: ColorPalette.textcolor,
+                    thickness: 0.1,
+                  );
+                },
                 itemCount: matchQuery.length,
                 padding:
                     const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
@@ -138,8 +148,12 @@ class CustomSearchDelegate extends SearchDelegate {
     List<BuddyProfileData> matchQuery = [];
 
     for (var buddy in listusers) {
-      if (buddy.buddyDisplayName!.toLowerCase().contains(query.toLowerCase())) {
-        matchQuery.add(buddy);
+      if (user.id != buddy.buddyId) {
+        if (buddy.buddyDisplayName!
+            .toLowerCase()
+            .contains(query.toLowerCase())) {
+          matchQuery.add(buddy);
+        }
       }
     }
     var a = query.length;

@@ -4,7 +4,24 @@
             "outputFile": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/values-sv/values-sv.xml",
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "70",
+                        "startColumns": "4",
+                        "startOffsets": "4337",
+                        "endColumns": "100",
+                        "endOffsets": "4433"
+                    }
+                },
+                {
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/values-sv/values-sv.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "70",
-                        "startColumns": "4",
-                        "startOffsets": "4337",
-                        "endColumns": "100",
-                        "endOffsets": "4433"
-                    }
-                },
-                {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/res/values-sv/values-sv.xml",
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/dcb2fb9d321347062149d05b1a6574e8/transformed/jetified-exoplayer-core-2.17.1/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -62,7 +62,24 @@
             "outputFile": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/assets_audio_player/intermediates/merged_res/release/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/values-sv/values-sv.xml",
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "70",
+                        "startColumns": "4",
+                        "startOffsets": "4337",
+                        "endColumns": "100",
+                        "endOffsets": "4433"
+                    }
+                },
+                {
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -81,24 +98,7 @@
                     }
                 },
                 {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/values-sv/values-sv.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "70",
-                        "startColumns": "4",
-                        "startOffsets": "4337",
-                        "endColumns": "100",
-                        "endOffsets": "4433"
-                    }
-                },
-                {
-                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/9c3e1c556f4536cd794cd7354f8dc080/transformed/jetified-exoplayer-core-2.17.1/res/values-sv/values-sv.xml",
+                    "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/dcb2fb9d321347062149d05b1a6574e8/transformed/jetified-exoplayer-core-2.17.1/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

@@ -2,13 +2,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:loader_overlay/loader_overlay.dart';
-import 'package:nehwe/api_calls/listof_users.dart';
 import 'package:nehwe/courses/search_courses.dart';
 import 'package:nehwe/loadings/loader.dart';
 import 'package:nehwe/profile_pages/profile_screen.dart';
 import '../api_calls/units_api.dart';
 import '../constants/color_palettes.dart';
-
 import '../courses/units_screen.dart';
 import '../models/courses_model.dart';
 import '../models/user_details_model.dart';
@@ -191,7 +189,8 @@ class _HomepageState extends State<Homepage> {
                               'Coins',
                               user.coins,
                               SvgPicture.asset(
-                                'assets/icons/money_icon.svg', width: 35,
+                                'assets/icons/money_icon.svg',
+                                width: 35,
                                 //fit: BoxFit.none,
                                 //color: Color.fromARGB(255, 196, 167, 2),
                               ),

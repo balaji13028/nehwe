@@ -2,11 +2,13 @@ import 'dart:async';
 
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_offline/flutter_offline.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:nehwe/api_calls/buddies_api.dart';
 import 'package:nehwe/loadings/loader.dart';
+import 'package:nehwe/loadings/no_internet_page.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/screens/profile.dart';
 import 'package:nehwe/slide_drawers/slide_drawer.dart';
@@ -39,9 +41,9 @@ class _DashBoardState extends State<DashBoard> {
   String minutes = '';
   String seconds = '';
   int _currentIndex = 0;
-  bool _isLoaderVisible = false;
+  bool isLoaderVisible = false;
   loader() async {
-    if (_isLoaderVisible) {
+    if (isLoaderVisible) {
       context.loaderOverlay.show();
     } else {
       context.loaderOverlay.hide();
@@ -199,9 +201,13 @@ class _DashBoardState extends State<DashBoard> {
               ],
               currentIndex: _currentIndex,
               onTap: (index) async {
-                if (index == 2) {
+                if (index == 1) {
                   await getbuddies(user.id);
-                  await noOfUsers(user.id);
+                  setState(() {
+                    _currentIndex = index;
+                  });
+                } else if (index == 2) {
+                  await getbuddies(user.id);
                   await friendSuggestions(user.id);
                   setState(() {
                     _currentIndex = index;

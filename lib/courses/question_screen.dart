@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:assets_audio_player/assets_audio_player.dart';
-import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -35,7 +34,6 @@ class _QuestionPageState extends State<QuestionPage> {
   final sliderbar = GlobalKey<ScaffoldState>();
   late List<TextEditingController> _controller;
   late ScreenData screen;
-  late final RecorderController recorderController;
   UserProfileData user = localUserList[0];
   List<bool> isCard = [];
   List<bool> isCard2 = [];
@@ -85,19 +83,13 @@ class _QuestionPageState extends State<QuestionPage> {
         screen.optionset1!.length, (i) => TextEditingController());
     disp = List.generate(screen.optionset1!.length, (index) => 1);
     disp2 = List.generate(screen.optionset2!.length, (index) => 1);
-    recorderController = RecorderController()
-      ..androidEncoder = AndroidEncoder.aac
-      ..androidOutputFormat = AndroidOutputFormat.mpeg4
-      ..iosEncoder = IosEncoder.kAudioFormatMPEG4AAC
-      ..sampleRate = 16000;
+
     super.initState();
     answerlist = screen.answer!.split(',');
   }
 
   @override
   void dispose() {
-    recorderController.dispose();
-
     super.dispose();
   }
 

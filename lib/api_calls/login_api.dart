@@ -5,9 +5,9 @@ import 'package:http/http.dart' as http;
 import '../models/user_details_model.dart';
 
 // <--login page api request START-->//
-Future<String> userLogin(phoneNumber) async {
-  final response = await http.get(
-      Uri.parse('${Consttext.ipAddress}/userlogin?phonenumber=$phoneNumber'));
+Future<String> userLogin(phoneNumber, userToken) async {
+  final response = await http.get(Uri.parse(
+      '${Consttext.ipAddress}/userlogin?phonenumber=$phoneNumber&user_token=$userToken'));
   debugPrint('login number is $phoneNumber');
 
   if (response.statusCode == 200) {
@@ -52,6 +52,7 @@ Future verifyOTP(num1, num2, num3, num4, num5, num6, phoneNumber) async {
           xp: maps[index]['totalxp'].toString(),
           subId: maps[index]['subid'].toString(),
           coins: maps[index]['totalcoins'].toString(),
+          onlineStatus: maps[index]['crr_status'].toString(),
           lastused: maps[index]['lastused'].toString(),
           lifes: maps[index]['userlifes'].toString());
     });

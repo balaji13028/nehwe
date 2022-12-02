@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801462596759",
+    "project_id": "nehwe-6df67",
+    "storage_bucket": "nehwe-6df67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801462596759:android:f8067e528809f0ac54e5d2",
+        "android_client_info": {
+          "package_name": "com.example.nehwe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801462596759-jj9d2bdalnohl052ns5e1lfe0o5hrpq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3tlLEguQZ-glX2Ob2TJEoFoj8PgZVJz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801462596759-jj9d2bdalnohl052ns5e1lfe0o5hrpq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

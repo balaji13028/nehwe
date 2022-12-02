@@ -29,6 +29,7 @@ Future getbuddies(userId) async {
         buddyLastName: (map[index]['lastname']).toString(),
         status: map[index]['status'].toString(),
         buddyAvatar: decode,
+        onlineStatus: map[index]['crr_status'].toString(),
         buddyXp: map[index]['totalxp'].toString(),
         buddyStreak: map[index]['subid'].toString(),
         buddiescount: map[index]['count'].toString(),
@@ -66,19 +67,23 @@ Future<String> friendRequestResponse(userId, requestUserID, sendstatus) async {
 
 //to get friend suggestions.
 Future friendSuggestions(userId) async {
-  final response = await http.get(
-      Uri.parse('${Consttext.ipAddress}/appgetfrndsuggestions?userId=$userId'));
+  try {
+    final response = await http.get(Uri.parse(
+        '${Consttext.ipAddress}/appgetfrndsuggestions?userId=$userId'));
 
-  List<dynamic> maps = json.decode(response.body);
+    List<dynamic> maps = json.decode(response.body);
 
-  List<FriendRequestsData> suggestionIds = List.generate(maps.length, (i) {
-    return FriendRequestsData(
-      suggestionId: maps[i]['userId'].toString(),
-    );
-  });
+    List<FriendRequestsData> suggestionIds = List.generate(maps.length, (i) {
+      return FriendRequestsData(
+        suggestionId: maps[i]['userId'].toString(),
+      );
+    });
 
-  suggestionsList = suggestionIds;
-  return suggestionIds;
+    suggestionsList = suggestionIds;
+    return suggestionIds;
+  } catch (e) {
+    print('no suggestions');
+  }
 }
 
 

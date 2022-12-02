@@ -13,7 +13,14 @@ class EditAvatar extends StatefulWidget {
 class _EditAvatarState extends State<EditAvatar> {
   UserProfileData user = localUserList[0];
   bool saveAvatar = false;
-  final FluttermojiController mojicontroller = FluttermojiController();
+  late final FluttermojiController mojicontroller;
+
+  @override
+  void initState() {
+    mojicontroller = FluttermojiController();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -48,13 +55,19 @@ class _EditAvatarState extends State<EditAvatar> {
                                 fontSize: 18,
                                 color: ColorPalette.secondarycolor),
                           )),
-                      FluttermojiSaveWidget(
-                        onTap: () async {
+                      TextButton(
+                        style: ButtonStyle(
+                            overlayColor: MaterialStateColor.resolveWith(
+                                (states) => Colors.transparent),
+                            alignment: Alignment.centerRight),
+                        onPressed: () async {
+                          setState(() {
+                            saveAvatar = true;
+                          });
                           String svgstring = await FluttermojiFunctions()
                               .encodeMySVGtoString();
 
-                          var value = svgstring;
-                          newUser.avatar = value;
+                          newUser.avatar = svgstring;
                           // ignore: use_build_context_synchronously
                           Navigator.pop(context);
                         },
@@ -114,7 +127,7 @@ class _EditAvatarState extends State<EditAvatar> {
                       padding: const EdgeInsets.only(bottom: 20),
                       child: FluttermojiCustomizer(
                         scaffoldWidth: size.width,
-                        autosave: saveAvatar == true ? true : false,
+                        autosave: true,
                         theme: FluttermojiThemeData(
                             selectedTileDecoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),

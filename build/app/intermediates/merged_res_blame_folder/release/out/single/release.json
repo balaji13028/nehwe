@@ -1,39 +1,51 @@
 [
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_custom_dialog.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout/custom_dialog.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout/custom_dialog.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/menu_example_menu.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/menu/example_menu.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/menu/example_menu.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_speed.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_speed.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_speed.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_skip_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_skip_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_skip_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_forward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_forward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_forward.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/color_common_google_signin_btn_text_light.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher.png.flat",
@@ -41,31 +53,47 @@
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_stop.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_stop.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_stop.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_check.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_check.xml"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/color_common_google_signin_btn_tint.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_player_view.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_view.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_view.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_check.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_check.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_notification_bg.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_repeat_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_repeat_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_repeat_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/mipmap-hdpi_ic_launcher.png.flat",
@@ -73,211 +101,231 @@
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_shuffle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_shuffle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_shuffle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_shuffle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_shuffle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_shuffle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_circular_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_circular_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_circular_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_settings.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_settings.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_settings.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_edit_mode_logo.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_forward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_forward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_forward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_part_time.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_shuffle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_shuffle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_player_control_ffwd_button.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_control_ffwd_button.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_control_ffwd_button.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_shuffle_off.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_shuffle_off.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_audiotrack.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_audiotrack.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_audiotrack.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_pause_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_pause_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_skip_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_skip_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_skip_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_default_album_image.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_default_album_image.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_default_album_image.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_speed.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_speed.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_speed.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_subtitle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_subtitle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_subtitle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_fastforward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_fastforward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_fastforward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_media.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_media.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_shuffle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_shuffle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_shuffle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_stop.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_stop.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_stop.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_subtitle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_subtitle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_subtitle_on.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_skip_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_skip_next.png"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_vr.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_vr.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_vr.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_next.png"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_skip_next.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_skip_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_repeat_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_repeat_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_repeat_off.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_next.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_fastforward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_fastforward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_fastforward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_subtitle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_subtitle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_subtitle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_speed.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_speed.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_speed.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_big_media_narrow.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_repeat_one.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_repeat_one.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_repeat_one.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_chevron_right.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_right.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_lines_media.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_lines_media.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_fullscreen_enter.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_fullscreen_enter.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_subtitle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_subtitle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_subtitle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_shuffle_off.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_fullscreen_exit.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_fullscreen_exit.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_fade_enter.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/animator/fragment_fade_enter.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/animator/fragment_fade_enter.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_forward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_forward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_forward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_player_control_view.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_player_control_view.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_player_control_view.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/mipmap-mdpi_ic_launcher.png.flat",
@@ -285,79 +333,99 @@
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_skip_previous.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_skip_previous.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_skip_previous.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_player_control_view.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_control_view.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_control_view.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_pause.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_pause.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_speed.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_speed.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_pause.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_vr.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_vr.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_vr.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_speed.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_speed.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_play.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_play.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_play.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_circular_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_circular_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_circular_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_circular_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_circular_play.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_speed.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_speed.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_speed.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_stop.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_stop.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_stop.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_forward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_forward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_forward.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_player_control_rewind_button.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_control_rewind_button.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_player_control_rewind_button.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_shuffle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_shuffle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_shuffle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -365,127 +433,147 @@
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_pause_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_pause_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_subtitle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_subtitle_on.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_fullscreen_enter.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_repeat_all.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_repeat_all.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_subtitle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_vr.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_vr.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_vr.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_fullscreen_enter.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_repeat_all.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_repeat_all.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_skip_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_skip_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_chevron_right.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_chevron_right.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_chevron_right.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_play_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_play_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_play_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_repeat_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_repeat_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_repeat_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_pause.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_pause.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_pause.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_chevron_right.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_chevron_right.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_chevron_right.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_chevron_left.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_chevron_left.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_chevron_left.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_settings.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_settings.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_settings.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_check.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_check.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_check.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout-v23_exo_styled_player_control_rewind_button.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout-v23/exo_styled_player_control_rewind_button.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout-v23/exo_styled_player_control_rewind_button.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_pause.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_pause.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_pause.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_subtitle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_subtitle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_subtitle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_stop.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_stop.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_stop.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_next.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_next.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_next.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/raw_firebase_common_keep.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/c1f7cd0e68ddf89c76a753ac7fd1a66c/transformed/jetified-firebase-common-20.2.0/res/raw/firebase_common_keep.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_check.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_check.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_check.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_skip_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_skip_previous.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_stop.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_stop.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_skip_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_skip_next.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_skip_next.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_skip_next.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_stop.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_stop.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_shuffle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_shuffle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_shuffle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_chevron_left.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_chevron_left.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_rewind.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_rewind.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_rewind.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -493,651 +581,727 @@
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_audiotrack.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_audiotrack.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_audiotrack.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_chevron_right.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_chevron_right.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_chevron_right.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_repeat_one.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_repeat_one.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_repeat_one.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_repeat_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_repeat_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_repeat_off.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_repeat_all.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_repeat_all.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_repeat_all.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_repeat_one.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_repeat_one.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_repeat_one.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_chevron_right.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_chevron_right.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_chevron_right.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_pause_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_pause_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_previous.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_edit_mode_logo.png"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_subtitle_off.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_subtitle_off.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_exo_rounded_rectangle.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable/exo_rounded_rectangle.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable/exo_rounded_rectangle.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_repeat_one.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_repeat_one.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_repeat_one.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_play_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_play_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_play_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_notification_bg_low.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_settings.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_settings.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_settings.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_chevron_left.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_chevron_left.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_chevron_left.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_repeat_all.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_repeat_all.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_repeat_all.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_skip_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_skip_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_skip_next.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_shuffle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_shuffle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_shuffle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_play_circle_filled.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_subtitle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_subtitle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_subtitle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_pause.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_pause.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_pause.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_exit.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_fullscreen_exit.png"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_rewind.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_edit_mode_logo.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_fullscreen_exit.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_default_album_image.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_default_album_image.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_default_album_image.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_notification_tile_bg.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_subtitle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_media_action.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_media_action.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_circular_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_circular_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_circular_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_repeat_one.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_repeat_one.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_repeat_one.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_pause.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_pause.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_pause.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_sub_settings_list_item.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_sub_settings_list_item.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_sub_settings_list_item.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_play_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_play_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_play_circle_filled.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout-v21_notification_action.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_shuffle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_shuffle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_shuffle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_play_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_play_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_play_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_fullscreen_exit.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout-v23_exo_styled_player_control_ffwd_button.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout-v23/exo_styled_player_control_ffwd_button.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout-v23/exo_styled_player_control_ffwd_button.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_stop.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_stop.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_stop.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_fastforward.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_fastforward.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_fastforward.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_circular_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_circular_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_circular_play.png"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_fade_exit.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/animator/fragment_fade_exit.xml"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_fade_exit.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/animator/fragment_fade_exit.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_subtitle_on.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_subtitle_on.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_media_cancel_action.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_media_cancel_action.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_speed.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_speed.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_speed.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_vr.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_vr.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_vr.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_settings.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_settings.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_settings.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_subtitle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_subtitle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_subtitle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_edit_mode_logo.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_check.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_check.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_check.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_shuffle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_shuffle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_shuffle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout/notification_template_part_chronometer.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_vr.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_vr.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_vr.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_player_view.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_player_view.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_player_view.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_skip_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_skip_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_skip_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_audiotrack.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_audiotrack.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_audiotrack.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_skip_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_skip_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_skip_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_pause_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_chevron_left.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_chevron_left.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_chevron_left.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_default_album_image.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_default_album_image.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_default_album_image.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_pause.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_pause.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_pause.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_fastforward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_fastforward.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_repeat_all.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_repeat_all.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_fastforward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_rewind.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_rewind.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_rewind.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_repeat_all.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_repeat_all.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_settings.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_settings.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_settings.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_shuffle_on.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_shuffle_on.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_shuffle_on.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_play_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_play_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_play_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_fastforward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_fastforward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_fastforward.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_fullscreen_enter.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_default_album_image.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_default_album_image.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_default_album_image.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_big_media.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_big_media.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_default_album_image.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_default_album_image.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_default_album_image.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_list_divider.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_list_divider.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_list_divider.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_open_enter.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/animator/fragment_open_enter.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/animator/fragment_open_enter.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_shuffle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_shuffle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_shuffle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_settings.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_settings.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_settings.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_subtitle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_subtitle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_subtitle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-v21_notification_action_background.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-v21/notification_action_background.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_check.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_check.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_check.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_shuffle_on.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_shuffle_on.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_close_enter.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/animator/fragment_close_enter.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/animator/fragment_close_enter.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_settings.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_settings.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_settings.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_default_album_image.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_default_album_image.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_pause_circle_filled.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/font_roboto_medium_numbers.ttf.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/font/roboto_medium_numbers.ttf"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_audiotrack.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_audiotrack.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/font/roboto_medium_numbers.ttf"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_repeat_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_repeat_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_repeat_off.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_audiotrack.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_audiotrack.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_chevron_right.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_chevron_right.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_chevron_right.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_settings_list.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_settings_list.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_settings_list.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_stop.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_stop.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_stop.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_pause_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_pause_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_check.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_check.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_check.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_chevron_left.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_chevron_left.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_chevron_left.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_repeat_off.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_repeat_off.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_repeat_off.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_chevron_left.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_chevron_left.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_chevron_left.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_notification_icon_background.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_fastforward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_fastforward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_fastforward.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_repeat_one.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_repeat_one.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_repeat_one.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_previous.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_previous.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_previous.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_subtitle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_subtitle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_forward.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_forward.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_forward.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_fastforward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_fastforward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_fastforward.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_track_selection_dialog.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_track_selection_dialog.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_track_selection_dialog.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_forward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_forward.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_forward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_check.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_check.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_settings_list_item.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_settings_list_item.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_check.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_close_exit.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/animator/fragment_close_exit.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/animator/fragment_close_exit.xml"
     },
     {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_forward.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_forward.png"
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_exo_styled_settings_list_item.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/layout/exo_styled_settings_list_item.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_edit_mode_logo.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_forward.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_forward.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_media_custom.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_media_custom.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_repeat_one.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_repeat_one.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_repeat_one.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_icon_repeat_all.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_repeat_all.xml"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_repeat_all.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_repeat_all.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_icon_repeat_all.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_ic_skip_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_skip_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_ic_skip_previous.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_repeat_all.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_repeat_all.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_pause_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_pause_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_pause_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_icon_pause.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_pause.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_fullscreen_exit.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_fullscreen_exit.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_icon_pause.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/anim-v21_fragment_fast_out_extra_slow_in.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_fullscreen_exit.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_fullscreen_exit.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_icon_fullscreen_enter.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_fullscreen_enter.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_icon_fullscreen_enter.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-ldpi-v4_exo_icon_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-ldpi-v4/exo_icon_previous.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_rewind.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_audiotrack.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png"
-    },
-    {
-        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_circular_play.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_circular_play.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_audiotrack.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_audiotrack.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_circular_play.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_circular_play.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_speed.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_speed.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_speed.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_chevron_right.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_chevron_right.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_chevron_right.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_repeat_all.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_repeat_all.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_repeat_all.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_skip_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_skip_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_skip_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxxhdpi-v4_exo_ic_play_circle_filled.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxxhdpi-v4/exo_ic_play_circle_filled.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_default_album_image.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_default_album_image.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_default_album_image.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-v21_launch_background.xml.flat",
@@ -1145,62 +1309,74 @@
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/2d7244abcb00d3c6880bf50e00879966/transformed/media-1.4.3/res/layout/notification_template_big_media_custom.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/8e94448706bf2329b8c92b66fa9a70f8/transformed/media-1.4.3/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_subtitle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_subtitle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_subtitle_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_icon_repeat_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_repeat_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_icon_repeat_off.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/animator_fragment_open_exit.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8dcd85c22262d520e4939636dfecb6d/transformed/fragment-1.3.1/res/animator/fragment_open_exit.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/bcceb8f59c58fe344ce271376093b93b/transformed/fragment-1.3.1/res/animator/fragment_open_exit.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_icon_shuffle_off.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_shuffle_off.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_icon_shuffle_off.png"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_audiotrack.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_audiotrack.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_audiotrack.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-mdpi-v4_exo_ic_rewind.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_rewind.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-mdpi-v4/exo_ic_rewind.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_audiotrack.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_audiotrack.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_audiotrack.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_ic_skip_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_skip_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_ic_skip_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-hdpi-v4_exo_icon_next.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_next.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-hdpi-v4/exo_icon_next.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xxhdpi-v4_exo_ic_chevron_left.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_chevron_left.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xxhdpi-v4/exo_ic_chevron_left.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-xhdpi-v4_exo_ic_skip_previous.png.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_skip_previous.png"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-xhdpi-v4/exo_ic_skip_previous.png"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/menu_example_menu2.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/menu/example_menu2.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/1ef57eec9e43b3d8e5a7f4e2e2b93ce1/transformed/core-1.7.0/res/menu/example_menu2.xml"
+    },
+    {
+        "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/19fea4fb28dedd992824e13cc158e7a1/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/merged_res/release/drawable-anydpi-v21_exo_ic_fullscreen_enter.xml.flat",
-        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/b8454a5651bba31551d180f71a18184a/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml"
+        "source": "/Users/scholarlysolutionssm/.gradle/caches/transforms-3/a2475d31f944121c80d1b9b7194a4295/transformed/jetified-exoplayer-ui-2.17.1/res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml"
     }
 ]
