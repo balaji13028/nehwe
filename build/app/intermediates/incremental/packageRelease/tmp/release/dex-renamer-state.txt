@@ -1,4 +1,4 @@
-#Fri Dec 02 17:00:29 IST 2022
+#Mon Dec 05 11:52:54 IST 2022
 base.0=/Users/scholarlysolutionssm/Desktop/nehwe-1/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

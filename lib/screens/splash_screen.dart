@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:nehwe/api_calls/listof_users.dart';
 import 'package:nehwe/api_calls/online_status.dart';
 import 'package:nehwe/models/user_intime.dart';
+import 'package:nehwe/screens/language_section.dart';
 import 'package:nehwe/screens/welcome_screen.dart';
 import '../api_calls/course_api.dart';
 import '../loadings/loader.dart';
@@ -26,12 +27,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     userTiming.intime = DateTime.now().toString();
-    super.initState();
     myfunction();
+    super.initState();
+
     Timer(Duration(milliseconds: 2200.toInt()), () {
       (localUserList.isEmpty)
           ? Navigator.pushReplacement(context,
-              MaterialPageRoute(builder: ((context) => const WelcomePage())))
+              MaterialPageRoute(builder: ((context) => const SelectLanguage())))
           : Navigator.pushReplacement(context,
               MaterialPageRoute(builder: ((context) => const DashBoard())));
     });

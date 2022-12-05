@@ -11,7 +11,6 @@ version: 1.0.0+1
 environment:
   sdk: '>=2.18.0 <3.0.0'
 
-
 dependencies:
   flutter:
     sdk: flutter
@@ -39,7 +38,7 @@ dependencies:
   path: ^1.8.2
   path_provider: ^2.0.11
   flutter_rating_bar: ^4.0.1
-  splash_screen_view: ^2.0.1
+  splash_screen_view: ^2.0.1  
   loader_overlay: ^2.0.10
   csc_picker: ^0.2.6
   # google_mobile_ads: ^2.2.0
@@ -51,6 +50,8 @@ dependencies:
   connectivity_plus: ^2.2.1
   firebase_core: ^2.3.0
   firebase_messaging: ^14.1.2
+  get: ^4.6.5
+  
   
   
   

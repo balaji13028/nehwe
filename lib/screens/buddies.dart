@@ -319,16 +319,11 @@ class _BuddiesState extends State<Buddies> {
                                                                   if (ontap[
                                                                           index] ==
                                                                       true) {
-                                                                    // await friendRequestResponse(
-                                                                    //     friendRequests[index]
-                                                                    //         .buddyId,
-                                                                    //     user.id,
-                                                                    //     '2');
-                                                                    await sendFriendNotifation(
+                                                                    await friendRequestResponse(
+                                                                        friendRequests[index]
+                                                                            .buddyId,
                                                                         user.id,
-                                                                        friendRequests[
-                                                                            index],
-                                                                        'challenge');
+                                                                        '2');
                                                                   }
                                                                 },
                                                                 child:
@@ -391,7 +386,7 @@ class _BuddiesState extends State<Buddies> {
                                                                         user.id,
                                                                         friendRequests[index]
                                                                             .buddyId,
-                                                                        'challenge');
+                                                                        'Friend Request Accepted');
                                                                   }
                                                                 },
                                                                 child:
@@ -478,55 +473,55 @@ class _BuddiesState extends State<Buddies> {
                                                   ColorPalette.whitetextcolor,
                                             ),
                                             child: Row(
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment
-                                                        .spaceBetween,
-                                                children: [
-                                                  SizedBox(
-                                                    child: Row(
-                                                      children: [
-                                                        CircleAvatar(
-                                                          backgroundColor:
-                                                              ColorPalette
-                                                                  .backgroundcolor1,
-                                                          radius: size.height *
-                                                              0.03,
-                                                          child:
-                                                              SvgPicture.string(
-                                                            friends[index]
-                                                                .buddyAvatar!,
-                                                            width: size.width *
-                                                                0.088,
-                                                          ),
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
+                                              children: [
+                                                SizedBox(
+                                                  child: Row(
+                                                    children: [
+                                                      CircleAvatar(
+                                                        backgroundColor:
+                                                            ColorPalette
+                                                                .backgroundcolor1,
+                                                        radius:
+                                                            size.height * 0.03,
+                                                        child:
+                                                            SvgPicture.string(
+                                                          friends[index]
+                                                              .buddyAvatar!,
+                                                          width: size.width *
+                                                              0.088,
                                                         ),
-                                                        Padding(
-                                                          padding:
-                                                              const EdgeInsets
-                                                                      .only(
-                                                                  left: 10),
-                                                          child: Text(
-                                                            friends[index]
-                                                                    .buddyDisplayName ??
-                                                                'buddy',
-                                                            style: const TextStyle(
-                                                                fontSize: 18,
-                                                                color: ColorPalette
-                                                                    .primarycolor,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w600),
-                                                          ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            const EdgeInsets
+                                                                .only(left: 10),
+                                                        child: Text(
+                                                          friends[index]
+                                                                  .buddyDisplayName ??
+                                                              'buddy',
+                                                          style: const TextStyle(
+                                                              fontSize: 18,
+                                                              color: ColorPalette
+                                                                  .primarycolor,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w600),
                                                         ),
-                                                      ],
-                                                    ),
+                                                      ),
+                                                    ],
                                                   ),
-                                                  const Icon(
-                                                    Icons.arrow_forward_ios,
-                                                    color: ColorPalette
-                                                        .secondarycolor,
-                                                    size: 18,
-                                                  )
-                                                ]),
+                                                ),
+                                                const Icon(
+                                                  Icons.arrow_forward_ios,
+                                                  color: ColorPalette
+                                                      .secondarycolor,
+                                                  size: 18,
+                                                )
+                                              ],
+                                            ),
                                           ),
                                         );
                                       }),
@@ -704,7 +699,7 @@ class _BuddiesState extends State<Buddies> {
                                                                         user.id,
                                                                         friendsuggestions[j]
                                                                             .buddyId,
-                                                                        'add friend');
+                                                                        'Friend Request');
                                                                   },
                                                                   child:
                                                                       Container(

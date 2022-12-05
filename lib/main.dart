@@ -4,12 +4,13 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:get/route_manager.dart';
+import 'package:get/get.dart';
 import 'package:nehwe/api_calls/online_status.dart';
 import 'package:nehwe/constants/color_palettes.dart';
 import 'package:nehwe/models/user_details_model.dart';
 import 'package:nehwe/models/user_intime.dart';
 import 'package:nehwe/screens/splash_screen.dart';
+import 'package:nehwe/widgets/localstring.dart';
 import 'package:nehwe/widgets/view_notification.dart';
 
 class MyBehavior extends ScrollBehavior {
@@ -28,13 +29,13 @@ void main() async {
   await Firebase.initializeApp();
   //generate token id
   FirebaseMessaging.instance.getToken().then((value) {
-    print('get token :$value');
+    debugPrint('get token :$value');
     userTiming.devicetoken = value;
   });
 
   //app on background
   FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) async {
-    print('on message Opened :$message');
+    debugPrint('on message Opened :$message');
     await Navigator.push(
         navigatorKey.currentState!.context,
         MaterialPageRoute(
@@ -44,7 +45,7 @@ void main() async {
   });
 
   FirebaseMessaging.onMessage.listen((RemoteMessage message) async {
-    print('on message Opened App:$message');
+    debugPrint('on message Opened App:$message');
     await Navigator.push(
         navigatorKey.currentState!.context,
         MaterialPageRoute(
@@ -78,7 +79,7 @@ void main() async {
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
-  print('_firebaseMessagingBackgroundHandler:$message');
+  debugPrint('_firebaseMessagingBackgroundHandler:$message');
 }
 
 class MyApp extends StatefulWidget {
@@ -122,18 +123,20 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-            fontFamily: 'Proxima Nova',
-            appBarTheme:
-                const AppBarTheme(color: ColorPalette.backgroundcolor2)),
-        home: const SplashScreen(),
-        navigatorKey: navigatorKey,
-        builder: EasyLoading.init(
-          builder: (context, child) {
-            return ScrollConfiguration(behavior: MyBehavior(), child: child!);
-          },
-        ));
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      locale: const Locale('en', 'US'),
+      translations: LocaleString(),
+      theme: ThemeData(
+          fontFamily: 'Proxima Nova',
+          appBarTheme: const AppBarTheme(color: ColorPalette.backgroundcolor2)),
+      home: const SplashScreen(),
+      navigatorKey: navigatorKey,
+      builder: EasyLoading.init(
+        builder: (context, child) {
+          return ScrollConfiguration(behavior: MyBehavior(), child: child!);
+        },
+      ),
+    );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 import '../constants/color_palettes.dart';
@@ -50,9 +51,9 @@ class _WelcomePageState extends State<WelcomePage> {
         overlayColor:
             MaterialStateColor.resolveWith((states) => Colors.transparent),
       ),
-      next: Row(mainAxisAlignment: MainAxisAlignment.end, children: const [
+      next: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
         Text(
-          'Next',
+          'Next'.tr,
           style: TextStyle(
               fontWeight: FontWeight.w700,
               fontSize: 18,
