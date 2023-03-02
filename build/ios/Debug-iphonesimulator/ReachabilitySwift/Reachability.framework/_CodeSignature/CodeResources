@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Reachability-Swift.h</key>
 		<data>
-		drL/E61kBsbekFwtkX3wx6I2hRk=
+		hCJ7nUDL8OdwCz1nX54DuADGmJ0=
 		</data>
 		<key>Headers/ReachabilitySwift-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v/Ipj3llcjr4HbLDra5U+mnp960=
+		lmJEXPVaflK20vijpKpc1z0Vnas=
 		</data>
 		<key>Modules/Reachability.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		rBggEWfOUUQa7k2RJWGM/u8cxgg=
+		YwAY8v4iLTxJ1pzrtIJ9lPtyiI0=
 		</data>
 		<key>Modules/Reachability.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		iqk/SBoWSmUnfB8t/aDy9v0e8uA=
+		aSf2wXCIIgnULJ70Gp7/s7SlXw0=
 		</data>
 		<key>Modules/Reachability.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Reachability.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rJa95YBPkmjvGtq+3GKGtuyXaBY=
+		dvWFtxHzyxAed9Z11GTTIplFx94=
 		</data>
 		<key>Modules/Reachability.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YXcmlCmKrWnSmBLH+IUjrId6iBk=
+		NzJAfGjJgEjKN3gN5bcWLAPaVXE=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YOPvNPfmwp4C8mX3ZSoYc48FG+8=
+		nsvxeCM5CXtxg8JMTDUpcD4nFXw=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dEzPEwZEUg5gxqX5FVKSjf7fgOg=
+		0hIm0Cwz2X4KYZmCl4urJb4vqU8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			drL/E61kBsbekFwtkX3wx6I2hRk=
+			hCJ7nUDL8OdwCz1nX54DuADGmJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1z3/4tV89bc4BZA/BWxkMexDgPq5LKZABslk8muAoUc=
+			jqLywGi8xUEzCXDfMYpE0eFrcMibte7KUnr5ci97KDY=
 			</data>
 		</dict>
 		<key>Headers/ReachabilitySwift-umbrella.h</key>
@@ -81,22 +81,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rBggEWfOUUQa7k2RJWGM/u8cxgg=
+			YwAY8v4iLTxJ1pzrtIJ9lPtyiI0=
 			</data>
 			<key>hash2</key>
 			<data>
-			evDt9d5LwSkOlNn6m1wehvjTj5tIxxqj0OnUXQLDnTI=
+			hf2kSvPJyQl60T3WCS61j+vlUJKcooakyB8QCydxXSg=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iqk/SBoWSmUnfB8t/aDy9v0e8uA=
+			aSf2wXCIIgnULJ70Gp7/s7SlXw0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+22Op2EZ7BoZKV6Dn/mx9L7V7u8g8k+537rbIi3BtFw=
+			Z4JzBqz4klDtiBoN5rPLp/SBM4zMNxP/jOvtJy7+d74=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -114,22 +114,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rJa95YBPkmjvGtq+3GKGtuyXaBY=
+			dvWFtxHzyxAed9Z11GTTIplFx94=
 			</data>
 			<key>hash2</key>
 			<data>
-			JtFdKeYBOvffXmAUw7O7cotVB5g4aIBi8eTVEQJTWlw=
+			9Q3wEdDZNp8e445Dj4M81LJz+i9ed9m8R7MYz4VdZ0w=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YXcmlCmKrWnSmBLH+IUjrId6iBk=
+			NzJAfGjJgEjKN3gN5bcWLAPaVXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+BwCUVnRTOqbDBPpLDphuos5JscHR1rKvi+C1yY+/ac=
+			iaHGil/4lgNek3+xeGHUGG1wUmfyiJJD36rH62qYkeM=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -147,22 +147,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YOPvNPfmwp4C8mX3ZSoYc48FG+8=
+			nsvxeCM5CXtxg8JMTDUpcD4nFXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1iZOBuOpi2RIf47vodofdheAKTRWyjeZynSUvppLuGo=
+			TbJ+vzcQLJpoOJ5bH5wCo4Os1y2qIshm72WHBMjxLpU=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dEzPEwZEUg5gxqX5FVKSjf7fgOg=
+			0hIm0Cwz2X4KYZmCl4urJb4vqU8=
 			</data>
 			<key>hash2</key>
 			<data>
-			MJp+hCT3ALJ8v45+1GDQKO2q34CtMEcmCPdTWUqvjwo=
+			Z6UabaiiTiByXgtHcA0e1O/EErq8pVzUZEJXEh3gbKw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

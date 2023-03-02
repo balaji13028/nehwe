@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ScreenProtectorKit-Swift.h</key>
 		<data>
-		OkKketJt4CLvvwRaTDfAgCtVEQU=
+		GVSfjCVoVbMRao6kjP36kD9pxtQ=
 		</data>
 		<key>Headers/ScreenProtectorKit-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uIhJ8VPZ6Ng5Eh+0jvq7a9T1jn4=
+		pMTO3iW5vyOK6fK1lFSJdXdXLJY=
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		gkAUzueX9g3LvzxP8aqCCe7hbxw=
+		vTuYXBWwb8/xCnIcbyyOMGgkJxM=
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		b0LPoFhXYW/W+KQZ6xxsZUS58+U=
+		M1qhRCSNl3Daywm9FuHiI2Jca8g=
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		w39ZRsJzTx1ECe3c/XqC6SrhYVw=
+		51W4mKWcQvnG3FKspSgnweeQabg=
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OPJI7vYYp0TFacCbol4ouqHTpKU=
+		BK5gqKTtnNGxFTUR4CvNkyqrzxA=
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eFahpfkJ5stHZfU2Aih4B5uZ13M=
+		6wFQUQVT+rVPmqLfBzbxX5+AFS4=
 		</data>
 		<key>Modules/ScreenProtectorKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iTXV4Y5QhEFAWysK+oITSFgok8s=
+		Yw2vfMraWnMyAZ+g3TIyMYv8TgM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OkKketJt4CLvvwRaTDfAgCtVEQU=
+			GVSfjCVoVbMRao6kjP36kD9pxtQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9IVI5ftoIAYl2aXX48g2RELaEACfv2ayk62wuvfAqeY=
+			Z+z9pjN/qjpvZgWd2er9wt6FIROlHmDw35KtMKchK3o=
 			</data>
 		</dict>
 		<key>Headers/ScreenProtectorKit-umbrella.h</key>
@@ -81,22 +81,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gkAUzueX9g3LvzxP8aqCCe7hbxw=
+			vTuYXBWwb8/xCnIcbyyOMGgkJxM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jf8yFoSQF/MoDoDqI2zdF3l0jFtFSIZzRSXy2GpI3Pw=
+			v4db3zotZI/tefYZLG1kmJaDqWxRLgfzy4V5T5xIcsI=
 			</data>
 		</dict>
 		<key>Modules/ScreenProtectorKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b0LPoFhXYW/W+KQZ6xxsZUS58+U=
+			M1qhRCSNl3Daywm9FuHiI2Jca8g=
 			</data>
 			<key>hash2</key>
 			<data>
-			5g7UhWOp3EboQuPlwoLRLz5HMs6BeeweOZ3kQTjDcd0=
+			74o4dP1mywT3FNZc2L0/xiFW+lpiI7CxnmuHOCPmXr4=
 			</data>
 		</dict>
 		<key>Modules/ScreenProtectorKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -114,22 +114,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w39ZRsJzTx1ECe3c/XqC6SrhYVw=
+			51W4mKWcQvnG3FKspSgnweeQabg=
 			</data>
 			<key>hash2</key>
 			<data>
-			/VPBbYyqjNYj0Q4kzjm/JNs98pTcQIUGGztAKK6rL/4=
+			IHuYAI+Z0roqSN0l7KE5zu8TgKsvI+RKw1TsfxDtsJs=
 			</data>
 		</dict>
 		<key>Modules/ScreenProtectorKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OPJI7vYYp0TFacCbol4ouqHTpKU=
+			BK5gqKTtnNGxFTUR4CvNkyqrzxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZOUoLcAALWNukfnM1bY2Or9qRkrWTceN+7wKpKorW3I=
+			Nd7C1W6lq0RbtQiJsrnALLWbjFSz7ogmKApl6fURVZc=
 			</data>
 		</dict>
 		<key>Modules/ScreenProtectorKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -147,22 +147,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eFahpfkJ5stHZfU2Aih4B5uZ13M=
+			6wFQUQVT+rVPmqLfBzbxX5+AFS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			lnAh4d3qhrHSI8rkfXJxkOayqqKo5nkOsHjuHNt7hGI=
+			Ui9fsn9GOPedmuQuneOF9ZPFjiUSQwrNPL4xUcu84zM=
 			</data>
 		</dict>
 		<key>Modules/ScreenProtectorKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iTXV4Y5QhEFAWysK+oITSFgok8s=
+			Yw2vfMraWnMyAZ+g3TIyMYv8TgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			DdNTgjiFSABYUN0++jNsFA6tQa3bX4gIMN5W9DG22AE=
+			WCXnOTWW3k9vfwDR8YpmmHuEU1NyijwOV3tR5eICzZw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/speech_to_text-Swift.h</key>
 		<data>
-		a8mLDh/MtSM7g5m2ZISb+z97Myg=
+		WPq021o3S7di1qsNBzqvLfvaYOY=
 		</data>
 		<key>Headers/speech_to_text-umbrella.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		En0MnU/XEafQZZw26mSEuPikJEU=
+		8z6F1mnytUToruWkoxRA7/P0apY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		gP34SrcpANlQ38150BpmC5g0ogI=
+		7TaUuCqUiJoCswI67xS62Ke2WuM=
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		F4cEktPSHSo1MXAwiNwJr40bYl4=
+		vYxxRJtg8Kz4DGtkfnaFbJVI1Kw=
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EUuvmuQFEwdwANueV/IvZLrlpgA=
+		OSuF8lswgi/DZT4KF4iYcrsnOyM=
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OEND5N47rp+mZ/Eie4mrzbDobQM=
+		b4YiL3nkpWy0k03lbZF0zmYc8OA=
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8jQ/bIDfXuCL6N3vEBPBD4PjTRQ=
+		z0UqDLOlstsCgNTYgH1omiJnqAM=
 		</data>
 		<key>Modules/speech_to_text.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UWt8MNtnmyviFqQN8DYC2/2eRQw=
+		Ej4uPtgDbuPTEq7kOxlKK5dBr7U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			St41xrylL6Pcz+duPl7eTHvZhAWZr1kJ4oyTkb1LkHk=
+			d+hg0Cq72Hn95f09vkJn1hih+Px6DA2yoEvPH5zhhDA=
 			</data>
 		</dict>
 		<key>Headers/speech_to_text-umbrella.h</key>
@@ -91,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K5MjwDnhOQq7y6R34vjaPVoKr4Dqok6qujQp/5aihPQ=
+			RfD9Awy1sGJu017NlZHlQUFVfddHWwQSMOqW68Arr+Q=
 			</data>
 		</dict>
 		<key>Modules/speech_to_text.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f+HjIPtUE4EQZUR+4tcsrk571Z0jtqbV4vMmnXuTWRg=
+			ZyeBszehABqTwt2ijwq6rTgArwoR4qLWT5pnvCGYBQY=
 			</data>
 		</dict>
 		<key>Modules/speech_to_text.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -112,14 +112,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItIoIxp9BZ8Unt8OS8of6O8FRbWx1kzHrGUfCNCt59g=
+			2Xx3x0bI/PdyJQwMfKLDzsh490nB+hktf7q+tO36tsM=
 			</data>
 		</dict>
 		<key>Modules/speech_to_text.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFI7xyGyV5WQpszj0zsZsIB6nnBGwRbUDSC8kjL0tNY=
+			5RZU/AE/7R7HeshUIEW/t7GgqlEjQHDTIMMnXzfmCZg=
 			</data>
 		</dict>
 		<key>Modules/speech_to_text.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,14 +133,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IyJ3N81mxNX/SIAawFD0kcKBgkOedjqRiASgmYNL7H4=
+			n45SrT/6BGxNNe4GA+Dl5tPzHR5NC4L/bPnexP7cYd8=
 			</data>
 		</dict>
 		<key>Modules/speech_to_text.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppaa1lWFzcux0S7cqlMKenNc4nR6dgW7X1ddlMHolIM=
+			Qdgunyb+C3GAKN4j3DLwTq63c35TwLRSBN12dWI7KfQ=
 			</data>
 		</dict>
 	</dict>
